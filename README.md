@@ -2,5 +2,5 @@
 Delta website template.
 
 #Contributors
-*Ananth
-*Sriram
+* Ananth
+* Sriram
