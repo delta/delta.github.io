@@ -1,0 +1,330 @@
+/* STRUCTURAL STYLES */	
+    #flappy {
+                width: 100%;
+                font-family: "Noto Sans",sans-serif;
+                height:100%;
+            }
+
+            .split {
+				position:absolute;
+                width: 78%;
+                margin: 10% 10% 0% 11%;
+		min-width:1020px;
+            }
+
+            .displays {
+                position:relative;
+                width: 100%;
+                top:40%;
+                padding: 30px;
+                border: 5px solid #ccc;
+                background-color: #ddd;
+                border-radius: 30px;
+                box-shadow: 0 0 12px 4px #fff inset;
+            }
+
+            .flapper {
+                margin-bottom: 2px;
+                text-align: center;
+            }
+
+             div.inline {
+                display: inline-block;
+                vertical-align: bottom;
+            }
+
+            div.activity {
+                width: 12px;
+                height: 12px;
+                border-radius: 6px;
+                background-color: #aaa;
+                position: relative;
+                top: 33px;
+            }
+
+            div.activity.active {
+                background-color: #009999;
+            }
+
+.flapper {
+    font-family: "Iceberg";
+    font-weight: 200;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+.flapper .digit {
+    position: relative;
+    display: inline-block;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+.flapper .digit div {
+    position: absolute;
+    text-align: center;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+.flapper .digit .top {
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.flapper .digit .bottom {
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+/* SIZE STYLES */
+
+/* XXL 96x128 */
+
+.flapper.XXL {
+    font-size: 116px;
+    line-height: 123px;
+    height: 132px;
+}
+
+.flapper.XXL .digit {
+    border-radius: 8px;
+}
+
+.flapper.XXL .digit div {
+    border-radius: 6px;
+}
+
+.flapper.XXL .digit,
+.flapper.XXL .digit div {
+    height: 128px;
+    width: 96px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.flapper.XXL .digit .top {
+    clip: rect(0px, 96px, 64px, 0px);
+}
+
+.flapper.XXL .digit .bottom {
+    clip: rect(65px, 96px, 128px, 0px); 
+}
+
+/* XL 72x96 */
+
+.flapper.XL {
+    font-size: 89px;
+    line-height: 92px;
+    height: 100px;
+}
+
+.flapper.XL .digit {
+    border-radius: 7px;
+    margin: 0 0 0 4px;
+}
+
+.flapper.XL .digit:first-child {
+    margin: 0;
+}
+
+.flapper.XL .digit div {
+    border-radius: 5px;
+}
+
+.flapper.XL .digit,
+.flapper.XL .digit div {
+    height: 96px;
+    width: 72px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.flapper.XL .digit .top {
+    clip: rect(0px, 72px, 47px, 0px);
+}
+
+.flapper.XL .digit .bottom {
+    clip: rect(48px, 72px, 96px, 0px); 
+}
+
+/* L 54x72 */
+
+.flapper.L {
+    font-size: 66px;
+    line-height: 70px;
+    height: 76px;
+}
+
+.flapper.L .digit {
+    border-radius: 6px;
+    margin: 0 0 0 4px;
+}
+
+.flapper.L .digit:first-child {
+    margin: 0;
+}
+
+.flapper.L .digit div {
+    border-radius: 4px;
+}
+
+.flapper.L .digit,
+.flapper.L .digit div {
+    height: 72px;
+    width: 54px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.flapper.L .digit .top {
+    clip: rect(0px, 54px, 35px, 0px);
+}
+
+.flapper.L .digit .bottom {
+    clip: rect(36px, 54px, 72px, 0px); 
+}
+
+/* M 40x54 (default) */
+
+.flapper {
+    font-size: 51px;
+    line-height: 52px;
+    height: 58px;
+}
+
+.flapper .digit {
+    border-radius: 5px;
+    margin: 0 0 0 4px;
+}
+
+.flapper .digit:first-child {
+    margin: 0;
+}
+
+.flapper .digit div {
+    border-radius: 3px;
+}
+
+.flapper .digit,
+.flapper .digit div {
+    height: 54px;
+    width: 40px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.flapper .digit .top {
+    clip: rect(0px, 40px, 26px, 0px);
+}
+
+.flapper .digit .bottom {
+    clip: rect(27px, 40px, 54px, 0px); 
+}
+
+/* S 30x40 */
+
+.flapper.S {
+    font-size: 36px;
+    line-height: 39px;
+    height: 44px;
+}
+
+.flapper.S .digit {
+    border-radius: 4px;
+    margin: 0 0 0 2px;
+}
+
+.flapper.S .digit:first-child {
+    margin: 0;
+}
+
+.flapper.S .digit div {
+    border-radius: 2px;
+}
+
+.flapper.S .digit,
+.flapper.S .digit div {
+    height: 40px;
+    width: 30px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.flapper.S .digit .top {
+    clip: rect(0px, 30px, 19px, 0px);
+}
+
+.flapper.S .digit .bottom {
+    clip: rect(20px, 30px, 40px, 0px); 
+}
+
+/* XS 24x30 */
+
+.flapper.XS {
+    font-size: 28px;
+    line-height: 30px;
+    height: 34px;
+}
+
+.flapper.XS .digit {
+    border-radius: 3px;
+    margin: 0 0 0 2px;
+}
+
+.flapper.XS .digit:first-child {
+    margin: 0;
+}
+
+.flapper.XS .digit div {
+    border-radius: 1px;
+}
+
+.flapper.XS .digit,
+.flapper.XS .digit div {
+    height: 30px;
+    width: 24px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.flapper.XS .digit .top {
+    clip: rect(0px, 24px, 14px, 0px);
+}
+
+.flapper.XS .digit .bottom {
+    clip: rect(15px, 24px, 30px, 0px); 
+}
+
+/* THEME STYLES */
+
+/* DARK (default) */
+
+.flapper .digit {
+    background-color: #bbb;
+    border: 1px solid #bbb;
+}
+
+.flapper .digit div {
+    color: #26a69a;
+    padding: 0px;
+    background-color: #eee;
+}
+
+/* LIGHT */
+
+.flapper.light .digit {
+    border: 1px solid #ddd;
+    background-color: #eee;
+}
+
+.flapper.light .digit div {
+    color: #222;
+    padding: 0px;
+    background-color: #f6f6f6;
+}
