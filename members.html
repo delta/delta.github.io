@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapp">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Delta</title>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Delta-members">
-    
     <link rel="stylesheet" type="text/css" href="css/members.css">
     <link rel="stylesheet" type="text/css" href="css/materialize.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <script type="text/javascript" src="angularjs.min.js"></script>
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
@@ -29,7 +28,8 @@
     </script>
 
 </head>
-<body>
+<body >
+
     <style type="text/css">
     #main
     {
@@ -111,637 +111,122 @@
                 </div>
             </nav>
         </div>
-        <div class="container">
+        <div class="container"  ng-controller="FirstController as fir">
         <div class="row">
             <div class="col s12 m12 l10">
               <div id="webdev" class="section scrollspy">
                 <div class="row">
-                  <div class="col s12 m6 l4">
+                  <div class="col s12 m6 l4" ng-repeat="member in fir.WebDevMembers">
                     <div class="card hovercard">
                         <div class="cardheader">
                         </div>
                         <div class="avatar">
-                            <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                            <img alt="" src="{{member.img}}">
                         </div>
                         <div class="info">
                             <div class="title">
-                                <a target="_blank" href="#">Script Eden</a>
                             </div>
-                            <div class="desc">Passionate designer</div>
-                            <div class="desc">Curious developer</div>
-                            <div class="desc">Tech geek</div>
+                            <div class="desc">{{member.desc_1}}</div>
+                            <div class="desc">{{member.desc_2}}</div>
+                            <div class="desc">{{member.desc_3}}</div>
                         </div>
                         <div class="bottom">
-                            <a class="btn-floating" href="#">
+                            <a class="btn-floating" href="{{member.twitter_url}}">
                                 <i class="fa fa-twitter"></i>
                             </a>
                             <a class="btn-floating" rel="publisher"
-                               href="#">
+                               href="{{member.gplus_url}}">
                                 <i class="fa fa-google-plus"></i>
                             </a>
                             <a class="btn-floating" rel="publisher"
-                               href="#">
+                               href="{{member.fb_url}}">
                                 <i class="fa fa-facebook"></i>
                             </a>
-                            <a class="btn-floating" href="#">
+                            <a class="btn-floating" href="member.github_url">
                                 <i class="fa fa-github"></i>
                             </a>
                         </div>
                     </div>
                   </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
                   </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-            </div>
-            <div class="row">
-              <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-            </div>
             </div>
 
               <div id="appdev" class="section scrollspy">
                 <div class="row">
-              <div class="col s12 m6 l4">
+              <div class="col s12 m6 l4" ng-repeat="member in fir.AppDevMembers">
                       <div class="card hovercard">
                           <div class="cardheader">
 
                           </div>
                           <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                              <img alt="" src="{{member.img}}">
                           </div>
                           <div class="info">
                               <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
+                                  <a target="_blank" href="#">{{member.name}}</a>
                               </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
+                              <div class="desc">{{member.desc_1}}</div>
+                              <div class="desc">{{member.desc_2}}</div>
+                              <div class="desc">{{member.desc_3}}</div>
                           </div>
                           <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
+                            <a class="btn-floating" href="{{member.twitter_url}}">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a class="btn-floating" rel="publisher"
+                               href="{{member.gplus_url}}">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a class="btn-floating" rel="publisher"
+                               href="{{member.fb_url}}">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a class="btn-floating" href="member.github_url">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
                       </div>
                   </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-            </div>
-
-        <div class="row">
-              <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-            </div>      </div>
+                 </div>  
+                </div>
 
               <div id="sysad" class="section scrollspy">
                 <div class="row">
-              <div class="col s12 m6 l4">
+                  <div class="col s12 m6 l4" ng-repeat="member in fir.SysAdMembers">
                       <div class="card hovercard">
                           <div class="cardheader">
 
                           </div>
                           <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
+                              <img alt="" src="{{member.img}}">
                           </div>
                           <div class="info">
                               <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
+                                  <a target="_blank" href="#">{{member.name}}</a>
                               </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
+                              <div class="desc">{{member.desc_1}}</div>
+                              <div class="desc">{{member.desc_2}}</div>
+                              <div class="desc">{{member.desc_3}}</div>
                           </div>
                           <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
+                            <a class="btn-floating" href="{{member.twitter_url}}">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a class="btn-floating" rel="publisher"
+                               href="{{member.gplus_url}}">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                            <a class="btn-floating" rel="publisher"
+                               href="{{member.fb_url}}">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a class="btn-floating" href="member.github_url">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </div>
                       </div>
                   </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-            </div><div class="row">
-              <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col s12 m6 l4">
-                      <div class="card hovercard">
-                          <div class="cardheader">
-                          </div>
-                          <div class="avatar">
-                              <img alt="" src="http://lorempixel.com/100/100/people/9/">
-                          </div>
-                          <div class="info">
-                              <div class="title">
-                                  <a target="_blank" href="#">Script Eden</a>
-                              </div>
-                              <div class="desc">Passionate designer</div>
-                              <div class="desc">Curious developer</div>
-                              <div class="desc">Tech geek</div>
-                          </div>
-                          <div class="bottom">
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-google-plus"></i>
-                              </a>
-                              <a class="btn-floating" rel="publisher"
-                                 href="#">
-                                  <i class="fa fa-facebook"></i>
-                              </a>
-                              <a class="btn-floating" href="#">
-                                  <i class="fa fa-github"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-            </div>
+                </div>
           </div>
         </div>
   
@@ -755,7 +240,215 @@
   
   </div>
   </div>
-    
+  <script type="text/javascript">
+  var webdev = [
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },{
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                ];
+  var appdev = [
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },{
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },{
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                ];
+  var sysad = [
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                {
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },{
+                  name:"Name",
+                  desc_1:"Passionate Designer",
+                  desc_2:"Curious Developer",
+                  desc_3:"Tech Geek",
+                  gplus_url:"#",
+                  github_url:"#",
+                  fb_url:"#",
+                  twitter_url:"#",
+                  img:"http://lorempixel.com/100/100/people/9/"
+                },
+                ];
+  var app = angular.module('myapp',[]);
+  app.controller('FirstController',function()
+  {
+    this.WebDevMembers=webdev;
+    this.AppDevMembers=appdev;
+    this.SysAdMembers=sysad;
+  });
+</script>
 
     <footer class="page-footer" style="background-color:#d3d3d3">
       <div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
