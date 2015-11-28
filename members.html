@@ -114,9 +114,9 @@
         <div class="container"  ng-controller="FirstController as fir">
         <div class="row">
             <div class="col s12 m12 l10">
-              <div id="webdev" class="section scrollspy">
+              <div id="4thYear" class="section scrollspy">
                 <div class="row">
-                  <div class="col s12 m6 l4" ng-repeat="member in fir.WebDevMembers">
+                  <div class="col s12 m6 l4" ng-repeat="member in fir.fourthYearMembers">
                     <div class="card hovercard">
                         <div class="cardheader">
                         </div>
@@ -125,6 +125,7 @@
                         </div>
                         <div class="info">
                             <div class="title">
+                              <a target="_blank" href="#">{{member.name}}</a>
                             </div>
                             <div class="desc">{{member.desc_1}}</div>
                             <div class="desc">{{member.desc_2}}</div>
@@ -151,9 +152,9 @@
                   </div>
             </div>
 
-              <div id="appdev" class="section scrollspy">
+              <div id="3rdYear" class="section scrollspy">
                 <div class="row">
-              <div class="col s12 m6 l4" ng-repeat="member in fir.AppDevMembers">
+              <div class="col s12 m6 l4" ng-repeat="member in fir.thirdYearMembers">
                       <div class="card hovercard">
                           <div class="cardheader">
 
@@ -190,9 +191,9 @@
                  </div>  
                 </div>
 
-              <div id="sysad" class="section scrollspy">
+              <div id="2ndYear" class="section scrollspy">
                 <div class="row">
-                  <div class="col s12 m6 l4" ng-repeat="member in fir.SysAdMembers">
+                  <div class="col s12 m6 l4" ng-repeat="member in fir.secondYearMembers">
                       <div class="card hovercard">
                           <div class="cardheader">
 
@@ -230,18 +231,18 @@
           </div>
         </div>
   
-    <div id="scrollspyPos" class="col hide-on-small-only m3 l2"> 
+    <div id="scrollspyPos" class="col hide-on-small-only m3 l3"> 
       <ul class="section table-of-contents">
-        <li><a href="#webdev">WebDev</a></li>
-        <li><a href="#appdev">AppDev</a></li>
-        <li><a href="#sysad">SysAd</a></li>
+        <li><a href="#4thYear" style="width:110px">Final Years</a></li>
+        <li><a href="#3rdYear" style="width:110px">Third Years</a></li>
+        <li><a href="#2ndYear" style="width:110px">Second Years</a></li>
       </ul>
     </div>
   
   </div>
   </div>
   <script type="text/javascript">
-  var webdev = [
+  var fourthYears = [
                 {
                   name:"Name",
                   desc_1:"Passionate Designer",
@@ -308,7 +309,7 @@
                   img:"http://lorempixel.com/100/100/people/9/"
                 },
                 ];
-  var appdev = [
+  var thirdYears = [
                 {
                   name:"Name",
                   desc_1:"Passionate Designer",
@@ -374,7 +375,7 @@
                   img:"http://lorempixel.com/100/100/people/9/"
                 },
                 ];
-  var sysad = [
+  var secondYears = [
                 {
                   name:"Name",
                   desc_1:"Passionate Designer",
@@ -444,9 +445,9 @@
   var app = angular.module('myapp',[]);
   app.controller('FirstController',function()
   {
-    this.WebDevMembers=webdev;
-    this.AppDevMembers=appdev;
-    this.SysAdMembers=sysad;
+    this.fourthYearMembers=fourthYears;
+    this.thirdYearMembers=thirdYears;
+    this.secondYearMembers=secondYears;
   });
 </script>
 
