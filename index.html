@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Delta</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Delta">
-	</head>
-	<body>
-		<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
-        <link rel="stylesheet" type="text/css" href="css/fullpage.css">
-		<link href="./Delta_files/flapper.css" type="text/css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
-		<link rel="stylesheet" type="text/css" href="css/set2.css"/>
-		<link rel="stylesheet" type="text/css" href="css/set1.css"/>
-		<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/materialize.css">
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
-		<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css"/>
-	    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
-	    <link rel="stylesheet" type="text/css" href="css/materialize.css">
-	    <link rel="stylesheet" type="text/css" href="css/preloader.css">
-		<style type="text/css">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Delta</title>
 
-			body{
-		       font-family: 'Iceberg';
-		    	background-color:#ececec;
-		  	}
-		  	nav ul a
-			{
-				color: #26a69a;
-				font-weight: bold;
-			}
-			.side-nav
-			{
-				background-color: #ececec;
-			}
-			[class^="mdi-"], [class*="mdi-"]
-			{
-				color: #26A69A;
-			}
-			.side-nav a
-			{
-				/*color: #26A69A;
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Delta">
+</head>
+
+<body>
+	<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css">
+	<link href="./Delta_files/flapper.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/set2.css" />
+	<link rel="stylesheet" type="text/css" href="css/set1.css" />
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/preloader.css">
+	<style type="text/css">
+		body {
+			font-family: 'Iceberg';
+			background-color: #ececec;
+		}
+
+		nav ul a {
+			color: #26a69a;
+			font-weight: bold;
+		}
+
+		.side-nav {
+			background-color: #ececec;
+		}
+
+		[class^="mdi-"],
+		[class*="mdi-"] {
+			color: #26A69A;
+		}
+
+		.side-nav a {
+			/*color: #26A69A;
 				height: 10rem;
 				text-align: center;
 				padding: 15px;
@@ -57,231 +59,247 @@
 				font-size: 2.2rem;
 				font-family: 'Iceberg';
 				font-weight:normal;*/
-			}
-		    .nav-wrapper
-		    {
-		      background-color: #d3d3d3;
-		    }
-		    footer
-		    {
-		      background: #d3d3d3;
-		    }
-		    a:hover
-		    {
-		    	color: #26a69a;
-		    	font-weight: bold;
-		    }
-		    #fullpage,.navbar-fixed
-		    {
-		    	display: none;
-		    }
-		</style>
+		}
+
+		.nav-wrapper {
+			background-color: #d3d3d3;
+		}
+
+		footer {
+			background: #d3d3d3;
+			position: relative;
+			bottom: 0;
+			width: 100%;
+		}
+
+		a:hover {
+			color: #26a69a;
+			font-weight: bold;
+		}
+
+		#fullpage,
+		.navbar-fixed {
+			display: none;
+		}
+	</style>
 
 
-		<script>
-	 		$(document).ready(function(){
-	   		$(".button-collapse").sideNav();
-	      	$('.slider').slider();
-	      	$('.collapsible').collapsible();
-	 		});
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.slider').slider();
+			$('.collapsible').collapsible();
+		});
 
-	 		$(window).load(function(){ /* preloader functioning */
-		        $(".triangles").hide();
-		        $("#fullpage").show();
-		        $(".navbar-fixed").show();
-		    });
-		</script>
+		$(window).load(function() { /* preloader functioning */
+			$(".triangles").hide();
+			$("#fullpage").show();
+			$(".navbar-fixed").show();
+		});
+	</script>
 
-		<script type="text/javascript" src="./Delta_files/jquery.fullPage.js"></script>
-		<script type="text/javascript" src="./Delta_files/animation.js"></script>
-		<script src="./Delta_files/jquery.flapper.js"></script>
-        <script src="./Delta_files/flap.js"></script>
-		<div class="triangles">               <!-- Preloader Start-->
- 		  	<div class="tri invert"></div>
-			<div class="tri invert"></div>
-			<div class="tri"></div>
-			<div class="tri invert"></div>
-			<div class="tri invert"></div>
-			<div class="tri"></div>
-			<div class="tri invert"></div>
-			<div class="tri"></div>
-			<div class="tri invert"></div>
-		</div>								  <!-- Preloader End -->
-			 <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper" >
-                    <div class="brand-logo">
-                        <a href="index.html"><img src="" class="responsive-img"></a>
-                    </div>
-                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-                        <ul class="right hide-on-med-and-down">
-                        <li class="active"><a class="waves-effect waves-teal"href="index.html">Home</a></li>
-                        <li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-                        <li><a class="waves-effect waves-teal" target="_blank"href="http://sig.deltaforce.club">SIG</a></li>
-                        <li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-                        <li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-                        <li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-                        <li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-                        <li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">  <!-- side-nav activates on medium and smaller devices -->
-                        <li class="active"><a class="waves-effect waves-teal"href="index.html">Home</a></li>
-                        <li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-                        <li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-                        <li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-                        <li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-                        <li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-                        <li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-                        <li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>									<!-- Navigation Bar div Ends -->
+	<script type="text/javascript" src="./Delta_files/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="./Delta_files/animation.js"></script>
+	<script src="./Delta_files/jquery.flapper.js"></script>
+	<script src="./Delta_files/flap.js"></script>
+	<div class="triangles">
+		<!-- Preloader Start-->
+		<div class="tri invert"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+	</div>
+	<!-- Preloader End -->
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<div class="brand-logo">
+					<a href="index.html">
+						<img src="" class="responsive-img">
+					</a>
+				</div>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+				<ul class="right hide-on-med-and-down">
+					<li class="active"><a class="waves-effect waves-teal" href="index.html">Home</a></li>
+					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
+					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
+					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+					<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<!-- side-nav activates on medium and smaller devices -->
+					<li class="active"><a class="waves-effect waves-teal" href="index.html">Home</a></li>
+					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
+					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
+					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+					<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- Navigation Bar div Ends -->
 
-			<div id="fullpage">                        <!-- fullpage for smooth scrolling effect -->
-				<div class="section col s12 hide-on-med-and-down" id="section0">        <!--fullpage divided into sections --><!-- section 1 of fullpage-->
-					<div id="flappy">  <!-- flapper hidden in medium and smaller devices -->
-						<div class="split">
-							<div class="displays">
-								<div class="activity"></div><input class="display M" style="display: none;"><div class="flapper display M"></div>
-								<div class="activity"></div><input class="display M" style="display: none;"><div class="flapper display M"></div>
+	<div id="fullpage" class="indexContainer">
+		<!-- fullpage for smooth scrolling effect -->
+		<div class="section col s12 hide-on-med-and-down" id="section0">
+			<!--fullpage divided into sections -->
+			<!-- section 1 of fullpage-->
+			<div id="flappy">
+				<!-- flapper hidden in medium and smaller devices -->
+				<div class="split">
+					<div class="displays">
+						<div class="activity"></div>
+						<input class="display M" style="display: none;">
+						<div class="flapper display M"></div>
+						<div class="activity"></div>
+						<input class="display M" style="display: none;">
+						<div class="flapper display M"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section" id="section1">
+			<!-- section 2 of fullpage -->
+			<div id="ww" class="row">
+				<h2 class="center-align" style="color:#26a69a">What We Do</h2>
+				<div class="row">
+					<div class="col s12 m12 l4">
+						<div class="card hoverable" style="background:#26a69a">
+							<div class="card-content white-text">
+								<p><i class="material-icons large">public</i></p>
+								<p>
+									<h2>Web Dev</h2>
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m12 l4">
+						<div class="card hoverable" style="background:#26a69a">
+							<div class="card-content white-text">
+								<p><i class="material-icons large">android</i></p>
+								<p>
+									<h2>App Dev</h2>
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m12 l4">
+						<div class="card hoverable" style="background:#26a69a">
+							<div class="card-content white-text">
+								<p><i class="material-icons large">memory</i></p>
+								<p>
+									<h2>Sys Ad</h2>
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<!-- section 2 of fullpage ends -->
 
-				<div class="section" id="section1">    <!-- section 2 of fullpage -->
-					<div id="ww" class="row">
-					    <h2 class="center-align" style="color:#26a69a">What We Do</h2>
-				    	<div class="row">
-					        <div class="col s12 m12 l4">
-					          	<div class="card hoverable" style="background:#26a69a">
-					            	<div class="card-content white-text">
-					              		<p><i class="material-icons large">public</i></p>
-				    					<p><h2>Web Dev</h2></p>
-				    					<p >
-				    						Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							    		</p>
-					          		</div>
-					        	</div>
-					        </div>
-					        <div class="col s12 m12 l4">
-					          	<div class="card hoverable" style="background:#26a69a">
-					            	<div class="card-content white-text">
-					              		<p><i class="material-icons large">android</i></p>
-				    					<p><h2>App Dev</h2></p>
-				    					<p>
-				    						Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							    		</p>
-					          		</div>
-					        	</div>
-					        </div>
-					        <div class="col s12 m12 l4">
-					          	<div class="card hoverable" style="background:#26a69a">
-					            	<div class="card-content white-text">
-					            		<p><i class="material-icons large">memory</i></p>
-					    				<p><h2>Sys Ad</h2></p>
-							    		<p>
-							    			Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					    				</p>
-					          		</div>
-					       	 	</div>
-					      	</div>
-				  		</div>
+
+		<div class="section row" id="section2">
+			<!-- section 3 of fullpage-->
+			<div id="www" class="grid">
+				<h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
+				<div class="row">
+					<div class="col s12 m12 l4">
+						<figure class="effect-bubba">
+							<a href="https://github.com/delta/pragyan">
+								<img src="images/16.jpg" alt="img18" />
+							</a>
+							<figcaption>
+								<h4>Pragyan CMS</h4>
+								<p>Apollo's last game of pool was so strange.</p>
+								<a href="https://github.com/delta/pragyan">View more</a>
+							</figcaption>
+						</figure>
 					</div>
-				</div> <!-- section 2 of fullpage ends -->
-
-
-				<div class="section row" id="section2">  <!-- section 3 of fullpage-->
-					<div id="www" class="grid">
-					    <h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
-						<div class="row">
-					        <div class="col s12 m12 l4">
-					        	<figure class="effect-bubba">
-									<a href="https://github.com/delta/pragyan"><img src="images/16.jpg" alt="img18"/></a>
-									<figcaption>
-										<h4>Pragyan CMS</h4>
-										<p>Apollo's last game of pool was so strange.</p>
-										<a href="https://github.com/delta/pragyan">View more</a>
-									</figcaption>
-								</figure>
-					        </div>
-					        <div class="col s12 m12 l4">
-					        	<figure class="effect-bubba">
-									<img src="images/17.jpg" alt="img18"/>
-									<figcaption>
-										<h4>Project1</h4>
-										<p>Apollo's last game of pool was so strange.</p>
-										<a href="#">View more</a>
-									</figcaption>
-								</figure>
-					        </div>
-					        <div class="col s12 m12 l4">
-					        	<figure class="effect-bubba">
-									<img src="images/17.jpg" alt="img18"/>
-									<figcaption>
-										<h4>Project1</h4>
-										<p>Apollo's last game of pool was so strange.</p>
-										<a href="#">View more</a>
-									</figcaption>
-								</figure>
-					        </div>
-					    </div>
+					<div class="col s12 m12 l4">
+						<figure class="effect-bubba">
+							<img src="images/17.jpg" alt="img18" />
+							<figcaption>
+								<h4>Project1</h4>
+								<p>Apollo's last game of pool was so strange.</p>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
 					</div>
-					<footer class="page-footer" style="background-color:#d3d3d3">
-		            	<div class="container center-align" style="color:#26a69a;height:200px;padding-top:15px;font-size:20px">
-		           			<b>Made with &hearts; by Delta Force</b>
-		            	</div>
-		        	</footer>
-				</div>  <!-- section 3 of fullpage ends -->
-			</div>  <!-- fullpage smooth scrolling effect ends -->
-			<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">   <!-- social media button -->
-			    <a class="btn-floating btn-large" style="background:#26a69a">
-			      	<i class="large fa fa-code"></i>
-			    </a>
-			    <ul>
-		          	<li><a class="btn-floating blue darken-2"><i class="fa fa-facebook-square"></i></a></li>
-		          	<li><a href="https://github.com/delta" class="btn-floating black"><i class="fa fa-github"></i></a></li>
-		          	<li><a class="btn-floating blue"><i class="fa fa-linkedin"></i></a></li>
-		          	<li><a class="btn-floating red"><i class="fa fa-google-plus"></i></a></li>
-	      		</ul>
-		  	</div>
+					<div class="col s12 m12 l4">
+						<figure class="effect-bubba">
+							<img src="images/17.jpg" alt="img18" />
+							<figcaption>
+								<h4>Project1</h4>
+								<p>Apollo's last game of pool was so strange.</p>
+								<a href="#">View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<footer class="page-footer" style="background-color:#d3d3d3">
+				<div class="container center-align" style="color:#26a69a;height:200px;padding-top:15px;font-size:20px">
+					<b>Made with &hearts; by Delta Force</b>
+				</div>
+			</footer>
+		</div>
+		<!-- section 3 of fullpage ends -->
+	</div>
+	<!-- fullpage smooth scrolling effect ends -->
+	<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		<!-- social media button -->
+		<a class="btn-floating btn-large" style="background:#26a69a">
+			<i class="large fa fa-code"></i>
+		</a>
+		<ul>
+			<li><a class="btn-floating blue darken-2"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="https://github.com/delta" class="btn-floating black"><i class="fa fa-github"></i></a></li>
+			<li><a class="btn-floating blue"><i class="fa fa-linkedin"></i></a></li>
+			<li><a class="btn-floating red"><i class="fa fa-google-plus"></i></a></li>
+		</ul>
+	</div>
 
-		<script type="text/javascript" src="js/javascript.fullPage.js"></script> <!-- For smooth scrolling effect -->
-		<script type="text/javascript">
+	<script type="text/javascript" src="js/javascript.fullPage.js"></script>
+	<!-- For smooth scrolling effect -->
+	<script type="text/javascript">
+		var initialize = function() {
+			if ($(window).width() > 1048) {
+				fullpage.initialize('#fullpage', {
+					menu: '#menu',
+					css3: true
+				});
+			}
+		};
+		initialize();
+		$(window).on('resize',function(){
+			initialize();
+		});
+	</script>
+</body>
 
-	$(document).ready(function(){
-		$(function(){
-			fullpage.initialize('#fullpage', {
-				menu: '#menu',
-				css3:true
-			});
-	});
-		$(window).resize(function(){
-			if($(window).width()<1048)
-			{
-					$("fullpage").hide();
-		}
-		else {
-				$("fullpage").show();
-		}
-    });
-});
-	        </script>
-	</body>
 </html>

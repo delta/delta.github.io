@@ -1,261 +1,236 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Delta</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Delta-competition">
-	</head>
-	<body>
-		<link rel="stylesheet" type="text/css" href="css/materialize.css">
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/materialize.js"></script>
-		<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
-	  <link rel="stylesheet" type="text/css" href="css/preloader.css">
-		<style type="text/css">
-			body
-			{	font-family: 'Iceberg';
-				background-color: #ececec;
-				height: 100%;
-			}
-			.nav-wrapper
-		    {
-		      background-color:#d3d3d3;
-		    }
-		    #scrollspy
-		    {
-		      position: absolute;
-		      position: fixed;
-		      padding-top: 200px;
-		      padding-left: 950px;
-		    }
-		    .pos
-		    {
-		    	margin-top: 10%;
-		    	margin-bottom: 15%;
-		    }
-		  	nav ul a
-			{
-				color: #26a69a;
-				font-weight: bold;
-			}
-			[class^="mdi-"], [class*="mdi-"]
-			{
-				color: #26A69A;
-			}
-			#content
-			{
-				display: none;
-			}
-		</style>
 
- 		<script>
-	 		$(document).ready(function(){
-	   			$(".button-collapse").sideNav();
-	    		$('.scrollspy').scrollSpy();
-	      		$('.collapsible').collapsible();
-	 		});
-	 		$(window).load(function(){
-		        $(".triangles").hide();
-		        $("#content").show();
-		    });
-		</script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Delta</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Delta-competition">
+</head>
 
-		<div class="triangles">   <!-- preloader -->
-			<div class="tri invert"></div>
-			<div class="tri invert"></div>
-			<div class="tri"></div>
-			<div class="tri invert"></div>
-			<div class="tri invert"></div>
-			<div class="tri"></div>
-			<div class="tri invert"></div>
-			<div class="tri"></div>
-			<div class="tri invert"></div>
-		</div>                     <!--preloader ends -->
-		<div id="content">         <!--Content to be loader -->
+<body>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/preloader.css">
+	<style type="text/css">
+		body {
+			font-family: 'Iceberg';
+			background-color: #ececec;
+			height: 100%;
+		}
+
+		.nav-wrapper {
+			background-color: #d3d3d3;
+		}
+
+		.scrollspyPos {
+			position: fixed;
+			top: 50%;
+			right: 0;
+		}
+
+		.pos {
+			margin-top: 10%;
+			margin-bottom: 15%;
+		}
+
+		nav ul a {
+			color: #26a69a;
+			font-weight: bold;
+		}
+
+		[class^="mdi-"],
+		[class*="mdi-"] {
+			color: #26A69A;
+		}
+
+		#content {
+			display: none;
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.scrollspy').scrollSpy();
+			$('.collapsible').collapsible();
+		});
+		$(window).load(function() {
+			$(".triangles").hide();
+			$("#content").show();
+		});
+	</script>
+
+	<div class="triangles">
+		<!-- preloader -->
+		<div class="tri invert"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+	</div>
+	<!--preloader ends -->
+	<div id="content">
+		<!--Content to be loader -->
 		<div class="navbar-fixed">
 			<nav>
-				<div class="nav-wrapper" >
-				    <div class="brand-logo">
-				        <a href="index.html"><img src="" class="responsive-img"></a>
-				    </div>
-				    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-				    <ul class="right hide-on-med-and-down">
-				        <li><a class="waves-effect waves-teal"href="index.html">Home</a></li>
-				        <li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-				        <li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-				        <li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-				        <li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-				        <li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-				        <li class="active"><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-				        <li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
-				    </ul>
-				    <ul class="side-nav" id="mobile-demo">
-				        <li><a class="waves-effect waves-teal"href="index.html">Home</a></li>
-				        <li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-				        <li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-				        <li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-				        <li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-				        <li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-				        <li class="active"><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-				        <li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
-				    </ul>
+				<div class="nav-wrapper">
+					<div class="brand-logo">
+						<a href="index.html">
+							<img src="" class="responsive-img">
+						</a>
+					</div>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+					<ul class="right hide-on-med-and-down">
+						<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
+						<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
+						<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+						<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+						<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+						<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
+						<li class="active"><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+						<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
+						<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
+						<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+						<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+						<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+						<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
+						<li class="active"><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+						<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+					</ul>
 				</div>
 			</nav>
 		</div>
 
 		<div id="main" class="container" position="absolute">
 			<div class="row">
-			    <div class="col s12 m9 l10">
-			      	<div id="Hackathon_1" class="section scrollspy pos">
-			      		<div class="row">
-					      	<div class="col s12">
-					        	<div class="card-panel z-depth-5">
+				<div class="col s12 m9 l10">
+					<div id="Hackathon_1" class="section scrollspy pos">
+						<div class="row">
+							<div class="col s12">
+								<div class="card-panel z-depth-5">
 
-							        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 								</div>
 							</div>
 						</div>
-			      	</div>
+					</div>
 
-			      	<div id="Hackathon_2" class="section scrollspy pos">
-					  	<div class="row">
-					      	<div class="col s12">
-					        	<div class="card-panel z-depth-5">
-						        	<p><h3 class="center-align">Hackathon</h3></p>
-							        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-								</div>
-							</div>
-						</div>
-			      	</div>
-
-			      	<div id="Hackathon_3" class="section scrollspy pos">
-			     		<div class="row">
-					      	<div class="col s12">
-					        	<div class="card-panel z-depth-5">
-					        		<p><h3 class="center-align">Hackathon</h3></p>
-							        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div id="Hackathon_2" class="section scrollspy pos">
+						<div class="row">
+							<div class="col s12">
+								<div class="card-panel z-depth-5">
+									<p>
+										<h3 class="center-align">Hackathon</h3>
+									</p>
+									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 								</div>
 							</div>
 						</div>
 					</div>
 
-			      	<div id="Hackathon_4" class="section scrollspy pos">
-			     		<div class="row">
-					      	<div class="col s12">
-					        	<div class="card-panel z-depth-5">
-					        		<p><h3 class="center-align">Hackathon</h3></p>
-							        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
-							        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div id="Hackathon_3" class="section scrollspy pos">
+						<div class="row">
+							<div class="col s12">
+								<div class="card-panel z-depth-5">
+									<p>
+										<h3 class="center-align">Hackathon</h3>
+									</p>
+									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="Hackathon_4" class="section scrollspy pos">
+						<div class="row">
+							<div class="col s12">
+								<div class="card-panel z-depth-5">
+									<p>
+										<h3 class="center-align">Hackathon</h3>
+									</p>
+									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<br>
+										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 									<button class="btn waves-effect waves-light">Register<i class="material-icons right">send</i></button>
 								</div>
 							</div>
 						</div>
 					</div>
-			    </div>
+				</div>
 
-			    <div id="scrollspy" class="col hide-on-small-only m3 l2">
-			      	<ul class="section table-of-contents">
-			        	<li><a href="#Hackathon_1">Hackathon</a></li>
-			        	<li><a href="#Hackathon_2">Hackathon</a></li>
-			        	<li><a href="#Hackathon_3">Hackathon</a></li>
-			        	<li><a href="#Hackathon_4">Hackathon</a></li>
-			      	</ul>
-			    </div>
+				<div id="scrollspy" class="col hide-on-small-only m3 l2 scrollspyPos">
+					<ul class="section table-of-contents">
+						<li><a href="#Hackathon_1">Hackathon</a></li>
+						<li><a href="#Hackathon_2">Hackathon</a></li>
+						<li><a href="#Hackathon_3">Hackathon</a></li>
+						<li><a href="#Hackathon_4">Hackathon</a></li>
+					</ul>
+				</div>
 
 			</div>
 		</div>
 
 		<footer class="page-footer" style="background-color:#d3d3d3">
-            <div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
-           		<b>Made with &hearts; by Delta Force</b>
-            </div>
-        </footer>
+			<div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
+				<b>Made with &hearts; by Delta Force</b>
+			</div>
+		</footer>
 
-        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">  <!-- Social media button -->
+		<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+			<!-- Social media button -->
 			<a class="btn-floating btn-large" style="background:#26a69a">
-		  		<i class="large fa fa-code"></i>
+				<i class="large fa fa-code"></i>
 			</a>
 			<ul>
-	          	<li><a class="btn-floating blue darken-2"><i class="fa fa-facebook-square"></i></a></li>
-	            <li><a class="btn-floating black"><i class="fa fa-github"></i></a></li>
-	            <li><a class="btn-floating blue"><i class="fa fa-linkedin"></i></a></li>
-	            <li><a class="btn-floating red"><i class="fa fa-google-plus"></i></a></li>
-            </ul>
+				<li><a class="btn-floating blue darken-2"><i class="fa fa-facebook-square"></i></a></li>
+				<li><a class="btn-floating black"><i class="fa fa-github"></i></a></li>
+				<li><a class="btn-floating blue"><i class="fa fa-linkedin"></i></a></li>
+				<li><a class="btn-floating red"><i class="fa fa-google-plus"></i></a></li>
+			</ul>
 		</div>
 	</div>
-	</body>
+</body>
+
 </html>
