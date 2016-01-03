@@ -1,178 +1,153 @@
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	    <title>Delta</title>
 
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="description" content="Delta-games">
-			<link rel="stylesheet" href="css/style.css">
-			<link rel="stylesheet" href="css/base.css">
-			<link rel="stylesheet" type="text/css" href="css/materialize.css">
-			<link rel="stylesheet" type="text/css" href="css/preloader.css">
-		  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
-			<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css"/>
-			<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-			<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
-			<script src="js/modernizr.js"></script>
-			<script type="text/javascript" src="js/jquery.js"></script>
-			<script type="text/javascript" src="js/materialize.js"></script>
-			<script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Delta</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Delta-games">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/preloader.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
+	<script src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/games.css">
+	<script>
+		$(window).load(function() {
+			$(".triangles").hide();
+			$(".navbar-fixed").show();
+			$("#content").show();
+		});
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+		});
+	</script>
+</head>
 
-		 		$(window).load(function(){
-			        $(".triangles").hide();
-			        $(".navbar-fixed").show();
-			        $("#content").show();
-		      	});
-
-		 		$(document).ready(function(){
-			   		$(".button-collapse").sideNav();
-		    	});
-
-			</script>
-			<style type="text/css">
-			#main
-			{
-				height: 100%;
-			}
-			#content,.navbar-fixed
-			{
-				display: none;
-			}
-		  	nav ul a
-			{
-				color: #26a69a;
-				font-weight: bold;
-			}
-			[class^="mdi-"], [class*="mdi-"]
-			{
-				color: #26A69A;
-			}
-			.nav-wrapper
-		    {
-		      background-color: #d3d3d3;
-		    }
-		    body
-		    {	font-family: 'Iceberg';
-		    	background-color: #ECECEC;
-		    }
-		</style>
-	</head>
-
-	<body>
-	  <div class="triangles">  <!-- preloader -->
-	    <div class="tri invert"></div>
-	    <div class="tri invert"></div>
-	    <div class="tri"></div>
-	    <div class="tri invert"></div>
-	    <div class="tri invert"></div>
-	    <div class="tri"></div>
-	    <div class="tri invert"></div>
-	    <div class="tri"></div>
-	    <div class="tri invert"></div>
-	  </div>
-
-	  <div class="navbar-fixed">
-	    <nav>
-	      <div class="nav-wrapper" >
-	          <div class="brand-logo">
-	              <a href="index.html"><img src="" class="responsive-img"></a>
-	          </div>
-	          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-	          <ul class="right hide-on-med-and-down">
-	              <li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
-	              <li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-	              <li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-	              <li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-	              <li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-	              <li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-	              <li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-	              <li class="active"><a class="waves-effect waves-teal" href="games.html">Games</a></li>
-	          </ul>
-	          <ul class="side-nav" id="mobile-demo">
-						    <li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
-	              <li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-	              <li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-	              <li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-	              <li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-	              <li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-	              <li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-	              <li class="active"><a class="waves-effect waves-teal" href="games.html">Games</a></li>
-	          </ul>
-	      </div>
-	    </nav>
-	  </div>
-
-	<div class="wrapper content">
-
-
-
-	      <section class="module parallax-custom parallax-custom-1" style="background-image:url('images/game1.jpg')">
-	        <div class="container">
-	          <h1 style="margin-top:0px">Game1</h1>
-	        </div>
-	      </section>
-
-	      <section class="module content">
-	        <div class="container">
-	          <h2>Lorem Ipsum Dolor</h2>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
-	        </div>
-	      </section>
-
-	      <section class="module parallax-custom parallax-custom-2" style="background-image:url('images/game2.jpg')">
-	        <div class="container">
-	          <h1>Game2</h1>
-	        </div>
-	      </section>
-
-	      <section class="module content">
-	        <div class="container">
-	          <h2>Lorem Ipsum Dolor</h2>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
-	        </div>
-	      </section>
-
-	      <section class="module parallax-custom parallax-custom-3" style="background-image:url('images/game3.jpg')">
-	        <div class="container">
-	          <h1>Game3</h1>
-	        </div>
-	      </section>
-
-	      <section class="module content">
-	        <div class="container">
-	          <h2>Lorem Ipsum Dolor</h2>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
-	        </div>
-	      </section>
-
-
+<body>
+	<div class="triangles">
+		<div class="tri invert"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
+		<div class="tri"></div>
+		<div class="tri invert"></div>
 	</div>
-		<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">  <!-- social media button -->
-    	<a class="btn-floating btn-large" style="background:#26a69a">
-      		<i class="large fa fa-code"></i>
-    	</a>
-    	<ul>
-          <li><a class="btn-floating blue darken-2"><i class="fa fa-facebook-square"></i></a></li>
-          <li><a class="btn-floating black"><i class="fa fa-github"></i></a></li>
-          <li><a class="btn-floating blue"><i class="fa fa-linkedin"></i></a></li>
-          <li><a class="btn-floating red"><i class="fa fa-google-plus"></i></a></li>
-      </ul>
-  		</div>
-		<footer class="page-footer" style="background-color:#d3d3d3">
-      <div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
-     		<b>Made with &hearts; by Delta Force</b>
-      </div>
-    </footer>
-	</body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<div class="brand-logo">
+					<a href="index.html">
+						<img src="" class="responsive-img">
+					</a>
+				</div>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
+					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
+					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
+					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+					<li class="active"><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
+					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
+					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
+					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+					<li class="active"><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="wrapper content">
+		<section class="module parallax-custom parallax-custom-1" style="background-image:url('images/game1.jpg')">
+			<div class="container">
+				<h1 style="margin-top:0px">Game1</h1>
+			</div>
+		</section>
+		<section class="module content">
+			<div class="container">
+				<h2>Lorem Ipsum Dolor</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur
+					adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+			</div>
+		</section>
+		<section class="module parallax-custom parallax-custom-2" style="background-image:url('images/game2.jpg')">
+			<div class="container">
+				<h1>Game2</h1>
+			</div>
+		</section>
+		<section class="module content">
+			<div class="container">
+				<h2>Lorem Ipsum Dolor</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur
+					adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+			</div>
+		</section>
+		<section class="module parallax-custom parallax-custom-3" style="background-image:url('images/game3.jpg')">
+			<div class="container">
+				<h1>Game3</h1>
+			</div>
+		</section>
+		<section class="module content">
+			<div class="container">
+				<h2>Lorem Ipsum Dolor</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet,
+					consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur
+					adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing
+					elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+			</div>
+		</section>
+	</div>
+	<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		<!-- social media button -->
+		<a class="btn-floating btn-large" style="background:#26a69a">
+			<i class="large fa fa-code"></i>
+		</a>
+		<ul>
+			<li><a class="btn-floating blue darken-2"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a class="btn-floating black"><i class="fa fa-github"></i></a></li>
+			<li><a class="btn-floating blue"><i class="fa fa-linkedin"></i></a></li>
+			<li><a class="btn-floating red"><i class="fa fa-google-plus"></i></a></li>
+		</ul>
+	</div>
+	<footer class="page-footer" style="background-color:#d3d3d3">
+		<div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
+			<b>Made with &hearts; by Delta Force</b>
+		</div>
+	</footer>
+</body>
+
 </html>
