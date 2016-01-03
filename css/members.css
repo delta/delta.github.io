@@ -215,3 +215,43 @@
 .table-of-contents ul li a {
   width: 70px;
 }
+#main {
+  height: 100%;
+}
+
+body {
+  font-family: 'Iceberg';
+  background-color: #ececec;
+}
+
+#content {
+  display: none;
+}
+
+nav ul a {
+  color: #26a69a;
+  font-weight: bold;
+}
+
+[class^="mdi-"],
+[class*="mdi-"] {
+  color: #26A69A;
+}
+
+#scrollspyPos {
+  position: fixed;
+  right: -10%;
+  top: 50%;
+}
+
+.nav-wrapper {
+  background-color: #d3d3d3;
+}
+
+.card {
+  background-color: #26a69a;
+}
+
+.side-nav {
+	background-color: #ececec;
+}

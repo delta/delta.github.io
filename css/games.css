@@ -1,0 +1,29 @@
+body
+{	font-family: 'Iceberg';
+	background-color: #ECECEC;
+}
+#main
+{
+	height: 100%;
+}
+#content,.navbar-fixed
+{
+	display: none;
+}
+	nav ul a
+{
+	color: #26a69a;
+	font-weight: bold;
+}
+[class^="mdi-"], [class*="mdi-"]
+{
+	color: #26A69A;
+}
+.nav-wrapper
+{
+  background-color: #d3d3d3;
+}
+
+.side-nav {
+	background-color: #ececec;
+}
