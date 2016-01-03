@@ -6,7 +6,7 @@ body
 {
 	height: 100%;
 }
-#content,.navbar-fixed
+.content,.navbar-fixed,footer
 {
 	display: none;
 }
