@@ -1,3 +1,5 @@
+@import url("common.css");
+
 .card {
   padding-top: 20px;
   margin: 10px 0 20px 0;
@@ -219,24 +221,10 @@
   height: 100%;
 }
 
-body {
-  font-family: 'Iceberg';
-  background-color: #ececec;
-}
-
 #content {
   display: none;
 }
 
-nav ul a {
-  color: #26a69a;
-  font-weight: bold;
-}
-
-[class^="mdi-"],
-[class*="mdi-"] {
-  color: #26A69A;
-}
 
 #scrollspyPos {
   position: fixed;
@@ -250,8 +238,4 @@ nav ul a {
 
 .card {
   background-color: #26a69a;
-}
-
-.side-nav {
-	background-color: #ececec;
 }

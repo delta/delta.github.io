@@ -1,38 +1,10 @@
-body {
-	font-family: 'Iceberg';
-	background-color: #ececec;
-}
-
-nav ul a {
-	color: #26a69a;
-	font-weight: bold;
-}
-
-.side-nav {
-	background-color: #ececec;
-}
-
-[class^="mdi-"],
-[class*="mdi-"] {
-	color: #26A69A;
-}
-
-.side-nav a {
-
-	/*color: #26A69A;
-		height: 10rem;
-		text-align: center;
-		padding: 15px;
-		padding-top: 35px;
-		padding-left: 10px;
-		font-size: 2.2rem;
-		font-family: 'Iceberg';
-		font-weight:normal;*/
-}
-
-.nav-wrapper {
-	background-color: #d3d3d3;
-}
+@import url("flapper.css");
+@import url("javascript.fullPage.css");
+@import url("fullpage.css");
+@import url("demo.css");
+@import url("set2.css");
+@import url("set1.css");
+@import url("common.css");
 
 footer {
 	background: #d3d3d3;
@@ -51,14 +23,16 @@ a:hover {
 	display: none;
 }
 
-#section2 {
-	position: relative;
-}
+@media screen and (min-width:1048px) {
+	#section2 {
+		position: relative;
+	}
 
-#section2 footer {
-	position: absolute;
-	bottom: 0;
-	background-color:#d3d3d3;
+	#section2 footer {
+		position: absolute;
+		bottom: 0;
+		background-color:#d3d3d3;
+	}
 }
 
 footer div {

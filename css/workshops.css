@@ -1,13 +1,4 @@
-body {
-	font-family: 'Iceberg';
-	background-color: #ececec;
-	height: 100%;
-}
-
-.nav-wrapper {
-	background-color: #d3d3d3;
-}
-
+@import url("common.css");
 #main,
 footer,
 .navbar-fixed {
@@ -20,21 +11,7 @@ footer,
 	top: 40%;
 }
 
-nav ul a {
-	color: #26a69a;
-	font-weight: bold;
-}
-
-[class^="mdi-"],
-[class*="mdi-"] {
-	color: #26A69A;
-}
-
 .card-pos {
 	margin-top: 10%;
 	margin-bottom: 15%;
-}
-
-.side-nav {
-	background-color: #ececec;
 }

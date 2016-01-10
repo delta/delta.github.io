@@ -1,29 +1,11 @@
-body {
-	background-color: #ececec;
-	font-family: 'Iceberg';
-}
-
-.nav-wrapper {
-	background-color: #d3d3d3;
-}
+@import url("demo.css");
+@import url("set2.css");
+@import url("set1.css");
+@import url("common.css");
 
 #content,
-.navbar-fixed {
+.navbar-fixed,footer {
 	display: none;
-}
-
-.side-nav {
-	background-color: #ececec;
-}
-
-nav ul a {
-	color: #26a69a;
-	font-weight: bold;
-}
-
-[class^="mdi-"],
-[class*="mdi-"] {
-	color: #26A69A;
 }
 
 .navbar-fixed {
