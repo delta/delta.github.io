@@ -9,27 +9,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Delta">
-</head>
-
-<body>
-	<link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="css/fullpage.css">
-	<link href="./Delta_files/flapper.css" type="text/css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/set2.css" />
-	<link rel="stylesheet" type="text/css" href="css/set1.css" />
-	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=New+Rocker' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/materialize.css">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/animation.js"></script>
+	<script type="text/javascript" src="js/jquery.flapper.js"></script>
+	<script type="text/javascript" src="js/flap.js"></script>
 	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/materialize.css">
-	<link rel="stylesheet" type="text/css" href="css/preloader.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
 	<script>
 		$(document).ready(function() {
 			$(".button-collapse").sideNav();
@@ -44,10 +36,7 @@
 		});
 	</script>
 
-	<script type="text/javascript" src="./Delta_files/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="./Delta_files/animation.js"></script>
-	<script src="./Delta_files/jquery.flapper.js"></script>
-	<script src="./Delta_files/flap.js"></script>
+
 	<div class="triangles">
 		<!-- Preloader Start-->
 		<div class="tri invert"></div>
@@ -242,7 +231,7 @@
 			}
 		};
 		initialize();
-		$(window).on('resize',function(){
+		$(window).on('resize', function() {
 			initialize();
 		});
 	</script>
