@@ -8,6 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Delta-workshops">
+	<script type="text/javascript" src="js/angularjs.min.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
 	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -15,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/workshops.css">
 </head>
 
-<body>
+<body ng-app="delta">
 	<script>
 		$(document).ready(function() {
 			$(".button-collapse").sideNav();
@@ -28,6 +29,17 @@
 			$(".navbar-fixed").show();
 			$("footer").show();
 		});
+		var data = JSON.parse($.ajax({
+		url: 'data/workshops.json',
+		async: false,
+		dataType: 'json'
+		}).responseText);
+
+		var app = angular.module('delta',[]);
+		app.controller('WorkshopsController', ['$scope',WorkshopsController]);
+		function WorkshopsController($scope) {
+			$scope.workshops=data;
+		}
 	</script>
 
 	<div class="triangles">
@@ -57,7 +69,7 @@
 					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
 					<li class="active"><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
 					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+					<li><a class="waves-effect waves-teal" href="Workshops.html">Workshops</a></li>
 					<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
@@ -67,27 +79,21 @@
 					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
 					<li class="active"><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
 					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
+					<li><a class="waves-effect waves-teal" href="Workshops.html">Workshops</a></li>
 					<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-	<div id="main" class="container" position="absolute">
+	<div id="main" class="container" position="absolute" ng-controller="WorkshopsController">
 		<div class="row">
-			<div class="col s12 m9 l10">
-				<div id="Hackathon_1" class="section scrollspy card-pos">
+			<div class="col s12 m9 l10" ng-repeat="workshop in workshops track by $index">
+				<div id="workshop{{$index}}" class="section scrollspy card-pos">
 					<div class="row">
 						<div class="col s12">
 							<div class="card-panel z-depth-5">
-								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<h4 class="heading">{{workshop.title}}</h4>
+								<p>{{workshop.desc}} </p>
 								<div class="center-align">
 									<button class="btn waves-effect waves-light">Register<i class="material-icons right">send</i></button>
 								</div>
@@ -95,92 +101,10 @@
 						</div>
 					</div>
 				</div>
-				<div id="Hackathon_2" class="section scrollspy card-pos">
-					<div class="row">
-						<div class="col s12">
-							<div class="card-panel z-depth-5">
-								<p>
-									<h3 class="center-align">Hackathon</h3>
-								</p>
-								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<a class="modal-trigger waves-effect waves-light btn" href="#modal1">Modal</a>
-								<div id="modal1" class="modal modal-fixed-footer">
-									<div class="modal-content">
-										<h4>Modal Header</h4>
-										<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-											irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-											<br>
-											<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-											irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-											<br>
-											<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-											irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-									</div>
-									<div class="modal-footer">
-										<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
-									</div>
-								</div>
-								<button class="btn waves-effect waves-light center-align">Register<i class="material-icons right">send
-									</i></button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="Hackathon_3" class="section scrollspy card-pos">
-					<div class="row">
-						<div class="col s12">
-							<div class="card-panel z-depth-5">
-								<p>
-									<h3 class="center-align">Hackathon</h3>
-								</p>
-								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<button class="btn waves-effect waves-light center-align">Register<i class="material-icons right">send</i></button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="Hackathon_4" class="section scrollspy card-pos">
-					<div class="row">
-						<div class="col s12">
-							<div class="card-panel z-depth-5">
-								<p>
-									<h3 class="center-align">Hackathon</h3>
-								</p>
-								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-									<br>
-									<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<button class="btn waves-effect waves-light center-align">Register
-									<i class="material-icons right">send</i></button>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 			<div id="scrollspyPos" class="col hide-on-small-only m3 l2">
 				<ul class="section table-of-contents">
-					<li><a href="#Hackathon_1">Hackathon</a></li>
-					<li><a href="#Hackathon_2">Hackathon</a></li>
-					<li><a href="#Hackathon_3">Hackathon</a></li>
-					<li><a href="#Hackathon_4">Hackathon</a></li>
+					<li ng-repeat="workshop in workshops track by $index"><a href="#workshop{{$index}}">{{workshop.title}}</a></li>
 				</ul>
 			</div>
 		</div>

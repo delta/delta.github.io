@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Delta">
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/angularjs.min.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/animation.js"></script>
@@ -21,7 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
-<body>
+<body ng-app="delta">
 	<script>
 		$(document).ready(function() {
 			$(".button-collapse").sideNav();
@@ -34,6 +35,26 @@
 			$("#fullpage").show();
 			$(".navbar-fixed").show();
 		});
+		var data = JSON.parse($.ajax({
+      url: 'data/projects.json',
+      async: false,
+      dataType: 'json'
+    }).responseText);
+    var app = angular.module('delta', []);
+    app.controller('ProjectController', ['$scope', ProjectController]);
+    function ProjectController($scope) {
+    	var count=0;
+    	$scope.projects=[];
+    	for(var i=0;i<data.length;i++)
+    	{
+    		if(count<=3&&data[i]['add_to_home'])
+    		{
+    			$scope.projects[count]=data[i];	
+    			count++;
+    		}	
+    	}
+    	console.log($scope.projects);
+    }
 	</script>
 
 
@@ -162,36 +183,17 @@
 			<!-- section 3 of fullpage-->
 			<div id="www" class="grid">
 				<h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
-				<div class="row">
-					<div class="col s12 m12 l4">
+				<div class="row" ng-controller="ProjectController">
+				<!-- Select projects to be displayed here by add_to_home in projects.json. Count:3 needed -->
+					<div class="col s12 m12 l4" ng-repeat="project in projects" >
 						<figure class="effect-bubba">
-							<a href="https://github.com/delta/pragyan">
-								<img src="images/16.jpg" alt="img18" />
+							<a href="{{project.link}}">
+								<img src="{{project.img}}" alt="{{project.title}}" />
 							</a>
 							<figcaption>
-								<h4>Pragyan CMS</h4>
-								<p>Apollo's last game of pool was so strange.</p>
-								<a href="https://github.com/delta/pragyan">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="col s12 m12 l4">
-						<figure class="effect-bubba">
-							<img src="images/17.jpg" alt="img18" />
-							<figcaption>
-								<h4>Project1</h4>
-								<p>Apollo's last game of pool was so strange.</p>
-								<a href="#">View more</a>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="col s12 m12 l4">
-						<figure class="effect-bubba">
-							<img src="images/17.jpg" alt="img18" />
-							<figcaption>
-								<h4>Project1</h4>
-								<p>Apollo's last game of pool was so strange.</p>
-								<a href="#">View more</a>
+								<h4>{{project.title}}</h4>
+								<p>{{project.desc}}</p>
+								<a href={{project.link}}>View more</a>
 							</figcaption>
 						</figure>
 					</div>

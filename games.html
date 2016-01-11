@@ -9,9 +9,11 @@
 	<meta name="description" content="Delta-games">
 	<script src="js/modernizr.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/angularjs.min.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/games.css">
 	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script>
 		$(window).load(function() {
 			$(".triangles").hide();
@@ -22,10 +24,22 @@
 		$(document).ready(function() {
 			$(".button-collapse").sideNav();
 		});
+
+		var data = JSON.parse($.ajax({
+		url: 'data/games.json',
+		async: false,
+		dataType: 'json'
+		}).responseText);
+
+		var app = angular.module('delta',[]);
+		app.controller('GamesController', ['$scope',GamesController]);
+		function GamesController($scope) {
+			$scope.games=data;
+		}
 	</script>
 </head>
 
-<body>
+<body ng-app="delta">
 	<div class="triangles">
 		<div class="tri invert"></div>
 		<div class="tri invert"></div>
@@ -51,7 +65,7 @@
 					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
 					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
 					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+					<li><a class="waves-effect waves-teal" href="Games.html">Games</a></li>
 					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
 					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
 					<li class="active"><a class="waves-effect waves-teal" href="games.html">Games</a></li>
@@ -61,7 +75,7 @@
 					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
 					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
 					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
+					<li><a class="waves-effect waves-teal" href="Games.html">Games</a></li>
 					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
 					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
 					<li class="active"><a class="waves-effect waves-teal" href="games.html">Games</a></li>
@@ -69,61 +83,21 @@
 			</div>
 		</nav>
 	</div>
-	<div class="wrapper content">
-		<section class="module parallax-custom parallax-custom-1" style="background-image:url('images/game1.jpg')">
+	<div class="wrapper content" ng-controller="GamesController">
+		<div ng-repeat="game in games">
+		<section class="module parallax-custom parallax-custom-1" style="background-image:url('{{game.img}}')">
 			<div class="container">
-				<h1 style="margin-top:0px">Game1</h1>
+				<h1 style="margin-top:0px">{{game.title}}</h1>
 			</div>
 		</section>
 		<section class="module">
 			<div class="container">
-				<h2>Lorem Ipsum Dolor</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet,
-					consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur
-					adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+				<h2>{{game.title}}</h2>
+				<p>{{game.desc}}</p>
+				<a href="{{game.link}}"><button class="btn waves-effect waves-light">Play Game<i class="material-icons right">send</i></button></a>
 			</div>
 		</section>
-		<section class="module parallax-custom parallax-custom-2" style="background-image:url('images/game2.jpg')">
-			<div class="container">
-				<h1>Game2</h1>
-			</div>
-		</section>
-		<section class="module">
-			<div class="container">
-				<h2>Lorem Ipsum Dolor</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet,
-					consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur
-					adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
-			</div>
-		</section>
-		<section class="module parallax-custom parallax-custom-3" style="background-image:url('images/game3.jpg')">
-			<div class="container">
-				<h1>Game3</h1>
-			</div>
-		</section>
-		<section class="module">
-			<div class="container">
-				<h2>Lorem Ipsum Dolor</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet,
-					consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur
-					adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing
-					elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
-			</div>
-		</section>
+		</div>
 	</div>
 	<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
 		<!-- social media button -->

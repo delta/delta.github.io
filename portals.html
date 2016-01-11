@@ -16,15 +16,12 @@
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
 	<script src="js/modernizr.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/angularjs.min.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
 	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/portals.css">
-
-</head>
-
-<body>
 	<script>
 		$(window).load(function() {
 			$(".triangles").hide();
@@ -36,7 +33,22 @@
 		$(document).ready(function() {
 			$(".button-collapse").sideNav();
 		});
+
+		var data = JSON.parse($.ajax({
+		url: 'data/portals.json',
+		async: false,
+		dataType: 'json'
+		}).responseText);
+		var app = angular.module('delta',[]);
+		app.controller('PortalsController', ['$scope',PortalsController]);
+		function PortalsController($scope) {
+			$scope.portals=data;
+		}
 	</script>
+</head>
+
+<body ng-app="delta">
+	
 
 	<div class="triangles">
 		<div class="tri invert"></div>
@@ -62,7 +74,7 @@
 					<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
 					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
 					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+					<li><a class="waves-effect waves-teal" href="Portals.html">Portals</a></li>
 					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
 					<li class="active"><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
 					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
@@ -72,7 +84,7 @@
 					<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
 					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
 					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+					<li><a class="waves-effect waves-teal" href="Portals.html">Portals</a></li>
 					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
 					<li class="active"><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
 					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
@@ -82,106 +94,19 @@
 		</nav>
 	</div>
 
-	<div id="content">
+	<div id="content" ng-controller="PortalsController">
 		<section class="wrapper cl">	
 
-			<div class="pic">
-				<a href="http://www.google.com">
-					<img src="img/01.jpg" class="pic-image" alt="Pic" />
+			<div class="pic" ng-repeat="portal in portals">
+				<a href='{{portal.link}}'>
+					<img ng-src="{{portal.img}}" class="pic-image" alt="{{portal.title}}" />
 					<span class="pic-caption come-left">
-						<h1 class="pic-title">Bottom to Top</h1>
-						<p>Hi, this is a simple example =D</p>
+						<h1 class="pic-title">{{portal.title}}</h1>
+						<p>{{portal.desc}}</p>
 					</span>
 				</a>
 			</div>
 
-			<div class="pic">
-				<img src="img/02.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Top to Bottom</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic">
-				<img src="img/03.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Left to Right</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic">
-				<img src="img/04.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Right to Left</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic">
-				<img src="img/05.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Rotate In</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic">
-				<img src="img/06.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Rotate Out</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic pic-3d">
-				<img src="img/07.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Open Up</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic pic-3d">
-				<img src="img/08.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Open Down</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic pic-3d">
-				<img src="img/09.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Open Left</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic pic-3d">
-				<img src="img/10.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Open Right</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic pic-3d">
-				<img src="img/11.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Come Left</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
-
-			<div class="pic pic-3d">
-				<img src="img/12.jpg" class="pic-image" alt="Pic" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">Come Right</h1>
-					<p>Hi, this is a simple example =D</p>
-				</span>
-			</div>
 		</section>
 	</div>
 

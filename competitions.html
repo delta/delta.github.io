@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Delta-competition">
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/angularjs.min.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
 	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,10 +24,21 @@
 			$(".triangles").hide();
 			$("#content").show();
 		});
+		var data = JSON.parse($.ajax({
+		url: 'data/competitions.json',
+		async: false,
+		dataType: 'json'
+		}).responseText);
+
+		var app = angular.module('delta',[]);
+		app.controller('CompetitionsController', ['$scope',CompetitionsController]);
+		function CompetitionsController($scope) {
+			$scope.competitions=data;
+		}
 	</script>
 </head>
 
-<body>
+<body ng-app="delta">
 
 	<div class="triangles">
 		<div class="tri invert"></div>
@@ -55,7 +67,7 @@
 						<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
 						<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
 						<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-						<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+						<li><a class="waves-effect waves-teal" href="Competitions.html">Competitions</a></li>
 						<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
 						<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
 						<li class="active"><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
@@ -65,7 +77,7 @@
 						<li><a class="waves-effect waves-teal" href="index.html">Home</a></li>
 						<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
 						<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-						<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
+						<li><a class="waves-effect waves-teal" href="Competitions.html">Competitions</a></li>
 						<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
 						<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
 						<li class="active"><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
@@ -75,85 +87,18 @@
 			</nav>
 		</div>
 
-		<div id="main" class="container" position="absolute">
+		<div id="main" class="container" position="absolute" ng-controller="CompetitionsController">
 			<div class="row">
-				<div class="col s12 m9 l10">
-					<div id="Hackathon_1" class="section scrollspy pos">
+				<div class="col s12 m9 l10" ng-repeat="competition in competitions track by $index">
+					<div id="{{$index}}" class="section scrollspy pos" >
 						<div class="row">
 							<div class="col s12">
 								<div class="card-panel z-depth-5">
-
-									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div id="Hackathon_2" class="section scrollspy pos">
-						<div class="row">
-							<div class="col s12">
-								<div class="card-panel z-depth-5">
+									<h4 class="heading"> {{competition.title}} </h4>
 									<p>
-										<h3 class="center-align">Hackathon</h3>
+										{{competition.desc}}	
 									</p>
-									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div id="Hackathon_3" class="section scrollspy pos">
-						<div class="row">
-							<div class="col s12">
-								<div class="card-panel z-depth-5">
-									<p>
-										<h3 class="center-align">Hackathon</h3>
-									</p>
-									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div id="Hackathon_4" class="section scrollspy pos">
-						<div class="row">
-							<div class="col s12">
-								<div class="card-panel z-depth-5">
-									<p>
-										<h3 class="center-align">Hackathon</h3>
-									</p>
-									<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										<br>
-										<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-									<button class="btn waves-effect waves-light">Register<i class="material-icons right">send</i></button>
+									<a href="{{competition.link}}"><button class="btn waves-effect waves-light">Register<i class="material-icons right">send</i></button></a>
 								</div>
 							</div>
 						</div>
@@ -162,10 +107,7 @@
 
 				<div id="scrollspy" class="col hide-on-small-only m3 l2 scrollspyPos">
 					<ul class="section table-of-contents">
-						<li><a href="#Hackathon_1">Hackathon</a></li>
-						<li><a href="#Hackathon_2">Hackathon</a></li>
-						<li><a href="#Hackathon_3">Hackathon</a></li>
-						<li><a href="#Hackathon_4">Hackathon</a></li>
+						<li ng-repeat="competition in competitions"><a href="#{{$index}}">{{competition.title}}</a></li>
 					</ul>
 				</div>
 
