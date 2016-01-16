@@ -1,6 +1,6 @@
 @import url("common.css");
 
-.scrollspyPos {
+#scrollSpyPos {
 	position: fixed;
 	top: 50%;
 	right: 0;
@@ -9,10 +9,6 @@
 .pos {
 	margin-top: 10%;
 	margin-bottom: 15%;
-}
-
-#content {
-	display: none;
 }
 
 .heading {

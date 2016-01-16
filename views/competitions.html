@@ -1,0 +1,33 @@
+<link rel="stylesheet" type="text/css" href="css/competitions.css">
+<div id="main" class="container" position="absolute">
+	<div class="row">
+		<div class="col s12 m9 l10" ng-repeat="competition in competitions track by $index">
+			<div id="{{$index}}" class="section scrollspy pos" >
+				<div class="row">
+					<div class="col s12">
+						<div class="card-panel z-depth-5">
+							<h4 class="heading"> {{competition.title}} </h4>
+							<p>
+								{{competition.desc}}	
+							</p>
+							<a href="{{competition.link}}"><button class="btn waves-effect waves-light">Register<i class="material-icons right">send</i></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="scrollSpyPos" class="col hide-on-small-only m3 l2">
+			<ul class="section table-of-contents">
+				<li ng-repeat="competition in competitions" on-finish-render-filters><a href="#{{$index}}">{{competition.title}}</a></li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+<footer class="page-footer" style="background-color:#d3d3d3">
+	<div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
+		<b>Made with &hearts; by Delta Force</b>
+	</div>
+</footer>

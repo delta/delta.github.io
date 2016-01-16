@@ -1,0 +1,124 @@
+<link rel="stylesheet" type="text/css" href="css/members.css">
+<div class="container">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <div id="4thYear" class="section scrollspy">
+        <div class="row">
+          <div class="col s12 m6 l4" ng-repeat="member in fourthYearMembers">
+            <div class="card hovercard">
+              <div class="cardheader">
+              </div>
+              <div class="avatar">
+                <img alt="" src="{{member.img}}">
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a target="_blank" href="#">{{member.name}}</a>
+                </div>
+                <div class="desc">{{member.desc_1}}</div>
+                <div class="desc">{{member.desc_2}}</div>
+                <div class="desc">{{member.desc_3}}</div>
+              </div>
+              <div class="bottom">
+                <a class="btn-floating" href="{{member.url_1}}">
+                  <i class="{{member.icon_1}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_2}}">
+                  <i class="{{member.icon_2}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_3}}">
+                  <i class="{{member.icon_3}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_4}}">
+                  <i class="{{member.icon_4}}"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="3rdYear" class="section scrollspy">
+        <div class="row">
+          <div class="col s12 m6 l4" ng-repeat="member in thirdYearMembers">
+            <div class="card hovercard">
+              <div class="cardheader">
+              </div>
+              <div class="avatar">
+                <img alt="" src="{{member.img}}">
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a target="_blank" href="#">{{member.name}}</a>
+                </div>
+                <div class="desc">{{member.desc_1}}</div>
+                <div class="desc">{{member.desc_2}}</div>
+                <div class="desc">{{member.desc_3}}</div>
+              </div>
+              <div class="bottom">
+                <a class="btn-floating" href="{{member.url_1}}">
+                  <i class="{{member.icon_1}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_2}}">
+                  <i class="{{member.icon_2}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_3}}">
+                  <i class="{{member.icon_3}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_4}}">
+                  <i class="{{member.icon_4}}"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="2ndYear" class="section scrollspy">
+        <div class="row">
+          <div class="col s12 m6 l4" ng-repeat="member in secondYearMembers" on-finish-render-filters>
+            <div class="card hovercard">
+              <div class="cardheader">
+              </div>
+              <div class="avatar">
+                <img alt="" src="{{member.img}}">
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a target="_blank" href="#">{{member.name}}</a>
+                </div>
+                <div class="desc">{{member.desc_1}}</div>
+                <div class="desc">{{member.desc_2}}</div>
+                <div class="desc">{{member.desc_3}}</div>
+              </div>
+              <div class="bottom">
+                <a class="btn-floating" href="{{member.url_1}}">
+                  <i class="{{member.icon_1}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_2}}">
+                  <i class="{{member.icon_2}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_3}}">
+                  <i class="{{member.icon_3}}"></i>
+                </a>
+                <a class="btn-floating" href="{{member.url_4}}">
+                  <i class="{{member.icon_4}}"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="scrollspyPos" class="col hide-on-med-and-down m3 l3">
+      <ul class="section table-of-contents">
+        <li><a href="#4thYear" style="width:110px">Final Years</a></li>
+        <li><a href="#3rdYear" style="width:110px">Third Years</a></li>
+        <li><a href="#2ndYear" style="width:110px">Second Years</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer class="page-footer" style="background-color:#d3d3d3">
+  <div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
+    <b>Made with &hearts; by Delta Force</b>
+  </div>
+</footer>

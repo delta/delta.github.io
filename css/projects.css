@@ -1,12 +1,8 @@
-@import url("demo.css");
 @import url("set2.css");
 @import url("set1.css");
 @import url("common.css");
+@import url("demo.css");
 
-#content,
-.navbar-fixed,footer {
-	display: none;
-}
 
 .navbar-fixed {
 	z-index: 10000;

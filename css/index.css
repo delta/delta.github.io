@@ -1,43 +1,52 @@
-@import url("flapper.css");
-@import url("javascript.fullPage.css");
-@import url("fullpage.css");
 @import url("demo.css");
 @import url("set2.css");
 @import url("set1.css");
+@import url("flapper.css");
+@import url("javascript.fullPage.css");
+@import url("fullpage.css");
 @import url("common.css");
 
-footer {
-	background: #d3d3d3;
-	position: relative;
-	bottom: 0;
+.m12 figure
+{
+	float: initial;
 	width: 100%;
+	margin: 10px auto;
 }
 
-a:hover {
+a:hover 
+{
 	color: #26a69a;
 	font-weight: bold;
 }
 
-#fullpage,
-.navbar-fixed {
-	display: none;
-}
 
 @media screen and (min-width:1048px) {
+
+	.section
+	{	
+		height: 2000px;
+	}
+
 	#section2 {
 		position: relative;
 	}
 
 	#section2 footer {
-		position: absolute;
-		bottom: 0;
+		position: absolute !important;
+		width: 100% !important;
 		background-color:#d3d3d3;
 	}
 }
+.card .card-content
+{
+	text-align: center;
+}
 
-footer div {
+footer div 
+{
 	color:#26a69a;
 	height:200px;
 	padding-top:15px;
 	font-size:20px;
 }
+

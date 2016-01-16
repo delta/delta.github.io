@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="css/projects.css">
+<div id="content" class="s8">
+	<div class="grid">
+		<figure class="effect-sarah" ng-repeat="project in projects">
+			<img src="{{project.img}}" alt="{{project.title}}" />
+			<figcaption>
+			<h2>{{project.title}}</h2>
+			<p>{{project.desc}}</p>
+			<a href="{{project.link}}">View more</a>
+			</figcaption>
+		</figure>
+	</div>
+</div>
+<footer class="page-footer" style="background-color:#d3d3d3;">
+	<div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
+		<b>Made with &hearts; by Delta Force</b>
+	</div>
+</footer>
+<script type="text/javascript">
+	$(function() {
+		if ($(window).width() > 1048)
+			$('.page-footer').css("margin-top", "2000px");
+	});
+</script>

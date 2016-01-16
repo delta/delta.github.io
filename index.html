@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="delta">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,53 +11,19 @@
 	<meta name="description" content="Delta">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/angularjs.min.js"></script>
-	<script type="text/javascript" src="js/materialize.js"></script>
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="js/animation.js"></script>
-	<script type="text/javascript" src="js/jquery.flapper.js"></script>
-	<script type="text/javascript" src="js/flap.js"></script>
+	<script type="text/javascript" src="js/ui-router.min.js"></script>
+	
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-animate.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<link rel="stylesheet" type="text/css" href="font/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Iceberg' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<base href="/delta.github.io/"></base>
 </head>
 
-<body ng-app="delta">
-	<script>
-		$(document).ready(function() {
-			$(".button-collapse").sideNav();
-			$('.slider').slider();
-			$('.collapsible').collapsible();
-		});
-
-		$(window).load(function() { /* preloader functioning */
-			$(".triangles").hide();
-			$("#fullpage").show();
-			$(".navbar-fixed").show();
-		});
-		var data = JSON.parse($.ajax({
-      url: 'data/projects.json',
-      async: false,
-      dataType: 'json'
-    }).responseText);
-    var app = angular.module('delta', []);
-    app.controller('ProjectController', ['$scope', ProjectController]);
-    function ProjectController($scope) {
-    	var count=0;
-    	$scope.projects=[];
-    	for(var i=0;i<data.length;i++)
-    	{
-    		if(count<=3&&data[i]['add_to_home'])
-    		{
-    			$scope.projects[count]=data[i];	
-    			count++;
-    		}	
-    	}
-    	console.log($scope.projects);
-    }
-	</script>
-
-
+<body>
 	<div class="triangles">
 		<!-- Preloader Start-->
 		<div class="tri invert"></div>
@@ -70,7 +36,8 @@
 		<div class="tri"></div>
 		<div class="tri invert"></div>
 	</div>
-	<!-- Preloader End -->
+
+
 	<div class="navbar-fixed">
 		<nav>
 			<div class="nav-wrapper">
@@ -80,134 +47,32 @@
 					</a>
 				</div>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-				<ul class="right hide-on-med-and-down">
-					<li class="active"><a class="waves-effect waves-teal" href="index.html">Home</a></li>
-					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-					<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+				<ul class="right hide-on-med-and-down" style="color:blue">
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="home">Home</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="members">Members</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="projects">Projects</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="workshops">WorkShops</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="portals">Portals</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="competitions">Competitions</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="games">Games</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
-					<!-- side-nav activates on medium and smaller devices -->
-					<li class="active"><a class="waves-effect waves-teal" href="index.html">Home</a></li>
-					<li><a class="waves-effect waves-teal" href="members.html">Members</a></li>
-					<li><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
-					<li><a class="waves-effect waves-teal" href="projects.html">Projects</a></li>
-					<li><a class="waves-effect waves-teal" href="workshops.html">WorkShops</a></li>
-					<li><a class="waves-effect waves-teal" href="portals.html">Portals</a></li>
-					<li><a class="waves-effect waves-teal" href="competitions.html">Competitions</a></li>
-					<li><a class="waves-effect waves-teal" href="games.html">Games</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="home">Home</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="members">Members</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" target="_blank" href="http://sig.deltaforce.club">SIG</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="projects">Projects</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="workshops">WorkShops</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="portals">Portals</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="competitions">Competitions</a></li>
+					<li ui-sref-active="active" ><a class="waves-effect waves-teal" ui-sref="games">Games</a></li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-	<!-- Navigation Bar div Ends -->
 
-	<div id="fullpage" class="indexContainer">
-		<!-- fullpage for smooth scrolling effect -->
-		<div class="section col s12 hide-on-med-and-down" id="section0">
-			<!--fullpage divided into sections -->
-			<!-- section 1 of fullpage-->
-			<div id="flappy">
-				<!-- flapper hidden in medium and smaller devices -->
-				<div class="split">
-					<div class="displays">
-						<div class="activity"></div>
-						<input class="display M" style="display: none;">
-						<div class="flapper display M"></div>
-						<div class="activity"></div>
-						<input class="display M" style="display: none;">
-						<div class="flapper display M"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="section" id="section1">
-			<!-- section 2 of fullpage -->
-			<div id="ww" class="row">
-				<h2 class="center-align" style="color:#26a69a">What We Do</h2>
-				<div class="row">
-					<div class="col s12 m12 l4">
-						<div class="card hoverable" style="background:#26a69a">
-							<div class="card-content white-text">
-								<p><i class="material-icons large">public</i></p>
-								<p>
-									<h2>Web Dev</h2>
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m12 l4">
-						<div class="card hoverable" style="background:#26a69a">
-							<div class="card-content white-text">
-								<p><i class="material-icons large">android</i></p>
-								<p>
-									<h2>App Dev</h2>
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col s12 m12 l4">
-						<div class="card hoverable" style="background:#26a69a">
-							<div class="card-content white-text">
-								<p><i class="material-icons large">memory</i></p>
-								<p>
-									<h2>Sys Ad</h2>
-								</p>
-								<p>
-									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- section 2 of fullpage ends -->
-
-
-		<div class="section row" id="section2">
-			<!-- section 3 of fullpage-->
-			<div id="www" class="grid">
-				<h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
-				<div class="row" ng-controller="ProjectController">
-				<!-- Select projects to be displayed here by add_to_home in projects.json. Count:3 needed -->
-					<div class="col s12 m12 l4" ng-repeat="project in projects" >
-						<figure class="effect-bubba">
-							<a href="{{project.link}}">
-								<img src="{{project.img}}" alt="{{project.title}}" />
-							</a>
-							<figcaption>
-								<h4>{{project.title}}</h4>
-								<p>{{project.desc}}</p>
-								<a href={{project.link}}>View more</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-			</div>
-			<footer class="page-footer" style="background-color:#d3d3d3">
-				<div class="container center-align" style="color:#26a69a;height:200px;padding-top:15px;font-size:20px">
-					<b>Made with &hearts; by Delta Force</b>
-				</div>
-			</footer>
-		</div>
-		<!-- section 3 of fullpage ends -->
-	</div>
-	<!-- fullpage smooth scrolling effect ends -->
+	<div id="content" ui-view></div>
+	
 	<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
 		<!-- social media button -->
 		<a class="btn-floating btn-large" style="background:#26a69a">
@@ -215,28 +80,11 @@
 		</a>
 		<ul>
 			<li><a class="btn-floating blue darken-2"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a href="https://github.com/delta" class="btn-floating black"><i class="fa fa-github"></i></a></li>
+			<li><a ui-sref="https://github.com/delta" class="btn-floating black"><i class="fa fa-github"></i></a></li>
 			<li><a class="btn-floating blue"><i class="fa fa-linkedin"></i></a></li>
 			<li><a class="btn-floating red"><i class="fa fa-google-plus"></i></a></li>
 		</ul>
 	</div>
 
-	<script type="text/javascript" src="js/javascript.fullPage.js"></script>
-	<!-- For smooth scrolling effect -->
-	<script type="text/javascript">
-		var initialize = function() {
-			if ($(window).width() > 1048) {
-				fullpage.initialize('#fullpage', {
-					menu: '#menu',
-					css3: true
-				});
-			}
-		};
-		initialize();
-		$(window).on('resize', function() {
-			initialize();
-		});
-	</script>
 </body>
-
 </html>

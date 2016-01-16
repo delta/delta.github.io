@@ -1,9 +1,4 @@
 @import url("common.css");
-#main,
-footer,
-.navbar-fixed {
-	display: none;
-}
 
 #scrollspyPos {
 	position: fixed;
