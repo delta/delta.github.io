@@ -56,9 +56,15 @@ delta.run(function($rootScope) {
   
   angular.element(".button-collapse").sideNav();
   
+  $rootScope.isFullPageEnabled = false;
+  $rootScope.pageBreakPoint = 992;
+
   $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams) {
 		
-    $.fn.fullpage.destroy('all');
+    if($rootScope.isFullPageEnabled)
+    {
+      $.fn.fullpage.destroy('all');
+    }
     angular.element(".button-collapse").sideNav('hide');  
     angular.element(".triangles").show();
     angular.element(".content").hide();

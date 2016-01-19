@@ -1,8 +1,8 @@
 <link rel="stylesheet" type="text/css" href="css/workshops.css">
-<div id="main" class="container" position="absolute">
-	<div class="row">
-		<div class="col s12 m9 l10" ng-repeat="workshop in workshops track by $index">
-			<div id="workshop{{$index}}" class="section scrollspy card-pos">
+<div class="container" position="absolute">
+	<div class="row" id="fullpage">
+		<div class="col s12 m12 l10 section" ng-repeat="workshop in workshops track by $index" on-finish-render-filters smooth-scroll>
+			<div id="workshop{{$index}}" class="card-pos">
 				<div class="row">
 					<div class="col s12">
 						<div class="card-panel z-depth-5">
@@ -15,11 +15,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div id="scrollspyPos" class="col hide-on-small-only m3 l2" >
-			<ul class="section table-of-contents">
-				<li ng-repeat="workshop in workshops track by $index" on-finish-render-filters><a ng-href="#workshop{{$index}}">{{workshop.title}}</a></li>
-			</ul>
 		</div>
 	</div>
 </div>

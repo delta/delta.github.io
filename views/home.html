@@ -1,10 +1,8 @@
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="js/animation.js"></script>
 <script type="text/javascript" src="js/jquery.flapper.js"></script>
 <script type="text/javascript" src="js/flap.js"></script>
 <link rel="stylesheet" type="text/css" href="css/index.css">
-<div id="fullpage" class="indexContainer" scroll-spy>
+<div id="fullpage" class="indexContainer" smooth-scroll>
 	<!-- fullpage for smooth scrolling effect -->
 	<div class="section col s12 hide-on-med-and-down" id="section0">
 		<!--fullpage divided into sections -->
@@ -83,7 +81,7 @@
 			<h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
 			<div class="row">
 			<!-- Select projects to be displayed here by add_to_home in projects.json. Count:3 needed -->
-				<div class="col s12 m12 l4" ng-repeat="project in projects" >
+				<div class="col s12 m12 l4" ng-repeat="project in projects" on-finish-render-filters>
 					<figure class="effect-bubba">
 						<a href="{{project.link}}">
 							<img src="{{project.img}}" alt="{{project.title}}" />

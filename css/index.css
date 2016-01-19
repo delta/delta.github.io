@@ -1,6 +1,4 @@
 @import url("flapper.css");
-@import url("jquery.fullpage.css");
-@import url("fullpage.css");
 @import url("demo.css");
 @import url("set2.css");
 @import url("set1.css");
@@ -20,22 +18,28 @@ a:hover
 }
 
 
-@media screen and (min-width:1048px) {
+@media screen and (min-width:992px) {
 
-	.section
+	#section1
 	{	
 		min-height: 100vh;
 	}
 
+	#section2 .grid {
+		min-height: 70vh;
+		vertical-align: middle;
+	}
+
+	#section2 .fp-tableCell{
+		height: inherit;
+		display: block !important;
+	}
 
 	#section2 footer {
 		position: absolute !important;
 		width: 100% !important;
 		background-color:#d3d3d3;
 		min-height: 30vh;
-	}
-	#section2 .grid {
-		min-height: 70vh;
 	}
 }
 .card .card-content
