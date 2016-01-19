@@ -899,7 +899,6 @@ var page=["home","portals","projects","contact"];
 			if (displayHeight < 825) {
 				var percentage = (windowSize * 100) / preferredHeight;
 				var newFontSize = percentage.toFixed(2);
-
 				$("img").each(function() {
 					var newWidth = ((80 * percentage) / 100).toFixed(2);
 					$(this).css("width", newWidth + '%');

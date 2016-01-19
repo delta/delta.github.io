@@ -1,9 +1,9 @@
+@import url("flapper.css");
+@import url("jquery.fullpage.css");
+@import url("fullpage.css");
 @import url("demo.css");
 @import url("set2.css");
 @import url("set1.css");
-@import url("flapper.css");
-@import url("javascript.fullPage.css");
-@import url("fullpage.css");
 @import url("common.css");
 
 .m12 figure
@@ -24,17 +24,18 @@ a:hover
 
 	.section
 	{	
-		height: 2000px;
+		min-height: 100vh;
 	}
 
-	#section2 {
-		position: relative;
-	}
 
 	#section2 footer {
 		position: absolute !important;
 		width: 100% !important;
 		background-color:#d3d3d3;
+		min-height: 30vh;
+	}
+	#section2 .grid {
+		min-height: 70vh;
 	}
 }
 .card .card-content
@@ -49,4 +50,3 @@ footer div
 	padding-top:15px;
 	font-size:20px;
 }
-

@@ -1,4 +1,4 @@
-var delta = angular.module('delta',['ui.router','ngAnimate']);
+var delta = angular.module('delta',['ui.router']);
 delta.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
 
   $urlRouterProvider.otherwise("/home");
@@ -58,6 +58,7 @@ delta.run(function($rootScope) {
   
   $rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState, fromParams) {
 		
+    $.fn.fullpage.destroy('all');
     angular.element(".button-collapse").sideNav('hide');  
     angular.element(".triangles").show();
     angular.element(".content").hide();
@@ -94,4 +95,5 @@ require('controllers/WorkshopController.js');
 require('controllers/CompetitionController.js');
 require('controllers/PortalController.js');
 require('controllers/GameController.js');
-require('directives/ScrollSpy.js')
+require('directives/ScrollSpy.js');
+require('directives/SmoothScroll.js');
