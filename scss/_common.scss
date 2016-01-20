@@ -1,0 +1,43 @@
+body 
+{
+  font-family: 'Iceberg';
+  background-color: #ECECEC;
+
+
+	[class^="mdi-"],
+	[class*="mdi-"] {
+		color: #26A69A;
+	}
+}
+
+
+nav 
+{
+	.nav-wrapper
+	{
+		background-color: #d3d3d3;
+	}
+
+	ul a
+	{
+		color: #26a69a;
+		font-weight: bold;
+
+		&:hover
+		{
+			color: #26a69a;
+		}
+	}
+
+
+	.side-nav
+	{
+		background-color: #ececec;
+
+		li
+		{
+			padding: 0;
+		}
+	}
+
+}

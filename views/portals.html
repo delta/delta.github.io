@@ -1,21 +1,21 @@
-<link rel="stylesheet" type="text/css" href="css/portals.css">
-<div>
-	<section class="wrapper cl">	
-		<div class="pic" ng-repeat="portal in portals">
-			<a href='{{portal.link}}'>
-				<img ng-src="{{portal.img}}" class="pic-image" alt="{{portal.title}}" />
-				<span class="pic-caption come-left">
-					<h1 class="pic-title">{{portal.title}}</h1>
-					<p>{{portal.desc}}</p>
-				</span>
-			</a>
-		</div>
-	</section>
-</div>
-
-<footer class="page-footer" style="background-color:#d3d3d3">
-	<div class="container center-align" style="color:#26a69a;height:75px;padding-top:25px;font-size:20px">
-		<b>Made with &hearts; by Delta Force</b>
+<div id="portals">
+	<div>
+		<section class="wrapper cl">	
+			<div class="pic" ng-repeat="portal in portals">
+				<a href='{{portal.link}}'>
+					<img ng-src="{{portal.img}}" class="pic-image" alt="{{portal.title}}" />
+					<span class="pic-caption come-left">
+						<h1 class="pic-title">{{portal.title}}</h1>
+						<p>{{portal.desc}}</p>
+					</span>
+				</a>
+			</div>
+		</section>
 	</div>
-</footer>
 
+	<footer class="page-footer" style="background-color:#d3d3d3">
+		<div class="container center-align" style="color:#26a69a;height:75px;padding-top:25px;font-size:20px">
+			<b>Made with &hearts; by Delta Force</b>
+		</div>
+	</footer>
+</div>
