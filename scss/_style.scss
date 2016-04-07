@@ -37,15 +37,6 @@ section.module.parallax-custom h1 {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-section.module.parallax-custom-1 {
-  background-image: url("../img/demo/_small/game1.jpg");
-}
-section.module.parallax-custom-2 {
-  background-image: url("../img/demo/_small/game2.jpg");
-}
-section.module.parallax-custom-3 {
-  background-image: url(".images/game3.jpg");
-}
 
 @media all and (min-width: 600px) {
   section.module h2 {

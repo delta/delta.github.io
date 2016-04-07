@@ -1,22 +1,23 @@
-<link rel="stylesheet" type="text/css" href="css/games.css">
-<div class="wrapper content">
-	<div ng-repeat="game in games">
-	<section class="module parallax-custom parallax-custom-1" style="background-image:url('{{game.img}}')">
-		<div class="container">
-			<h1 style="margin-top:0px">{{game.title}}</h1>
+<div id="games">	
+	<div class="wrapper content">
+		<div ng-repeat="game in games">
+		<section class="module parallax-custom parallax-custom-1" style="background-image:url('{{game.img}}')">
+			<div class="container">
+				<h1>{{game.title}}</h1>
+			</div>
+		</section>
+		<section class="module">
+			<div class="container">
+				<h2>{{game.title}}</h2>
+				<p>{{game.desc}}</p>
+				<a href="{{game.link}}"><button class="btn waves-effect waves-light">Play Game<i class="material-icons right">send</i></button></a>
+			</div>
+		</section>
 		</div>
-	</section>
-	<section class="module">
-		<div class="container">
-			<h2>{{game.title}}</h2>
-			<p>{{game.desc}}</p>
-			<a href="{{game.link}}"><button class="btn waves-effect waves-light">Play Game<i class="material-icons right">send</i></button></a>
+	</div>
+	<footer class="page-footer" style="background-color:#d3d3d3">
+		<div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
+			<b>Made with &hearts; by Delta Force</b>
 		</div>
-	</section>
-	</div>
-</div>
-<footer class="page-footer" style="background-color:#d3d3d3">
-	<div class="container center-align" style="color:#26a69a;height:100px;padding-top:25px;font-size:20px">
-		<b>Made with &hearts; by Delta Force</b>
-	</div>
-</footer>
+	</footer>
+</div>	

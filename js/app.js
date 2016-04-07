@@ -67,15 +67,13 @@ delta.run(function($rootScope) {
     }
     angular.element(".button-collapse").sideNav('hide');  
     angular.element(".triangles").show();
-    angular.element(".content").hide();
-    angular.element(".navbar-fixed").hide();
+    angular.element("#content").hide();
 
   });
-  $rootScope.$on("$stateChangeSuccess", function(event, toState, toParams, fromState, fromParams) {
+  $rootScope.$on("$viewContentLoaded", function(event, toState, toParams, fromState, fromParams) {
 		
 		angular.element(".triangles").hide();
-		angular.element(".navbar-fixed").show();
-		angular.element(".content").show();
+		angular.element("#content").show();
   
   });
 });

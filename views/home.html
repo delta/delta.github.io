@@ -1,105 +1,107 @@
-<script type="text/javascript" src="js/animation.js"></script>
-<script type="text/javascript" src="js/jquery.flapper.js"></script>
-<script type="text/javascript" src="js/flap.js"></script>
-<link rel="stylesheet" type="text/css" href="css/index.css">
-<div id="fullpage" class="indexContainer" smooth-scroll>
-	<!-- fullpage for smooth scrolling effect -->
-	<div class="section col s12 hide-on-med-and-down" id="section0">
-		<!--fullpage divided into sections -->
-		<!-- section 1 of fullpage-->
-		<div id="flappy">
-			<!-- flapper hidden in medium and smaller devices -->
-			<div class="split">
-				<div class="displays">
-					<div class="activity"></div>
-					<input class="display M" style="display: none;">
-					<div class="flapper display M"></div>
-					<div class="activity"></div>
-					<input class="display M" style="display: none;">
-					<div class="flapper display M"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section row" id="section1">
-		<!-- section 2 of fullpage -->
-		<div id="ww" class="row">
-			<h2 class="center-align" style="color:#26a69a">What We Do</h2>
-			<div class="row">
-				<div class="col s12 m12 l4">
-					<div class="card hoverable" style="background:#26a69a">
-						<div class="card-content white-text">
-							<p><i class="material-icons large">public</i></p>
-							<p>
-								<h2>Web Dev</h2>
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m12 l4">
-					<div class="card hoverable" style="background:#26a69a">
-						<div class="card-content white-text">
-							<p><i class="material-icons large">android</i></p>
-							<p>
-								<h2>App Dev</h2>
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 m12 l4">
-					<div class="card hoverable" style="background:#26a69a">
-						<div class="card-content white-text">
-							<p><i class="material-icons large">memory</i></p>
-							<p>
-								<h2>Sys Ad</h2>
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>
+<div id="home">
+	<script type="text/javascript" src="js/animation.js"></script>
+	<script type="text/javascript" src="js/jquery.flapper.js"></script>
+	<script type="text/javascript" src="js/flap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<div id="fullpage" class="indexContainer" smooth-scroll>
+		<!-- fullpage for smooth scrolling effect -->
+		<div class="section col s12 hide-on-med-and-down" id="section0">
+			<!--fullpage divided into sections -->
+			<!-- section 1 of fullpage-->
+			<div id="flappy">
+				<!-- flapper hidden in medium and smaller devices -->
+				<div class="split">
+					<div class="displays">
+						<div class="activity"></div>
+						<input class="display M" style="display: none;">
+						<div class="flapper display M"></div>
+						<div class="activity"></div>
+						<input class="display M" style="display: none;">
+						<div class="flapper display M"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- section 2 of fullpage ends -->
 
-
-	<div class="section row" id="section2">
-		<!-- section 3 of fullpage-->
-		<div id="www" class="grid" class="page-wrap">
-			<h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
-			<div class="row">
-			<!-- Select projects to be displayed here by add_to_home in projects.json. Count:3 needed -->
-				<div class="col s12 m12 l4" ng-repeat="project in projects" on-finish-render-filters>
-					<figure class="effect-bubba">
-						<a href="{{project.link}}">
-							<img src="{{project.img}}" alt="{{project.title}}" />
-						</a>
-						<figcaption>
-							<h4>{{project.title}}</h4>
-							<p>{{project.desc}}</p>
-							<a href={{project.link}}>View more</a>
-						</figcaption>
-					</figure>
+		<div class="section row" id="section1">
+			<!-- section 2 of fullpage -->
+			<div id="ww" class="row">
+				<h2 class="center-align" style="color:#26a69a">What We Do</h2>
+				<div class="row">
+					<div class="col s12 m12 l4">
+						<div class="card hoverable" style="background:#26a69a">
+							<div class="card-content white-text">
+								<p><i class="material-icons large">public</i></p>
+								<p>
+									<h2>Web Dev</h2>
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m12 l4">
+						<div class="card hoverable" style="background:#26a69a">
+							<div class="card-content white-text">
+								<p><i class="material-icons large">android</i></p>
+								<p>
+									<h2>App Dev</h2>
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 m12 l4">
+						<div class="card hoverable" style="background:#26a69a">
+							<div class="card-content white-text">
+								<p><i class="material-icons large">memory</i></p>
+								<p>
+									<h2>Sys Ad</h2>
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<footer class="page-footer" style="background-color:#d3d3d3">
-			<div class="container center-align" style="color:#26a69a;height:200px;padding-top:15px;font-size:20px">
-				<b>Made with &hearts; by Delta Force</b>
+		<!-- section 2 of fullpage ends -->
+
+
+		<div class="section row" id="section2">
+			<!-- section 3 of fullpage-->
+			<div id="www" class="grid" class="page-wrap">
+				<h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
+				<div class="row">
+				<!-- Select projects to be displayed here by add_to_home in projects.json. Count:3 needed -->
+					<div class="col s12 m12 l4" ng-repeat="project in projects" on-finish-render-filters>
+						<figure class="effect-bubba">
+							<a href="{{project.link}}">
+								<img src="{{project.img}}" alt="{{project.title}}" />
+							</a>
+							<figcaption>
+								<h4>{{project.title}}</h4>
+								<p>{{project.desc}}</p>
+								<a href={{project.link}}>View more</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
 			</div>
-		</footer>
+			<footer class="page-footer" style="background-color:#d3d3d3">
+				<div class="container center-align" style="color:#26a69a;height:200px;padding-top:15px;font-size:20px">
+					<b>Made with &hearts; by Delta Force</b>
+				</div>
+			</footer>
+		</div>
+		<!-- section 3 of fullpage ends -->
 	</div>
-	<!-- section 3 of fullpage ends -->
-</div>
+</div>	

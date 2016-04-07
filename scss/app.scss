@@ -1,0 +1,33 @@
+@import 'preloader';
+@import 'https://fonts.googleapis.com/css?family=Iceberg';
+@import 'jquery.fullpage';
+@import 'common';
+
+#home
+{
+	@import 'home';
+}
+#members
+{
+	@import 'members';
+}
+#workshops
+{
+	@import 'workshops';
+}
+#competitions
+{
+	@import 'competitions';
+}
+#portals
+{
+	@import 'portals';
+}
+#projects
+{
+	@import 'projects';
+}
+#games
+{
+	@import 'games';
+}
