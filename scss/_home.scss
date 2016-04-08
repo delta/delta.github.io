@@ -46,10 +46,10 @@ a:hover
 
 }
 
-.card .card-content
-{
+.card .card-content {
 	text-align: center;
 }
+
 
 footer div 
 {
@@ -57,4 +57,13 @@ footer div
 	height:200px;
 	padding-top:15px;
 	font-size:20px;
+}
+
+figure {
+	min-height:320px;
+	img {
+		height:100vh;
+		max-height:360px;
+		width:100%;
+	}
 }
