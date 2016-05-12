@@ -9,21 +9,21 @@
 	{
 		"title":"Pragyan Premier League",
 		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament",
-		"link":"https://github.com/delta/ppl2016.git",
+		"link":"http://ppl.pragyan.org",
 		"img":"images/ppl.png",
 		"add_to_home":true
 	},
 	{
 		"title":"Beer Factory",
 		"desc":"A strategy based resource management online, single player game.",
-		"link":"beerfactory.pragyan.org",
+		"link":"http://beerfactory.pragyan.org",
 		"img":"images/beerf.jpg",
 		"add_to_home":true
 	},
 	{
 		"title":"Dalal Street",
 		"desc":"Its a virtual stock exchange game.",
-		"link":"dalalstreet.pragyan.org",
+		"link":"https://www.pragyan.org/16/home/events/manigma/dalal_street/",
 		"img":"images/dalal.jpg",
 		"add_to_home":false
 	}
