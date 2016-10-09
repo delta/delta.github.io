@@ -7,7 +7,7 @@ function MemberController($scope) {
         async: false,
         dataType: 'json'
       }).responseText);
-
+  $scope.passOutMembers = data.passOuts;
   $scope.fourthYearMembers = data.fourthYears;
   $scope.thirdYearMembers = data.thirdYears;
   $scope.secondYearMembers = data.secondYears;
