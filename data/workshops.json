@@ -1,8 +1,8 @@
 [
 	{
-		"title":"C Workshop",
-		"desc":"Delta will be conducting a workshop on Programming with C for the first years. Interested students are required to fill this google form. The workshop will be conducted in three sessions - 22nd, 23rd and 25th August. The venue is Annex Labs. The registration fee is ₹150. The fee will be accepted on the spot. But the google form must be filled at the earliest. Number of seats is limited, so register at the earliest.",	
-		"link":"http://goo.gl/forms/cq5jtm8qZu",
-		"status":"disabled"			
+		"title":"Linux and Python Workshop",
+		"desc":"Delta has long had the privilege of developing various facets of technology in our institution. As a token of gratitude for all that the institute has provided us with, we take utmost pride in giving back by conducting workshops for freshers as an introduction to the world of Computer Science. In line with this spirit, Delta plans to organize a Python & Linux workshop. ",	
+		"link":"http://deltaforce.club/workshop",
+		"status":"active"			
 	}
 ]
