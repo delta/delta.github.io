@@ -2407,6 +2407,12 @@ nav .side-nav {
     height: 200px;
     padding-top: 15px;
     font-size: 20px; }
+  #home figure {
+    min-height: 320px; }
+    #home figure img {
+      height: 100vh;
+      max-height: 360px;
+      width: 100%; }
 
 #members .card {
   padding-top: 20px;
@@ -4803,6 +4809,12 @@ nav .side-nav {
     z-index: 10000 !important; }
   #projects footer.page-footer {
     background-color: #ececec; }
+  #projects figure {
+    min-height: 360px; }
+    #projects figure img {
+      height: 100vh;
+      max-height: 360px;
+      width: 100%; }
 
 #games section.module:last-child {
   margin-bottom: 0; }
@@ -4857,3 +4869,5 @@ nav .side-nav {
   #games .content section .container {
     margin: auto;
     margin-bottom: 80px; }
+
+/*# sourceMappingURL=app.css.map */

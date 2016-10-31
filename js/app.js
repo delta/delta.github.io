@@ -34,19 +34,19 @@ delta.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
       url: "/competitions",
       templateUrl: "views/competitions.html",
       controller: "CompetitionController"
-    })
-
-    .state('portals', {
-      url: "/portals",
-      templateUrl: "views/portals.html",
-      controller: "PortalController"
-    })
-
-    .state('games', {
-      url: "/games",
-      templateUrl: "views/games.html",
-      controller: "GameController"
     });
+
+    // .state('portals', {
+    //   url: "/portals",
+    //   templateUrl: "views/portals.html",
+    //   controller: "PortalController"
+    // })
+
+    // .state('games', {
+    //   url: "/games",
+    //   templateUrl: "views/games.html",
+    //   controller: "GameController"
+    // });
 
 }); 
 

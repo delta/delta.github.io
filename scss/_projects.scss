@@ -10,3 +10,12 @@
 footer.page-footer {
 	background-color: #ececec;
 }
+
+figure {
+	min-height:360px;
+	img {
+		height:100vh;
+		max-height:360px;
+		width:100%;
+	}
+}

@@ -2,7 +2,6 @@
 	<script type="text/javascript" src="js/animation.js"></script>
 	<script type="text/javascript" src="js/jquery.flapper.js"></script>
 	<script type="text/javascript" src="js/flap.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<div id="fullpage" class="indexContainer" smooth-scroll>
 		<!-- fullpage for smooth scrolling effect -->
 		<div class="section col s12 hide-on-med-and-down" id="section0">
@@ -36,8 +35,7 @@
 									<h2>Web Dev</h2>
 								</p>
 								<p>
-									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Our web developers work with cutting edge technologies on both the front and back ends to deliver robust, responsive products that guarantee a delightful user experience, even at scale.
 								</p>
 							</div>
 						</div>
@@ -49,9 +47,7 @@
 								<p>
 									<h2>App Dev</h2>
 								</p>
-								<p>
-									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								<p>Delta's mobile developers are well versed in ensuring rich, context-aware, intuitive applications. Using the reliability and scalability of the mobile-cloud, our applications provide consistent experiences to thousands of concurrent users.
 								</p>
 							</div>
 						</div>
@@ -63,9 +59,7 @@
 								<p>
 									<h2>Sys Ad</h2>
 								</p>
-								<p>
-									Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								<p>At the heart of all Delta products is the work done by our System Administrators. They run the servers that power all our applications, and double as in-house police when we need them most.
 								</p>
 							</div>
 						</div>
@@ -82,7 +76,7 @@
 				<h2 class="center-align" style="color:#26a69a">Some Cool Stuff We have done</h2>
 				<div class="row">
 				<!-- Select projects to be displayed here by add_to_home in projects.json. Count:3 needed -->
-					<div class="col s12 m12 l4" ng-repeat="project in projects" on-finish-render-filters>
+					<div class="col s12 m12 l4" id="cool-stuff" ng-repeat="project in projects" on-finish-render-filters>
 						<figure class="effect-bubba">
 							<a href="{{project.link}}">
 								<img src="{{project.img}}" alt="{{project.title}}" />

@@ -1,72 +1,30 @@
 [
 	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
+		"title":"Pragyan CMS",
+		"desc":"A simple and fast multiuser content management system to organize collaborative web-content. ",
+		"link":"https://github.com/delta/pragyan",
+		"img":"images/Delta-logo.png",
 		"add_to_home":true
 	},
 	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
+		"title":"Pragyan Premier League",
+		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament",
+		"link":"http://ppl.pragyan.org",
+		"img":"images/ppl.png",
 		"add_to_home":true
 	},
 	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
-		"add_to_home":false
-	},
-	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
-		"add_to_home":false
-	},
-	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
-		"add_to_home":false
-	},
-	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
-		"add_to_home":false
-	},
-	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
+		"title":"Beer Factory",
+		"desc":"A strategy based resource management online, single player game.",
+		"link":"http://beerfactory.pragyan.org",
+		"img":"images/beerf.jpg",
 		"add_to_home":true
 	},
 	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
-		"add_to_home":false
-	},
-	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
-		"add_to_home":false
-	},
-	{
-		"title":"project",
-		"desc":"description",
-		"link":"#",
-		"img":"images/2.jpg",
+		"title":"Dalal Street",
+		"desc":"Its a virtual stock exchange game.",
+		"link":"https://www.pragyan.org/16/home/events/manigma/dalal_street/",
+		"img":"images/dalal.jpg",
 		"add_to_home":false
 	}
 ]
