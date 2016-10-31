@@ -1,5 +1,5 @@
 {
-  "fourthYears": [
+  "passOuts": [
     {
       "desc_1": "Web Dev", 
       "icon_1": "fa fa-facebook", 
@@ -235,7 +235,7 @@
       "url_4": "twitter url"
     }
   ], 
-  "secondYears": [
+  "thirdYears": [
     {
       "desc_1": "Web Dev", 
       "icon_1": "fa fa-facebook", 
@@ -244,19 +244,6 @@
       "icon_4": "fa fa-twitter", 
       "img": "images/member.png", 
       "name": "A Sachin", 
-      "url_1": "facebook url", 
-      "url_2": "google-plus url", 
-      "url_3": "github url", 
-      "url_4": "twitter url"
-    }, 
-    {
-      "desc_1": "Web Dev", 
-      "icon_1": "fa fa-facebook", 
-      "icon_2": "fa fa-google-plus", 
-      "icon_3": "fa fa-github", 
-      "icon_4": "fa fa-twitter", 
-      "img": "images/member.png", 
-      "name": "Anugrahaa V R", 
       "url_1": "facebook url", 
       "url_2": "google-plus url", 
       "url_3": "github url", 
@@ -451,19 +438,6 @@
       "icon_3": "fa fa-github", 
       "icon_4": "fa fa-twitter", 
       "img": "images/member.png", 
-      "name": "Shruti", 
-      "url_1": "facebook url", 
-      "url_2": "google-plus url", 
-      "url_3": "github url", 
-      "url_4": "twitter url"
-    }, 
-    {
-      "desc_1": "Web Dev", 
-      "icon_1": "fa fa-facebook", 
-      "icon_2": "fa fa-google-plus", 
-      "icon_3": "fa fa-github", 
-      "icon_4": "fa fa-twitter", 
-      "img": "images/member.png", 
       "name": "Suhith Rajesh", 
       "url_1": "facebook url", 
       "url_2": "google-plus url", 
@@ -575,7 +549,7 @@
       "url_4": "twitter url"
     }
   ], 
-  "thirdYears": [
+  "fourthYears": [
     {
       "desc_1": "Web Dev", 
       "icon_1": "fa fa-facebook", 
@@ -694,19 +668,6 @@
       "url_4": "twitter url"
     }, 
     {
-      "desc_1": "Web Dev", 
-      "icon_1": "fa fa-facebook", 
-      "icon_2": "fa fa-google-plus", 
-      "icon_3": "fa fa-github", 
-      "icon_4": "fa fa-twitter", 
-      "img": "images/member.png", 
-      "name": "Sherine Davis", 
-      "url_1": "facebook url", 
-      "url_2": "google-plus url", 
-      "url_3": "github url", 
-      "url_4": "twitter url"
-    }, 
-    {
       "desc_1": "App Dev", 
       "icon_1": "fa fa-facebook", 
       "icon_2": "fa fa-google-plus", 
@@ -732,5 +693,241 @@
       "url_3": "github url", 
       "url_4": "twitter url"
     }
+  ],
+  "secondYears" : [
+   {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Venkataraman Srikanth",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Anirudh Sundar",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Kartik Venkataraman",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Arut Selvan",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Dwarithaa R",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Sanjana G",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+    {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Deep Bhattacharyya",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+    {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Sudharshan S T",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+    {
+      "desc_1": "Web Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Arvind Krishna",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "App Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Rakesh Siva",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "App Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Santhanam Sj",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "App Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Ajay Natraj",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "App Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Vishnu Chandrashekhar",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "App Dev",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Ravikiran Ramesh",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Sys Ad",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Kunaal Parekh",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Sys Ad",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Yashhwanth Ram",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Sys Ad",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Shubham Dighe",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    },
+     {
+      "desc_1": "Sys Ad",
+      "icon_1": "fa fa-facebook",
+      "icon_2": "fa fa-google-plus",
+      "icon_3": "fa fa-github",
+      "icon_4": "fa fa-twitter",
+      "img": "images/member.png",
+      "name": "Varunram Ganesh",
+      "url_1": "facebook url",
+      "url_2": "google-plus url",
+      "url_3": "github url",
+      "url_4": "twitter url"
+    }
   ]
-}
+} 
