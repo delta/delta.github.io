@@ -1,0 +1,152 @@
+/* General Stuff */
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.outer-container {
+  position: relative;
+}
+
+.subtopic {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  min-width: 300px;
+  margin: auto;
+}
+
+/* Landing Section */
+#landing {
+  height: 100%;
+}
+
+#deltaLogoDiv {
+  top: 20%;
+  transform: translateY(-20%);
+  text-align: center;
+  animation: massFlicker 6s ease 0s infinite;
+}
+
+/* CSS for Scramble Text */
+.container {
+  position: relative;
+  top: 25%;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 34px;
+  color: green
+}
+
+.dud {
+  color: green;
+}
+/* End of CSS for Scramble Text */
+
+/* Nav Bar */
+#top-bar {
+  height: 40px !important;
+  background-color: black;
+}
+
+/* Div After the nav bar */
+.pusher {
+  background: #212121;
+  height: -webkit-calc(100% - 40px);
+  height: -moz-calc(100% - 40px);
+  height: calc(100% - 40px);
+  margin-top: 4px;
+}
+
+/* Used for links in the nav bar */
+.item {
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Who We Are Section */
+#whoWeAre {
+  background-color: green;
+}
+
+/* Animation stuff */
+@keyframes massFlicker {
+  0% {
+    opacity: 1;
+  }
+  2% {
+    opacity: 0.4;
+  }
+  3% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  16% {
+    opacity: 0.4;
+  }
+  18% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.4;
+  }
+  43% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 1;
+  }
+  52% {
+    opacity: 0.4;
+  }
+  54% {
+    opacity: 1;
+  }
+  69% {
+    opacity: 1;
+  }
+  73% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 1;
+  }
+  91% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0.4;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
