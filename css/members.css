@@ -22,16 +22,70 @@ section {
 }
 
 .member-container {
-    padding: 20px;
+    padding: 12px;
     display: inline-block;
-    width: 160px;
+    width: 130px;
+    position: relative;
 }
 
-.member-image {
+.basic-details {
+    position: relative;
+    z-index: 1;
+}
+
+.basic-details:hover {
+    z-index: 10;
+}
+
+.basic-details:hover ~ .inner-details {
+    opacity: 1;
+    z-index: 5;
+    animation: fadeInUp 0.5s ease 0s 1;
+}
+
+.basic-details .member-image {
     border-radius: 50%;
+    width: 106px;
 }
 
-.member-name {
+.basic-details .member-name {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.inner-details {
+    position: absolute;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    z-index: 0;
+    opacity: 0;
+    border-radius: 5px;
+}
+
+.inner-details h5 {
+    color: white;
+}
+
+.social-info span {
+    display: inline-block;
+    width: 40%;
+}
+.social-info i {
+    font-size: 26px;
+    color: white;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
