@@ -9,26 +9,41 @@ html, body {
 
 .subtopic {
   text-align: center;
-  color: white;
+  color: black;
   font-family: 'Roboto', sans-serif;
 }
 
 p {
   text-align: center;
-  color: white;
+  color: black;
   max-width: 700px;
   min-width: 300px;
   margin: auto;
+  padding: 0px 10px;
+}
+
+@media only screen and (max-width: 550px) {
+  p {
+      text-align: justify;
+  }
+  .text {
+    font-size: 20px !important;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 20px 0px 10px 0px;
 }
 
 /* Landing Section */
 #landing {
-  height: 100%;
+  margin-top: 50px;
+  background-color: #212121;
 }
 
 #deltaLogoDiv {
-  top: 20%;
-  transform: translateY(-20%);
+  padding: 80px 0px 40px 0px;
   text-align: center;
   animation: massFlicker 6s ease 0s infinite;
 }
@@ -43,51 +58,24 @@ p {
   align-items: center;
   display: flex;
   font-family: 'Roboto Mono', monospace;
+  padding: 50px 0px 100px 0px;
 }
 
 .text {
   font-weight: 600;
   font-size: 34px;
-  color: green
+  color: green;
 }
 
 .dud {
   color: green;
 }
 /* End of CSS for Scramble Text */
-
-/* Nav Bar */
-#top-bar {
-  height: 40px !important;
-  background-color: black;
-}
-
-/* Div After the nav bar */
-.pusher {
-  background: #212121;
-  height: -webkit-calc(100% - 40px);
-  height: -moz-calc(100% - 40px);
-  height: calc(100% - 40px);
-  margin-top: 4px;
-}
-
-/* Used for links in the nav bar */
-.item {
-  color: white;
-  font-size: 14px;
-  display: inline-block;
-  padding: 10px 10px;
-  cursor: pointer;
-}
-
-.item:hover {
-  color: black;
-  background-color: white;
-}
+/* End of CSS for Landing Section */
 
 /* Who We Are Section */
 #whoWeAre {
-  background-color: green;
+  background-color: white;
 }
 
 /* Animation stuff */
