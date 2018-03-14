@@ -1,0 +1,47 @@
+/* General Stuff */
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.first-container {
+  margin-top: 50px;
+}
+
+.outer-container {
+  position: relative;
+}
+  
+.subtopic {
+  text-align: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+  
+p {
+  text-align: center;
+  color: black;
+  max-width: 700px;
+  min-width: 300px;
+  margin: auto;
+  padding: 0px 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+  
+section {
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(226,226,226);
+}
+
+@media only screen and (max-width: 550px) {
+  p {
+    text-align: justify;
+  }
+}
+  
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 20px 0px 10px 0px;
+  font-size: 3em;
+}
+  

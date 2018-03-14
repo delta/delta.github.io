@@ -1,0 +1,30 @@
+body {
+    background-color: #212121;
+}
+
+.subtopic {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+section {
+    border-bottom: 1px solid rgb(70,70,70);
+}
+
+#allMembersContainer {
+    text-align: center;
+    max-width: 900px;
+    min-width: 200px;
+    margin: auto;
+}
+
+.member-container {
+    padding: 20px;
+    display: inline-block;
+}
+.member-image {
+    border-radius: 50%;
+}
