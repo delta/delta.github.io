@@ -19,7 +19,15 @@ p {
   max-width: 700px;
   min-width: 300px;
   margin: auto;
-  padding: 0px 10px;
+  padding: 0px 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+
+}
+
+section {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(226,226,226);
 }
 
 @media only screen and (max-width: 550px) {
@@ -34,6 +42,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   padding: 20px 0px 10px 0px;
+  font-size: 3em;
 }
 
 /* Landing Section */
@@ -45,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 #deltaLogoDiv {
   padding: 80px 0px 40px 0px;
   text-align: center;
-  animation: massFlicker 6s ease 0s infinite;
+  animation: sexyGlow 4s ease-in-out 0s infinite;
 }
 
 /* CSS for Scramble Text */
@@ -133,6 +142,18 @@ h1, h2, h3, h4, h5, h6 {
   }
   95% {
     opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes sexyGlow {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
