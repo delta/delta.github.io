@@ -1,3 +1,4 @@
+/* General Stuff */
 body {
     background-color: #212121;
 }
@@ -14,6 +15,7 @@ section {
     border-bottom: 1px solid rgb(70,70,70);
 }
 
+/* Main Container for all member images */
 #allMembersContainer {
     text-align: center;
     max-width: 1100px;
@@ -21,13 +23,16 @@ section {
     margin: auto;
 }
 
+/* Div for each individual member */
 .member-container {
+    margin: 0px 10px;
     padding: 12px;
     display: inline-block;
-    width: 130px;
+    width: 155px;
     position: relative;
 }
 
+/* Basic Details Div - Consist of image and name */
 .basic-details {
     position: relative;
     z-index: 1;
@@ -45,7 +50,7 @@ section {
 
 .basic-details .member-image {
     border-radius: 50%;
-    width: 106px;
+    width: 131px;
 }
 
 .basic-details .member-name {
@@ -53,14 +58,15 @@ section {
     font-size: 14px;
 }
 
+/* Inner Details Div - Consist of interests and social media icons */
 .inner-details {
     position: absolute;
-    padding-top: 150px;
+    padding-top: 180px;
     padding-bottom: 20px;
     width: 100%;
     top: 0px;
     left: 0px;
-    background-color: green;
+    background-color: rgb(16, 100, 16);
     z-index: 0;
     opacity: 0;
     border-radius: 5px;
@@ -68,17 +74,21 @@ section {
 
 .inner-details h5 {
     color: white;
+    font-weight: 100;
 }
 
+/* Social Info Div - Github and Linkedin icons */
 .social-info span {
     display: inline-block;
     width: 40%;
 }
+
 .social-info i {
     font-size: 26px;
     color: white;
 }
 
+/* Animation for inner-details div, activated on hover */
 @keyframes fadeInUp {
     from {
         opacity: 0;
