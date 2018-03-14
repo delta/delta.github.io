@@ -1,53 +1,5 @@
-/* General Stuff */
-html, body {
-  font-family: 'Roboto', sans-serif;
-}
-
-.outer-container {
-  position: relative;
-}
-
-.subtopic {
-  text-align: center;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-}
-
-p {
-  text-align: center;
-  color: black;
-  max-width: 700px;
-  min-width: 300px;
-  margin: auto;
-  padding: 0px 20px;
-  font-size: 18px;
-  line-height: 1.5em;
-
-}
-
-section {
-  padding-bottom: 15px;
-  border-bottom: 1px solid rgb(226,226,226);
-}
-
-@media only screen and (max-width: 550px) {
-  p {
-      text-align: justify;
-  }
-  .text {
-    font-size: 20px !important;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
-  padding: 20px 0px 10px 0px;
-  font-size: 3em;
-}
-
 /* Landing Section */
 #landing {
-  margin-top: 50px;
   background-color: #212121;
 }
 
@@ -74,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: 34px;
   color: green;
+}
+
+@media only screen and (max-width: 550px) {
+  .text {
+    font-size: 20px !important;
+  }
 }
 
 .dud {
