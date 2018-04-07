@@ -15,6 +15,11 @@ section {
     border-bottom: 1px solid rgb(70,70,70);
 }
 
+/* Since we're using Roboto:400 in members.html, this has to be explicitly mentioned here */
+nav {
+    font-weight: 100;
+}
+
 /* Main Container for all member images */
 #allMembersContainer {
     text-align: center;
