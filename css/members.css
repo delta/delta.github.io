@@ -89,6 +89,10 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
 }
 
 /* Social Info Div - Github and Linkedin icons */
+.social-info {
+    padding-top: 10px;
+}
+
 .social-info span {
     display: inline-block;
     width: 40%;
