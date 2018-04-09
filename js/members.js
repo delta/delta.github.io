@@ -1,10 +1,7 @@
-//IMPORTANT: Set this variable to the port where you're hosting to access members data
-var port='8000';
-
 $(document).ready(function() {
     $.ajax(
         {
-            url: "http://localhost:"+port+"/data/members.json", //REMINDER : Set port variable at line 2
+            url: "/data/members.json",
             success: function(result) {
 
                 // Populate Fourth Years

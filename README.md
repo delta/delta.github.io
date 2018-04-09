@@ -12,11 +12,10 @@ Welcome to the code for delta's website.
 * Anugrahaa
 * Anantha Natarajan S
 * Gautham Kumar
+* Venkatraman Srikanth
 
 ### Setup Instructions
 1. Clone the repo
-2. Serve the project on port 8000 (If you'd like to use a different port, update the _port_ variable in line 2 of `members.js`)
+2. Serve
 
-Copyright Delta Force 2015.
-
-DO NOT COPY.
+Copyleft Delta Force 2018
