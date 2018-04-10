@@ -15,6 +15,15 @@ section {
     border-bottom: 1px solid rgb(70,70,70);
 }
 
+#teamPictures .btn-group {
+    margin-bottom: 15px;
+}
+
+#teamPictures .active-batch {
+    background-color: white;
+    color: #414141;
+}
+
 /* Main Container for all member images */
 #allMembersContainer {
     text-align: center;
@@ -71,10 +80,21 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
     width: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgb(16, 100, 16);
     z-index: 0; /* Keep inner-details at the back initially so that you cannot hover over it */
     opacity: 0;
     border-radius: 5px;
+}
+
+.web-dev {
+    background-color: #A53737;
+}
+
+.app-dev {
+    background-color: #216363;
+}
+
+.sys-ad {
+    background-color: #789A33;
 }
 
 /* Prevents inner-details from disappearing when you move away from its parent member-container */

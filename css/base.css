@@ -52,3 +52,26 @@ hr {
   width: 70%;
   border-color: #999999;
 }
+
+.hcenter {
+  text-align: center;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.dark-button {
+  background-color: #414141;
+  color: white;
+  border-color: #515151;
+  transition: background-color 0.5s, color 0.5s;
+  font-weight: 100;
+}
+
+.dark-button:hover {
+  background-color: white;
+  color: #414141;
+}
