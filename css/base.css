@@ -1,6 +1,7 @@
 /* General Stuff */
 html, body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .first-container {
@@ -20,7 +21,7 @@ html, body {
 p {
   text-align: center;
   color: black;
-  max-width: 700px;
+  max-width: 800px;
   min-width: 300px;
   margin: auto;
   padding: 0px 20px;
@@ -47,3 +48,7 @@ h1 {
   font-weight: 100;
 }
   
+hr {
+  width: 70%;
+  border-color: #999999;
+}
