@@ -75,3 +75,10 @@ hr {
   background-color: white;
   color: #414141;
 }
+
+.love-footer-dark {
+  padding: 2px 0px;
+  text-align: center;
+  background-color: black;
+  color: green;
+}
