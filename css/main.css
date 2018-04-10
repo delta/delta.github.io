@@ -45,6 +45,52 @@
   background-color: white;
 }
 
+.hcenter {
+  text-align: center;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+button {
+  margin: 10px 0px;
+  font-weight: 100 !important;
+}
+
+/* End of Who We Are Section */
+
+/* Events Section */
+#events {
+  background-color: #212121;
+}
+
+#events .subtopic, .event p {
+  color: white;
+}
+
+.event .subtopic {
+  font-size: 26px;
+}
+
+.event img {
+  margin: 20px 0px;
+}
+
+.dark-button {
+  background-color: #414141;
+  color: white;
+  border-color: #616161;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-button:hover {
+  background-color: white;
+  color: #414141;
+}
+
 /* Animation stuff */
 @keyframes massFlicker {
   0% {
