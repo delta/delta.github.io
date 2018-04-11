@@ -1,6 +1,11 @@
 /* General Stuff */
+.subtitle {
+    font-size: 16px;
+}
+
 .subtopic {
     color: white;
+    font-weight: 100;
 }
 
 /*Will only act on 'HackerTalks' and The Talks'*/
@@ -28,39 +33,20 @@ section {
     max-height: 400px !important;
 }
 
-/* The talks themselves */
-#theTalks {
-    width: 85%;
-    margin: auto;
-}
-
-.talk-grid {
-    background-color: rgb(53, 53, 53);
-    padding: 1px;
-    margin-bottom: 25px;
-    padding-bottom: 10px;
-}
-
-.content {
-    margin-top: 10px;
-    margin: auto;
+/* HackerTalks details */
+#hackerTalksDetails {
     text-align: center;
 }
 
-.hackertalk-image {
-    margin: 15px 0px;
-    width: 85%;
-    vertical-align: bottom;
+#htPoster {
+    padding-bottom: 20px;
 }
 
-.talk-info {
-    min-width: initial; /*Overrides min-width from base.css*/
-}
-
-.resource-heading {
-    color: white;
-}
-
-.left-align {
+/*Resources Section*/
+.talk {
     text-align: center;
+}
+
+.separator {
+    width: 30% !important;
 }
