@@ -20,6 +20,14 @@ section {
     color: #414141;
 }
 
+/*Effectively removes btn-lg class from batch buttons*/
+@media only screen and (max-width: 550px) {
+    #batchButtons button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
 /* Main Container for all member images */
 #allMembersContainer {
     text-align: center;

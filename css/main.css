@@ -50,6 +50,10 @@
 #whatWeDo {
   background-color: white;
 }
+
+#whatWeDoImage {
+  margin: 10px 0px;
+}
 /* End of What We Do Section */
 
 /* Events Section */
