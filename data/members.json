@@ -411,7 +411,7 @@
   "2019": [
     {
       "profile": "web-dev",
-      "img": "images/members/member.png",
+      "img": "images/members/venkat.jpg",
       "name": "Venkatraman",
       "github_url": "https://github.com/venkat24",
       "additional_url": "http://venkatraman.me",
@@ -475,10 +475,10 @@
     },
     {
       "profile": "sys-ad",
-      "img": "images/members/member.png",
-      "name": "Shubham",
-      "github_url": "",
-      "linkedin_url": "",
+      "img": "images/members/Shubham.jpeg",
+      "name": "Shubham Dighe",
+      "github_url": "https://github.com/digaru19",
+      "linkedin_url": "https://www.linkedin.com/in/shubham-dighe/",
       "additional_url": ""
     }
   ],
