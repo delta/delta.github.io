@@ -52,6 +52,10 @@ section {
 }
 
 /*Developer details*/
+.developers {
+    padding: 0px 10px;
+}
+
 .dev {
     width: 80px;
     display: inline-block;

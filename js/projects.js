@@ -34,7 +34,7 @@ function getHTMLString(project) {
                                     <p class="project-info">
                                         ${project.desc}
                                         <h4 class="developers-heading"><strong>Developers</strong></h4>
-                                        <div id="developers">
+                                        <div class="developers">
                                         `
 
     var developers = project.developers;
