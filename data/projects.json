@@ -8,15 +8,15 @@
 		"developers": [
 			{
 				"name": "Deep",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Parth",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Gautham",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			}
 		],
 		"active":true
@@ -29,15 +29,15 @@
 		"developers": [
 			{
 				"name": "Deep",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Parth",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Gautham",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			}
 		],
 		"active":true
@@ -50,15 +50,15 @@
 		"developers": [
 			{
 				"name": "Deep",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Parth",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Gautham",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			}
 		],
 		"active":true
@@ -71,15 +71,15 @@
 		"developers": [
 			{
 				"name": "Deep",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Parth",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Gautham",
-				"img": "images/member.png"
+				"img": "images/members/member.png"
 			}
 		],
 		"active":true

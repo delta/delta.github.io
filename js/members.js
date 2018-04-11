@@ -20,7 +20,7 @@ function getHTMLString(person) {
     var className = ['green','red','blue'];
     var returnString = `<div class="member-container">
                             <div class="basic-details">
-                                <img src="images/member.png" class="member-image">
+                                <img src="${person.img}" class="member-image">
                                 <h3 class="member-name">${person.name}</h3>
                             </div>
                             <div class="inner-details ${className[classID]}">
