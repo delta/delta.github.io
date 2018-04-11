@@ -15,9 +15,13 @@ $(document).ready(function() {
 })
 
 function getHTMLString(person) {
+
+    var classID = Math.floor(Math.random()*3);
+    var className = ['green','red','blue'];
+
     return `<div class="member-container"><div class="basic-details"><img src="images/member.png" 
     class="member-image"> <h3 class="member-name">${person.name}</h3></div><div class="inner-details 
-    ${person.desc_1}"><div class="social-info"><span><a href="https://www.linkedin.com/in/gautham-kumar" 
+    ${className[classID]}"><div class="social-info"><span><a href="https://www.linkedin.com/in/gautham-kumar" 
     target="_blank"><i id="linkedinLogo" class="fab fa-linkedin-in textLogo"></i></a></span><span>
     <a href="https://www.github.com/gauthamk97" target="_blank"><i id="githubLogo" class="fab fa-github 
     textLogo"></i></a></span></div></div></div>`;

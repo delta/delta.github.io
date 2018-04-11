@@ -1,8 +1,4 @@
 /* General Stuff */
-body {
-    background-color: #212121;
-}
-
 .subtopic {
     color: white;
 }
@@ -85,15 +81,15 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
     border-radius: 5px;
 }
 
-.web-dev {
+.red {
     background-color: #A53737;
 }
 
-.app-dev {
+.blue {
     background-color: #216363;
 }
 
-.sys-ad {
+.green {
     background-color: #789A33;
 }
 
