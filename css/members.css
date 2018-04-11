@@ -111,7 +111,7 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
 
 .social-info span {
     display: inline-block;
-    width: 40%;
+    width: 30%;
 }
 
 .social-info i {
