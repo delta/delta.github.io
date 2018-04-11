@@ -1,5 +1,4 @@
 [
-
 	{
 		"title":"Dalal Street",
 		"desc":"A virtual stock exchange game where your aim is to maximise your profit. The game is active every year for 7 days leading up to Pragyan. The project uses a Golang backend, protobufs for communication and a React frontend.",
@@ -8,15 +7,61 @@
 		"developers": [
 			{
 				"name": "Deep",
-				"img": "images/members/member.png"
+				"img": "images/members/Deep.jpg"
 			},
 			{
 				"name": "Parth",
-				"img": "images/members/member.png"
+				"img": "images/members/parth.jpg"
 			},
 			{
 				"name": "Gautham",
+				"img": "images/members/gautham.jpg"
+			},
+			{
+				"name": "Akshay Pai",
+				"img": "images/members/Pai.jpg"
+			},
+			{
+				"name": "Sibi",
+				"img": "images/members/Sibi.jpg"
+			},
+			{
+				"name": "Santhosh",
+				"img": "images/members/santhosh_kumar_m.jpg"
+			},
+			{
+				"name": "Harsh",
+				"img": "images/members/harsh.jpg"
+			}
+		],
+		"active":true
+	},
+
+	{
+		"title":"Code Character",
+		"desc":"Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
+		"link":"http://beerfactory.pragyan.org",
+		"img":"images/talk2Image.jpg",
+		"developers": [
+			{
+				"name": "Venkat",
 				"img": "images/members/member.png"
+			},
+			{
+				"name": "Sundar",
+				"img": "images/members/anirudhsundar.jpg"
+			},
+			{
+				"name": "Tanvi",
+				"img": "images/members/Tanvi.jpg"
+			},
+			{
+				"name": "Shivashis",
+				"img": "images/members/ShivashisP.jpg"
+			},
+			{
+				"name": "Sai",
+				"img": "images/members/Sai_Hemanth_B.jpeg"
 			}
 		],
 		"active":true
@@ -28,15 +73,15 @@
 		"img":"images/ppl.png",
 		"developers": [
 			{
-				"name": "Deep",
+				"name": "Ajay",
+				"img": "images/members/AjayNataraj.jpg"
+			},
+			{
+				"name": "Arut",
 				"img": "images/members/member.png"
 			},
 			{
-				"name": "Parth",
-				"img": "images/members/member.png"
-			},
-			{
-				"name": "Gautham",
+				"name": "Anirudh K",
 				"img": "images/members/member.png"
 			}
 		],
@@ -44,42 +89,25 @@
 	},
 	{
 		"title":"Beer Factory",
-		"desc":"A strategy based resource management online, single player game.",
+		"desc":"Beer Factory is a strategy based resource management online game. The participant owns a beer factory with the aim of maximising profit and gaining popularity among the retailers by managing his resources efficiently. The participant’s factory will compete against a computer-simulated opponent factory. The money made and the popularity among the retailers, decide the winner.",
 		"link":"http://beerfactory.pragyan.org",
 		"img":"images/beerf.jpg",
 		"developers": [
 			{
-				"name": "Deep",
+				"name": "Santa",
+				"img": "images/members/santa.jpg"
+			},
+			{
+				"name": "Kunaal",
+				"img": "images/members/kunaal.jpeg"
+			},
+			{
+				"name": "Shubham",
 				"img": "images/members/member.png"
 			},
 			{
-				"name": "Parth",
-				"img": "images/members/member.png"
-			},
-			{
-				"name": "Gautham",
-				"img": "images/members/member.png"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"Code Character",
-		"desc":"Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
-		"link":"http://beerfactory.pragyan.org",
-		"img":"images/talk2Image.jpg",
-		"developers": [
-			{
-				"name": "Deep",
-				"img": "images/members/member.png"
-			},
-			{
-				"name": "Parth",
-				"img": "images/members/member.png"
-			},
-			{
-				"name": "Gautham",
-				"img": "images/members/member.png"
+				"name": "Ranga",
+				"img": "images/members/Sriranganathan.jpg"
 			}
 		],
 		"active":true
