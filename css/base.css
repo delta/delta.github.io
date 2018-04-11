@@ -2,6 +2,7 @@
 html, body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  background-color: #212121;
 }
 
 .first-container {
@@ -67,7 +68,6 @@ hr {
   background-color: #414141;
   color: white;
   border-color: #515151;
-  transition: background-color 0.5s, color 0.5s;
   font-weight: 100;
 }
 
@@ -76,9 +76,20 @@ hr {
   color: #414141;
 }
 
+.light-button:hover {
+  background-color: #414141;
+  color: white;
+}
+
 .love-footer-dark {
   padding: 2px 0px;
   text-align: center;
-  background-color: black;
+  background-color: #111111;
   color: green;
+}
+
+button {
+  margin: 10px 0px;
+  font-weight: 100 !important;
+  transition: background-color 0.5s, color 0.5s;
 }
