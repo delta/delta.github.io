@@ -49,7 +49,7 @@ h1 {
   font-weight: 100;
 }
   
-hr {
+.separator {
   width: 70%;
   border-color: #999999;
 }
