@@ -13,13 +13,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
-    <!-- Font Awesome Fonts -->
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
 	<!-- Our Stylesheets -->
 	<link href="css/base.css" rel="stylesheet">
-	<link href="css/members.css" rel="stylesheet">
+	<link href="css/projects.css" rel="stylesheet">
 </head>
 <body>
 
@@ -42,51 +40,44 @@
 				<!-- Navbar left side links -->
 				<ul class="nav navbar-nav">
 					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="">Members<span class="sr-only">(current)</span></a></li>
-					<li><a href="projects.html">Projects</a></li>
+					<li><a href="members.html">Members</a></li>
+					<li class="active"><a href="">Projects<span class="sr-only">(current)</span></a></li>
 				</ul>
 				<!-- Navbar right side links -->
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="hackertalks.html">HackerTalks</a></li>
 					<li><a href="#">Inductions</a></li>
-				</ul>
+                </ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
-	</nav>
+    </nav>
 
-    <section id="aboutTheTeam" class="outer-container first-container">
-        <h1 class="subtopic">The Team</h1>
+    <section id="hackerTalksDetails" class="outer-container first-container">
+        <h1 class="subtopic">Projects</h1>
         <p>
-            At Delta, we take pride in the smartness of our members, because we're all absolute prodigies. 
-            We all learn from one another, because we're very nice. I'm kind of running out of words to say.
-            I don't know I'll populate this content later with some nice lines about how we work in all
-            sorts of fields or something.
+            The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+            The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+            The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.  
         </p>
+
+        <!-- Populated from projects.js -->
+        <div id="theProjects" class="row">
+            <div id="projCol1" class="col-md-6"></div>
+            <div id="projCol2" class="col-md-6"></div>
+        </div>
     </section>
 
-    <section id="teamPictures" class="hcenter">
-		<div id="batchButtons" class="btn-group" role="group" aria-label="...">
-			<button type="button" class="btn btn-default btn-lg dark-button active-batch" onclick="clickAll()">All</button>
-			<button type="button" class="btn btn-default btn-lg dark-button" onclick="clickFourthYears()">Batch of 2018</button>
-			<button type="button" class="btn btn-default btn-lg dark-button" onclick="clickThirdYears()">Batch of 2019</button>
-			<button type="button" class="btn btn-default btn-lg dark-button" onclick="clickSecondYears()">Batch of 2020</button>
-		</div>
-        <div id="allMembersContainer">
-        
-        </div>
-	</section>
-	
-	<footer class="love-footer-dark">
-		Made with ❤ by Delta Force
-	</footer>
-
-	<!-- Jquery CDN -->
+    <footer class="love-footer-dark">
+        Made with ❤ by Delta Force
+    </footer>
+    
+    <!-- Jquery CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript - Bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Babel Script from CDN (for ES6 -> ES5 conversion) -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js"></script>
 	<!-- Main Script -->
-	<script src="js/members.js"></script>
+	<script src="js/projects.js"></script>
 </body>
 </html>

@@ -1,0 +1,77 @@
+/* General Stuff */
+.subtopic {
+    color: white;
+}
+
+/*Will only act on 'Projects'*/
+section > .subtopic {
+    color: white;
+    padding-bottom: 20px;
+}
+
+p {
+    color: white;
+}
+
+section {
+    border-bottom: 1px solid rgb(70,70,70);
+}
+
+/* The projects themselves */
+#theProjects {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.project-grid {
+    background-color: rgb(53, 53, 53);
+    padding: 1px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.content {
+    margin-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.project-image {
+    margin: 15px 0px;
+    width: 85%;
+    vertical-align: bottom;
+}
+
+.project-info {
+    min-width: initial; /*Overrides min-width from base.css*/
+}
+
+.left-align {
+    text-align: center;
+}
+
+/*Developer details*/
+.dev {
+    width: 80px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.developers-heading {
+    color: white;
+    margin: 30px;
+    margin-bottom: 15px;
+}
+
+.dev-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.dev-name {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}

@@ -1,30 +1,87 @@
 [
+
 	{
-		"title":"Pragyan CMS",
-		"desc":"A simple and fast multiuser content management system to organize collaborative web-content. ",
-		"link":"https://github.com/delta/pragyan",
-		"img":"images/Delta-logo.png",
-		"add_to_home":true
+		"title":"Dalal Street",
+		"desc":"A virtual stock exchange game where your aim is to maximise your profit. The game is active every year for 7 days leading up to Pragyan. The project uses a Golang backend, protobufs for communication and a React frontend.",
+		"link":"https://www.pragyan.org/18/home/events/manigma/dalal_street",
+		"img":"images/dalal.jpg",
+		"developers": [
+			{
+				"name": "Deep",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Parth",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Gautham",
+				"img": "images/member.png"
+			}
+		],
+		"active":true
 	},
 	{
 		"title":"Pragyan Premier League",
 		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament",
 		"link":"http://ppl.pragyan.org",
 		"img":"images/ppl.png",
-		"add_to_home":true
+		"developers": [
+			{
+				"name": "Deep",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Parth",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Gautham",
+				"img": "images/member.png"
+			}
+		],
+		"active":true
 	},
 	{
 		"title":"Beer Factory",
 		"desc":"A strategy based resource management online, single player game.",
 		"link":"http://beerfactory.pragyan.org",
 		"img":"images/beerf.jpg",
-		"add_to_home":true
+		"developers": [
+			{
+				"name": "Deep",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Parth",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Gautham",
+				"img": "images/member.png"
+			}
+		],
+		"active":true
 	},
 	{
-		"title":"Dalal Street",
-		"desc":"Its a virtual stock exchange game.",
-		"link":"https://www.pragyan.org/16/home/events/manigma/dalal_street/",
-		"img":"images/dalal.jpg",
-		"add_to_home":false
+		"title":"Code Character",
+		"desc":"Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
+		"link":"http://beerfactory.pragyan.org",
+		"img":"images/talk2Image.jpg",
+		"developers": [
+			{
+				"name": "Deep",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Parth",
+				"img": "images/member.png"
+			},
+			{
+				"name": "Gautham",
+				"img": "images/member.png"
+			}
+		],
+		"active":true
 	}
 ]
