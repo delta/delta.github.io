@@ -33,6 +33,12 @@ section {
     max-height: 400px !important;
 }
 
+@media only screen and (max-width: 550px) {
+    #htPoster {
+      width: 80%;
+    }
+  }
+  
 /* HackerTalks details */
 #hackerTalksDetails {
     text-align: center;
