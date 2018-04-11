@@ -5,9 +5,9 @@ $(document).ready(function() {
         {
             url: "/data/members.json",
             success: function(result) {
-                loadFourthYears(result.fourthYears);
-                loadThirdYears(result.thirdYears);
-                loadSecondYears(result.secondYears);
+                loadFourthYears(result[2018]);
+                loadThirdYears(result[2019]);
+                loadSecondYears(result[2020]);
                 $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
             }
         }
@@ -18,13 +18,29 @@ function getHTMLString(person) {
 
     var classID = Math.floor(Math.random()*3);
     var className = ['green','red','blue'];
+    var returnString = `<div class="member-container">
+                            <div class="basic-details">
+                                <img src="images/member.png" class="member-image">
+                                <h3 class="member-name">${person.name}</h3>
+                            </div>
+                            <div class="inner-details ${className[classID]}">
+                                <div class="social-info">`;
 
-    return `<div class="member-container"><div class="basic-details"><img src="images/member.png" 
-    class="member-image"> <h3 class="member-name">${person.name}</h3></div><div class="inner-details 
-    ${className[classID]}"><div class="social-info"><span><a href="https://www.linkedin.com/in/gautham-kumar" 
-    target="_blank"><i id="linkedinLogo" class="fab fa-linkedin-in textLogo"></i></a></span><span>
-    <a href="https://www.github.com/gauthamk97" target="_blank"><i id="githubLogo" class="fab fa-github 
-    textLogo"></i></a></span></div></div></div>`;
+    if (person.github_url!="") {
+        returnString+=`<span><a href="${person.github_url}"><i id="githubLogo" class="fab fa-github textLogo"></i></a></span>`;
+    }
+
+    if (person.linkedin_url!="") {
+        returnString+=`<span><a href="${person.linkedin_url}"><i id="linkedinLogo" class="fab fa-linkedin-in textLogo"></i></a></span>`;
+    }
+
+    if (person.additional_url!="") {
+        returnString+=`<span><a href="${person.additional_url}"><i id="globeLogo" class="fas fa-globe"></i></a></span>`;
+    }
+
+    returnString+=`</div></div></div>`
+    
+    return returnString;
 }
 
 function loadFourthYears(fourthYears) {
