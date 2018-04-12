@@ -75,66 +75,6 @@
 }
 
 /* Animation stuff */
-@keyframes massFlicker {
-  0% {
-    opacity: 1;
-  }
-  2% {
-    opacity: 0.4;
-  }
-  3% {
-    opacity: 1;
-  }
-  15% {
-    opacity: 1;
-  }
-  16% {
-    opacity: 0.4;
-  }
-  18% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 1;
-  }
-  42% {
-    opacity: 0.4;
-  }
-  43% {
-    opacity: 1;
-  }
-  51% {
-    opacity: 1;
-  }
-  52% {
-    opacity: 0.4;
-  }
-  54% {
-    opacity: 1;
-  }
-  69% {
-    opacity: 1;
-  }
-  73% {
-    opacity: 0.4;
-  }
-  75% {
-    opacity: 1;
-  }
-  91% {
-    opacity: 1;
-  }
-  92% {
-    opacity: 0.4;
-  }
-  95% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes sexyGlow {
   0% {
     opacity: 1;
