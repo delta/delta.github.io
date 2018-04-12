@@ -79,3 +79,32 @@ section {
     color: white;
     font-size: 14px;
 }
+
+@media only screen and (max-width: 550px) {
+
+    p {
+        font-size: 16px;
+    }
+
+    #theProjects {
+        width: 95%;
+    }
+
+    .developers {
+        padding: 2px;
+    }
+
+    .dev-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .dev {
+        width: 70px;
+        margin: 8px;
+    }
+
+    .dev-name {
+        font-size: 12px;
+    }
+}
