@@ -45,11 +45,23 @@
 		"developers": [
 			{
 				"name": "Venkat",
-				"img": "images/members/member.png"
+				"img": "images/members/venkat.jpg"
 			},
 			{
 				"name": "Sundar",
 				"img": "images/members/anirudhsundar.jpg"
+			},
+			{
+				"name": "Arun",
+				"img": "images/members/arunramachandran.jpg"
+			},
+			{
+				"name": "Soorya",
+				"img": "images/members/Soorya_Narayan.jpg"
+			},
+			{
+				"name": "Sachin",
+				"img": "images/members/member.png"
 			},
 			{
 				"name": "Tanvi",
@@ -78,11 +90,15 @@
 			},
 			{
 				"name": "Arut",
-				"img": "images/members/member.png"
+				"img": "images/members/Arut.jpg"
 			},
 			{
-				"name": "Anirudh K",
-				"img": "images/members/member.png"
+				"name": "K Anirudh",
+				"img": "images/members/Anirudh.jpeg"
+			},
+			{
+				"name": "Ajish",
+				"img": "images/members/Ajish.jpeg"
 			}
 		],
 		"active":true
@@ -103,7 +119,7 @@
 			},
 			{
 				"name": "Shubham",
-				"img": "images/members/member.png"
+				"img": "images/members/Shubham.jpeg"
 			},
 			{
 				"name": "Ranga",
