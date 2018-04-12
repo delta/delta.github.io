@@ -20,14 +20,6 @@ section {
     color: #414141;
 }
 
-/*Effectively removes btn-lg class from batch buttons*/
-@media only screen and (max-width: 550px) {
-    #batchButtons button {
-        font-size: 14px;
-        padding: 6px 12px;
-    }
-}
-
 /* Main Container for all member images */
 #allMembersContainer {
     text-align: center;
@@ -87,6 +79,47 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
     z-index: 0; /* Keep inner-details at the back initially so that you cannot hover over it */
     opacity: 0;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+    p {
+        font-size: 16px;
+    }
+
+    .basic-details .member-image {
+        width: 91px;
+    }
+
+    .member-container {
+        width: 115px;
+        margin: 0px;
+    }
+
+    .inner-details {
+        padding-top: 140px;
+    }
+
+    .basic-details .member-name {
+        font-size: 12px;
+    }
+
+    /*Effectively removes btn-lg class from batch buttons*/
+    #batchButtons {
+        width: 95%;
+    }
+
+    #batchButtons button {
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+
+    .small-mobile {
+        width: 10%;
+    }
+
+    .large-mobile {
+        width: 30%;
+    }
 }
 
 .red {

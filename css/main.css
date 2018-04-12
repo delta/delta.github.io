@@ -86,3 +86,35 @@
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  #whoWeAreImage {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  section {
+    padding: 0px;
+  }
+
+  #whoWeAreImage {
+    width: 100%;
+  }
+
+  #events {
+    padding: 15px 0px;
+  }
+
+  #whatWeDoImage {
+    margin: 0px;
+  }
+
+  .light-button {
+    margin-bottom: 15px;
+  }
+
+  .event-image {
+    width: 75%;
+  }
+}
