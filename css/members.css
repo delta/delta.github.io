@@ -61,6 +61,7 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
 .basic-details .member-image {
     border-radius: 50%;
     width: 131px;
+    height: 131px;
 }
 
 .basic-details .member-name {
@@ -88,6 +89,7 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
 
     .basic-details .member-image {
         width: 91px;
+        height: 91px;
     }
 
     .member-container {
