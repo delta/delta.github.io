@@ -245,7 +245,7 @@
   "2018": [
     {
       "profile": "web-dev",
-      "img": "images/members/member.png",
+      "img": "images/members/sachin.jpg",
       "name": "Sachin",
       "github_url": "",
       "linkedin_url": "",
@@ -293,7 +293,7 @@
     },
     {
       "profile": "app-dev",
-      "img": "images/members/member.png",
+      "img": "images/members/lakshmanaram.jpg",
       "name": "Lakshmanaram",
       "github_url": "",
       "linkedin_url": "",
@@ -301,7 +301,7 @@
     },
     {
       "profile": "web-dev",
-      "img": "images/members/member.png",
+      "img": "images/members/malavika.jpg",
       "name": "Malavika",
       "github_url": "",
       "linkedin_url": "",
@@ -389,7 +389,7 @@
     },
     {
       "profile": "web-dev",
-      "img": "images/members/member.png",
+      "img": "images/members/revanth.jpg",
       "name": "Revanth",
       "github_url": "",
       "linkedin_url": "",
@@ -593,7 +593,7 @@
     },
     {
       "profile": "web-dev",
-      "img": "images/members/member.png",
+      "img": "images/members/Ezhil.jpg",
       "name": "T Ezhil Maran",
       "github_url": "https://github.com/ezhilmaran",
       "additional_url": "",
