@@ -80,9 +80,9 @@
 	},
 	{
 		"title":"Pragyan Premier League",
-		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament",
+		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament.",
 		"link":"http://ppl.pragyan.org",
-		"img":"images/ppl.png",
+		"img":"images/ppl.jpeg",
 		"developers": [
 			{
 				"name": "Ajay",
@@ -99,13 +99,21 @@
 			{
 				"name": "Ajish",
 				"img": "images/members/Ajish.jpeg"
+			},
+			{
+				"name": "Vikram",
+				"img": "images/members/Vikram.jpg"
+			},
+			{
+				"name": "Hariprasanth",
+				"img": "images/members/Hari.jpg"
 			}
 		],
 		"active":true
 	},
 	{
 		"title":"Beer Factory",
-		"desc":"Beer Factory is a strategy based resource management online game. The participant owns a beer factory with the aim of maximising profit and gaining popularity among the retailers by managing his resources efficiently. The participant’s factory will compete against a computer-simulated opponent factory. The money made and the popularity among the retailers, decide the winner.",
+		"desc":"Beer Factory is a strategy based resource management online game where each participant is in charge of a beer factory. The participant's factory will compete against a computer-simulated opponent factory. The money made and the popularity among the retailers decide the winner.",
 		"link":"http://beerfactory.pragyan.org",
 		"img":"images/beerf.jpg",
 		"developers": [
@@ -124,6 +132,18 @@
 			{
 				"name": "Ranga",
 				"img": "images/members/Sriranganathan.jpg"
+			},
+			{
+				"name": "Shravan",
+				"img": "images/members/shravan.jpg"
+			},
+			{
+				"name": "Ezhil",
+				"img": "images/members/Ezhil.jpg"
+			},
+			{
+				"name": "Naven",
+				"img": "images/members/Naven.jpg"
 			}
 		],
 		"active":true
