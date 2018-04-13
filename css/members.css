@@ -35,21 +35,19 @@ section {
     display: inline-block;
     width: 155px;
     position: relative;
-    z-index: 100;
-}
-
-/* When you hover over one member, reduce the z-index of all subsequent members to 0.
-/* Thus, the inner-details div will not be blocked by subsequent member-container divs. */
-.member-container:hover ~ .member-container {
     z-index: 0;
 }
 
-/* On hovering over a member, animate its inner details into view, and place its z-index above #allMembersContainer 
-but underneath basic-details. Thus, the inner-details div will be visible but it will not block the basic-details div*/
+/**
+ * When you hover over one member, increase its z-index to 100.
+ * Thus, the inner-details div will not be blocked by subsequent member-container divs.
+ */
+.member-container:hover {
+    z-index: 100;
+}
+
 .member-container:hover > .inner-details {
-    opacity: 1;
-    z-index: 15;
-    animation: fadeInUp 0.5s ease 0s 1;
+    animation: fadeInUp 0.5s ease 0s 1 forwards;
 }
 
 /* Basic Details Div - Consist of image and name */
@@ -77,7 +75,7 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
     width: 100%;
     top: 0px;
     left: 0px;
-    z-index: 0; /* Keep inner-details at the back initially so that you cannot hover over it */
+    z-index: 15;
     opacity: 0;
     border-radius: 5px;
 }
@@ -134,12 +132,6 @@ but underneath basic-details. Thus, the inner-details div will be visible but it
 
 .green {
     background-color: #789A33;
-}
-
-/* Prevents inner-details from disappearing when you move away from its parent member-container */
-.inner-details:hover {
-    z-index: 15;
-    opacity: 1;
 }
 
 .inner-details h5 {
