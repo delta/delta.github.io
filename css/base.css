@@ -5,6 +5,14 @@ html, body {
   background-color: #212121;
 }
 
+.navbar-nav > li, .navbar-nav > li > a {
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.navbar-nav > li:hover {
+  background: #131313;
+}
+
 .first-container {
   margin-top: 50px;
 }
