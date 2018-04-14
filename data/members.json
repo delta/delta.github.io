@@ -538,10 +538,10 @@
     {
       "profile": "app-dev",
       "img": "images/members/NandhaKishore.jpg",
-      "name": "Nandhakishore",
-      "github_url": "",
-      "linkedin_url": "",
-      "additional_url": ""
+      "name": "Nandha Kishore",
+      "github_url": "https://github.com/siliconCupcake",
+      "linkedin_url": "https://www.linkedin.com/in/nandha-kishore-j",
+      "additional_url": "https://siliconcupcake.github.io"
     },
     {
       "profile": "web-dev",

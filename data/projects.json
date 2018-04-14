@@ -41,7 +41,7 @@
 		"title":"Code Character",
 		"desc":"Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
 		"link":"http://beerfactory.pragyan.org",
-		"img":"images/talk2Image.jpg",
+		"img":"images/codeCharacter.png",
 		"developers": [
 			{
 				"name": "Venkat",
