@@ -58,30 +58,28 @@ function loadSecondYears(secondYears) {
     members['secondYears'] = secondYears.map(secondYear => getHTMLString(secondYear)).join();
 }
 
-function handleActiveTab(selectedTab) {
+// function to highlight selected tab
+$("#batchButtons button").on("click", function() {
     var buttons = $('#batchButtons').children();
     for (button of buttons) {
         $(button).removeClass("active-batch");
     }
-    $(selectedTab).addClass("active-batch");
-}
+    $(this).addClass("active-batch");
+});
 
+// Event Listeners
 function clickAll() {
     $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
-    handleActiveTab(event.currentTarget);
 }
 
 function clickFourthYears() {
     $('#allMembersContainer').html(members['fourthYears']);
-    handleActiveTab(event.currentTarget);
 }
 
 function clickThirdYears() {
     $('#allMembersContainer').html(members['thirdYears']);
-    handleActiveTab(event.currentTarget);
 }
 
 function clickSecondYears() {
     $('#allMembersContainer').html(members['secondYears']);
-    handleActiveTab(event.currentTarget);
 }
