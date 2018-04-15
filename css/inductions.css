@@ -3,17 +3,52 @@ section > .subtopic {
     padding-bottom: 20px;
 }
 
+ol {
+    color: white;
+    font-weight: 100;
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+li.profile {
+    padding: 10px 0px;
+}
+
 p {
     color: white;
 }
 
+#aboutProfileHeading {
+    margin-top: 30px;
+}
+
+.additional-info {
+    font-size: 14px;
+    padding: 5px 0px 15px 0px;
+    text-align: left;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px;
+}
+
 form {
-    width: 40%;
+    width: 50%;
+    max-width: 600px;
     margin: 0 auto;
+}
+
+label {
+    font-weight: 100;
+    margin-left: 3px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: white;
+    font-weight: 100;
 }
 
 .form-check {
@@ -22,4 +57,11 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
     border-bottom: 1px solid rgb(70,70,70);
+}
+
+@media only screen and (max-width: 550px) {
+    form {
+        width: 90%;
+        max-width: initial;
+    }
 }
