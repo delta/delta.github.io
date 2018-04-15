@@ -89,7 +89,7 @@
             <li class="profile"><strong>Open Profile - </strong>We are introducing a new profile this year for 
                 any of you who are already specializing in a certain field of programming other than Web Dev, 
                 App Dev or Sys Ad. We recommend you apply to this profile only if you are already proficient in 
-                this field, and not as a beginner. <em>Eg: Neural Networks, Machine Learning etc.</em>
+                this field, and not as a beginner. <em>Eg: Game Development, Machine Learning etc.</em>
                 <br /><br />
                 (Note : Algorithms/Competitive Coding does not come under Open Profile.)
             </li>
@@ -99,19 +99,19 @@
     <section id="form">
         <div class="container">
             <form>
-                <h4>Name</h4>
+                <h4>Name <span class="star">*</span></h4>
                 <div class="form-group" />
                     <input required type="text" placeholder="Name" name="name" id="name" class="form-control"/>
                 </div>
-                <h4>Roll Number</h4>
+                <h4>Roll Number <span class="star">*</span></h4>
                 <div class="form-group" />
                     <input required type="number" placeholder="Roll Number" name="rollno" id="rollno" class="form-control"/>
                 </div>
-                <h4>Phone Number</h4>
+                <h4>Phone Number <span class="star">*</span></h4>
                 <div class="form-group" />
                     <input required type="text" placeholder="Phone Number" name="phoneno" id="phoneno" class="form-control"/>
                 </div>
-                <h4>Gender</h4>
+                <h4>Gender <span class="star">*</span></h4>
                 <div class="form-check">
                     <input required class="form-check-input" type="radio" name="gender" id="male" value="male" >
                     <label class="form-check-label" for="gender">
@@ -124,53 +124,54 @@
                         Female
                     </label>
                 </div>
-                <h4>Email</h4>
+                <h4>Email <span class="star">*</span></h4>
                 <div class="form-group" />
-                    <input type="email" placeholder="Email" name="email" id="email" class="form-control"/>
+                    <input required type="email" placeholder="Email" name="email" id="email" class="form-control"/>
                 </div>
-                <h4>GitHub Username</h4>
+                <h4>GitHub Username <span class="star">*</span></h4>
                 <div class="form-group no-bottom-margin" />
-                    <input type="text" placeholder="GitHub" name="github" id="github" class="form-control"/>
+                    <input required type="text" placeholder="GitHub" name="github" id="github" class="form-control"/>
                     <p class="additional-info">
                         If you do not have a Github account, please create one <a target="_blank" href="https://github.com/join">here</a>. 
                         Note : Please provide your Github <strong>Username</strong> and not the email address you used to sign up 
                         for Github.
                     </p>
                 </div>
-                <h4>Profile</h4>
+                <h4>Profile <span class="star">*</span></h4>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="WebDev" id="WebDev">
+                    <input class="form-check-input" type="checkbox" id="webdev">
                     <label class="form-check-label" for="WebDev">
                         Web Development
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="AppDev" id="AppDev">
+                    <input class="form-check-input" type="checkbox" id="appdev">
                     <label class="form-check-label" for="AppDev">
                         App Development
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="SysAd" id="SysAd">
+                    <input class="form-check-input" type="checkbox" id="sysad">
                     <label class="form-check-label" for="SysAd">
                         System Administration
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Open" id="Open">
+                    <input class="form-check-input" type="checkbox" id="open">
                     <label class="form-check-label" for="Open">
                         Open Profile
                     </label>
                 </div>
-                <h4>Interests</h4>
+                <h4>Interests <span class="star">*</span></h4>
                 <div class="form-group" />
                     <input type="text" placeholder="Interests" name="interests" id="interests" class="form-control"/>
                     <p class="additional-info">
-                        Let us know about any other fields of interests you may have (This information will be used during the mentor 
-                        allocation phase). If you have multiple interests, please separate them with commas. <em>Eg: machine learning, game development</em>
+                        Let us know about any other fields of interest you may have with respect to programming (This information will be used to assign a like-minded mentor). If you have multiple interests, please separate them with commas. <em>Eg: machine learning, functional programming</em>
                     </p>
                 </div>
-                <button class="btn btn-submit dark-button" >Submit</button>
+                <button class="btn btn-submit dark-button">
+                    Submit
+                </button>
             </form>
         </div>
     </section>
@@ -184,6 +185,6 @@
 	<!-- Latest compiled and minified JavaScript - Bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Main Script -->
-	<script src="js/members.js"></script>
+	<script src="js/inductions.js"></script>
 </body>
 </html>
