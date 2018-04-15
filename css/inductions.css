@@ -1,0 +1,25 @@
+section > .subtopic {
+    color: white;
+    padding-bottom: 20px;
+}
+
+p {
+    color: white;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+.form-check {
+    color: white !important;
+}
+
+section {
+    border-bottom: 1px solid rgb(70,70,70);
+}
