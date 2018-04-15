@@ -1,0 +1,15 @@
+CREATE TABLE `registrations` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(255) NOT NULL,
+	`rollno` VARCHAR(255) NOT NULL,
+	`phoneno` VARCHAR(255) NOT NULL,
+	`gender` VARCHAR(255) NOT NULL,
+	`email` VARCHAR(255) NOT NULL,
+	`github` VARCHAR(255) NOT NULL,
+	`webdev` BOOLEAN NOT NULL,
+	`appdev` BOOLEAN NOT NULL,
+	`sysad` BOOLEAN NOT NULL,
+	`open` BOOLEAN NOT NULL,
+	`interests` VARCHAR(255) NOT NULL,
+	PRIMARY KEY (`id`)
+);
