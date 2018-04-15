@@ -35,57 +35,58 @@
 	<link rel="icon" type="image/png" href="images/favicon.ico"/>
 </head>
 <body>
+	<div id="main-body-container">
+		<!-- Nav Bar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="images/deltaLogoWhite.png" width="20px"></a>
+				</div>
 
-	<!-- Nav Bar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/deltaLogoWhite.png" width="20px"></a>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<!-- Navbar left side links -->
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="">Members<span class="sr-only">(current)</span></a></li>
+						<li><a href="projects.html">Projects</a></li>
+					</ul>
+					<!-- Navbar right side links -->
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="hackertalks.html">HackerTalks</a></li>
+						<li><a href="#">Inductions</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<section id="aboutTheTeam" class="outer-container first-container">
+			<h1 class="subtopic">The Team</h1>
+			<p>
+				At Delta, we truly value what each member brings to the table. Among us are mobile-app developers, web developers, system administrators, software enthusiasts, algorithmic coders and open source software contributors.
+			</p>
+		</section>
+
+		<section id="teamPictures" class="hcenter">
+			<div id="batchButtons" class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default btn-lg dark-button active-batch small-mobile" onclick="clickAll()">All</button>
+				<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickFourthYears()">Batch of 2018</button>
+				<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickThirdYears()">Batch of 2019</button>
+				<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickSecondYears()">Batch of 2020</button>
 			</div>
-		  
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<!-- Navbar left side links -->
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li class="active"><a href="">Members<span class="sr-only">(current)</span></a></li>
-					<li><a href="projects.html">Projects</a></li>
-				</ul>
-				<!-- Navbar right side links -->
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="hackertalks.html">HackerTalks</a></li>
-					<li><a href="#">Inductions</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
+			<div id="allMembersContainer">
 
-    <section id="aboutTheTeam" class="outer-container first-container">
-        <h1 class="subtopic">The Team</h1>
-        <p>
-            At Delta, we truly value what each member brings to the table. Among us are mobile-app developers, web developers, system administrators, software enthusiasts, algorithmic coders and open source software contributors.
-        </p>
-    </section>
+			</div>
+		</section>
+	</div>
 
-    <section id="teamPictures" class="hcenter">
-		<div id="batchButtons" class="btn-group" role="group" aria-label="...">
-			<button type="button" class="btn btn-default btn-lg dark-button active-batch small-mobile" onclick="clickAll()">All</button>
-			<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickFourthYears()">Batch of 2018</button>
-			<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickThirdYears()">Batch of 2019</button>
-			<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickSecondYears()">Batch of 2020</button>
-		</div>
-        <div id="allMembersContainer">
-        
-        </div>
-	</section>
-	
 	<footer class="love-footer-dark">
 		Made with ❤ by Delta Force
 	</footer>
