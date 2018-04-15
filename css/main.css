@@ -54,6 +54,10 @@
 #whatWeDoImage {
   margin: 10px 0px;
 }
+
+p.section-1-content {
+  text-align: justify;
+}
 /* End of What We Do Section */
 
 /* Events Section */
