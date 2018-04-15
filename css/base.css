@@ -1,8 +1,21 @@
 /* General Stuff */
 html, body {
   font-family: 'Roboto', sans-serif;
+  height: 100%;
   overflow-x: hidden;
   background-color: #212121;
+}
+
+#main-body-container {
+  min-height: 100%;
+  margin-bottom: -1.4em;
+  overflow: hidden;
+}
+
+#main-body-container::after {
+  content: "";
+  display: block;
+  height: 1.4em;
 }
 
 .navbar-nav > li, .navbar-nav > li > a {
@@ -90,10 +103,11 @@ h1 {
 }
 
 .love-footer-dark {
-  padding: 2px 0px;
+  height: 1.4em;
   text-align: center;
   background-color: #111111;
   color: green;
+  overflow: hidden;
 }
 
 button {
