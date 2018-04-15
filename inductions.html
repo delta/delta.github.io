@@ -60,11 +60,40 @@
 		</div><!-- /.container-fluid -->
     </nav>
 
-    <section id="aboutHackerTalks" class="outer-container first-container">
+    <section id="aboutInductions" class="outer-container first-container">
         <h1 class="subtopic">Inductions</h1>
         <p>
-            
+            Greetings first years! Please fill out the form below to apply for Delta! Once you submit the 
+            form, we will be in touch shortly regarding mentorship details and future steps. We look forward
+            to all the cool things you'll be building throughout the summer! Good luck!
         </p>
+        <p id="aboutProfileHeading">
+            About each profile :-
+        </p>
+        <ol>
+            <li class="profile"><strong>Web Development - </strong>If conceptualizing a project from start to finish is 
+                your thing and you want to build the backbone of a project, then this profile is for you! 
+                Our Web Developers create the smooth frontend that the users interact with as well as the 
+                robust backend that all of our applications communicate with.
+            </li>
+            <li class="profile"><strong>App Development - </strong>There's no denying that mobile applications are the future. 
+                Our App Developers are the minds being the Android apps for Festember, Pragyan and much more! 
+                If you're looking forward to building an application that lives in the pockets of everyone on 
+                campus, sign up for this profile!
+            </li>
+            <li class="profile"><strong>System Administrators - </strong>Once a project has been developed, we look to our 
+                SysAds to help us push it into production. They manage all of our servers and are the first 
+                ones on the scene if an error occurs. If you live within the Terminal, and prefer a CLI 
+                over those pesky GUIs, then this profile is perfect for you!
+            </li>
+            <li class="profile"><strong>Open Profile - </strong>We are introducing a new profile this year for 
+                any of you who are already specializing in a certain field of programming other than Web Dev, 
+                App Dev or Sys Ad. We recommend you apply to this profile only if you are already proficient in 
+                this field, and not as a beginner. <em>Eg: Neural Networks, Machine Learning etc.</em>
+                <br /><br />
+                (Note : Algorithms/Competitive Coding does not come under Open Profile.)
+            </li>
+        </ol>
     </section>
 
     <section id="form">
@@ -99,30 +128,35 @@
                 <div class="form-group" />
                     <input type="email" placeholder="Email" name="email" id="email" class="form-control"/>
                 </div>
-                <h4>GitHub Handle</h4>
-                <div class="form-group" />
-                    <input type="email" placeholder="GitHub" name="github" id="github" class="form-control"/>
+                <h4>GitHub Username</h4>
+                <div class="form-group no-bottom-margin" />
+                    <input type="text" placeholder="GitHub" name="github" id="github" class="form-control"/>
+                    <p class="additional-info">
+                        If you do not have a Github account, please create one <a target="_blank" href="https://github.com/join">here</a>. 
+                        Note : Please provide your Github <strong>Username</strong> and not the email address you used to sign up 
+                        for Github.
+                    </p>
                 </div>
                 <h4>Profile</h4>
-                <div class="form-group form-check">
+                <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="WebDev" id="WebDev">
                     <label class="form-check-label" for="WebDev">
                         Web Development
                     </label>
                 </div>
-                <div class="form-group form-check">
+                <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="AppDev" id="AppDev">
                     <label class="form-check-label" for="AppDev">
                         App Development
                     </label>
                 </div>
-                <div class="form-group form-check">
+                <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="SysAd" id="SysAd">
                     <label class="form-check-label" for="SysAd">
                         System Administration
                     </label>
                 </div>
-                <div class="form-group form-check">
+                <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="Open" id="Open">
                     <label class="form-check-label" for="Open">
                         Open Profile
@@ -131,8 +165,12 @@
                 <h4>Interests</h4>
                 <div class="form-group" />
                     <input type="text" placeholder="Interests" name="interests" id="interests" class="form-control"/>
+                    <p class="additional-info">
+                        Let us know about any other fields of interests you may have (This information will be used during the mentor 
+                        allocation phase). If you have multiple interests, please separate them with commas. <em>Eg: machine learning, game development</em>
+                    </p>
                 </div>
-                <button class="btn btn-submit" >Submit</button>
+                <button class="btn btn-submit dark-button" >Submit</button>
             </form>
         </div>
     </section>
