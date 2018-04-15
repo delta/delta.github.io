@@ -14,6 +14,7 @@ Welcome to the code for delta's website.
 * Gautham Kumar
 * Venkatraman Srikanth
 * Deep Bhattacharyya
+* Anirudh Sundar
 
 ### Setup Instructions
 1. Clone the repo
