@@ -438,7 +438,7 @@
       "img": "images/members/Deep.jpg",
       "name": "Deep",
       "github_url": "https://github.com/coderick14",
-      "additional_url": "http://www.deep14.site",
+      "additional_url": "http://deep14.me",
       "linkedin_url": "https://in.linkedin.com/in/deep14"
     },
     {
@@ -590,14 +590,6 @@
       "github_url": "https://github.com/hariprasanths",
       "additional_url": "",
       "linkedin_url": "https://www.linkedin.com/in/hariprasanths"
-    },
-    {
-      "profile": "web-dev",
-      "img": "images/members/Ezhil.jpg",
-      "name": "T Ezhil Maran",
-      "github_url": "https://github.com/ezhilmaran",
-      "additional_url": "",
-      "linkedin_url": ""
     },
     {
       "profile": "app-dev",

@@ -31,7 +31,7 @@ function submit() {
 	});
 
 	request.done(function(data){
-		if(data == "Success") {
+		if(data.trim() == "Success") {
             alert("Successfully registered!");
             location.reload();
 		} else {
