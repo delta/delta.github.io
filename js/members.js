@@ -5,9 +5,10 @@ $(document).ready(function() {
         {
             url: "/data/members.json",
             success: function(result) {
-                loadFourthYears(result[2018]);
-                loadThirdYears(result[2019]);
-                loadSecondYears(result[2020]);
+                load2018Alumni(result[2018]);
+                loadFourthYears(result[2019]);
+                loadThirdYears(result[2020]);
+                loadSecondYears(result[2021]);
                 $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
             }
         }
@@ -58,7 +59,12 @@ function loadSecondYears(secondYears) {
     members['secondYears'] = secondYears.map(secondYear => getHTMLString(secondYear)).join();
 }
 
-// function to highlight selected tab
+function load2018Alumni(alumnis2018) {
+    //  Populate 2018 alumnis
+    members['alumnis2018'] = alumnis2018.map(alumni2018 => getHTMLString(alumni2018)).join();
+}
+
+// function to highlight selected tab on batchButton
 $("#batchButtons button").on("click", function() {
     var buttons = $('#batchButtons').children();
     for (button of buttons) {
@@ -67,9 +73,52 @@ $("#batchButtons button").on("click", function() {
     $(this).addClass("active-batch");
 });
 
+// funtion to highlight selected tab on "allMembersButtons" Bar
+$("#allMembersButtons button").on("click", function() {
+    var buttons = $('#allMembersButtons').children();
+    for (button of buttons) {
+        $(button).removeClass("active-batch");
+    }
+    $(this).addClass("active-batch");
+   
+    // if "presentMembers" tab selected, make "all" as selected Tab on "batchButtons"
+    if (this == buttons[0])
+    {
+        let allbuttons = $('#batchButtons').children();
+        for (allbutton of allbuttons) {
+            $(allbutton).removeClass("active-batch");
+        }
+        $(allbuttons[0]).addClass("active-batch");
+    }
+
+    //if "Alumni" tab selected, make "all" as selected Tab on "alumniButtons"
+    else if (this == buttons[1])
+    {
+        let allbuttons = $('#alumniButtons').children();
+        for (allbutton of allbuttons) {
+            $(allbutton).removeClass("active-batch");
+        }
+        $(allbuttons[0]).addClass("active-batch");
+    }
+});
+
+// function to highlight selected tab on alumniButtons Bar
+$("#alumniButtons button").on("click", function() {
+   var buttons = $("#alumniButtons").children();
+   for (button of buttons) {
+       $(button).removeClass("active-batch");
+   }
+   $(this).addClass("active-batch");
+});
+
+
 // Event Listeners
-function clickAll() {
+function clickAllPresentMembers() {
     $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
+    //hide alumniButton Bar
+    $("#alumniButtons").css("display", "none");
+    //display present members batchButton
+    $("#batchButtons").css("display", "inline-block");
 }
 
 function clickFourthYears() {
@@ -82,4 +131,17 @@ function clickThirdYears() {
 
 function clickSecondYears() {
     $('#allMembersContainer').html(members['secondYears']);
+}
+
+function clickAllAlumni() {
+    click2018Alumni();
+
+    //hide present members batchButton
+    $("#batchButtons").css("display", "none");
+    //show alumniButton
+    $("#alumniButtons").css("display", "inline-block");
+}
+
+function click2018Alumni() {
+    $('#allMembersContainer').html(members['alumnis2018']);
 }

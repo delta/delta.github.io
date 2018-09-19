@@ -38,6 +38,11 @@ section {
     z-index: 0;
 }
 
+/* Initally alumniButton bar hidden */
+#alumniButtons {
+    display: none;
+}
+
 /**
  * When you hover over one member, increase its z-index to 100.
  * Thus, the inner-details div will not be blocked by subsequent member-container divs.
@@ -108,7 +113,31 @@ section {
         width: 95%;
     }
 
-    #batchButtons button {
+    #allMembersButtons {
+        width: 60%;
+    }
+
+    #alumniButtons {
+        width: 50%;
+    }
+
+    #allMembersButtons .small-mobile {
+        width: 35%;
+    }
+
+    #allMembersButtons .large-mobile {
+        width: 65%;
+    }
+    
+    #alumniButtons .small-mobile {
+        width: 25%;
+    }
+
+    #alumniButtons .large-mobile {
+        width: 75%;
+    }
+
+    #batchButtons button, #allMembersButtons button, #alumniButtons button {
         font-size: 14px;
         padding: 6px 6px;
     }
