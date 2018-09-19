@@ -631,5 +631,187 @@
       "additional_url": "",
       "linkedin_url": "https://www.linkedin.com/in/naven-rajkumar"
     }
-  ]
+  ],
+
+
+
+
+  "2021" : [
+    {
+      "profile": "app-dev",
+      "img": "images/members/AmanKumarKashyap.jpg",
+      "name": "Aman",
+      "github_url": "https://github.com/kanishk779",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/aman-kumar-kashyap-b7a22414b/"
+    },
+    {
+      "profile": "sys-ad",
+      "img": "images/members/SandhyaS.jpg",
+      "name": "Sandhya S",
+      "github_url": "https://github.com/sandy9999",
+      "linkedin_url": "",
+      "additional_url": ""
+    },
+    {
+      "profile": "sys-ad",
+      "img": "images/members/RamSreevaths.jpg",
+      "name": "Ram",
+      "github_url": "https://github.com/cheevu-RS",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/ram-sreevaths-r-s-270940147"
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/Kumaran.jpg",
+      "name": "Kumaran",
+      "github_url": "https://github.com/kumaran-14",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/kumaran-g-53969616a/"
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/LHariNarayanan.jpg",
+      "name": "Hari Narayanan",
+      "github_url": "https://github.com/lharinarayanan",
+      "additional_url": "",
+      "linkedin_url": ""
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/BharathKumarR.jpg",
+      "name": "Bharath Kumar R",
+      "github_url": "https://github.com/BharathKumarRavichandran",
+      "linkedin_url": "https://www.linkedin.com/in/bharath-kumar-ravichandran-9bba1392/",
+      "additional_url": "https://bharathkumarravichandran.github.io/"
+    },
+    {
+      "profile": "sys-ad",
+      "img": "images/members/DeerajEsvarR.jpg",
+      "name": "Deeraj Esvar R",
+      "github_url": "https://github.com/DeerajTheepshi",
+      "linkedin_url": "",
+      "additional_url": ""
+    },
+    {
+      "profile": "app-dev",
+      "img": "images/members/RoshiniK.jpg",
+      "name": "Roshini K",
+      "github_url": "https://github.com/sleephackers",
+      "linkedin_url": "https://www.linkedin.com/in/roshinikarnan/",
+      "additional_url": ""
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/AdarshPatel.jpg",
+      "name": "Adarsh Patel",
+      "github_url": "https://github.com/adarshPatel509",
+      "additional_url": "https://pateladarsh2099.github.io/",
+      "linkedin_url": "https://www.linkedin.com/in/adarsh-patel-22a110156/"
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/NimishAgrawal.jpg",
+      "name": "Nimish Agrawal",
+      "github_url": "https://github.com/nimishagarwal76",
+      "additional_url": "https://nimishagarwal76.github.io/",
+      "linkedin_url": "https://www.linkedin.com/in/nimish-agrawal-23279a148"
+    },
+    {
+      "profile": "app-dev",
+      "img": "images/members/MarioJones.jpg",
+      "name": "Mario Vimal",
+      "github_url": "https://github.com/JMJV",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/mario-jones-vimal-stephen-351562159"
+    },
+    {
+      "profile": "app-dev",
+      "img": "images/members/Vicky.jpg",
+      "name": "Vicky",
+      "github_url": "https://github.com/vicky16898",
+      "additional_url": "",
+      "linkedin_url": ""
+    },
+    {
+      "profile": "sys-ad",
+      "img": "images/members/PreethamK.jpg",
+      "name": "Preetham K",
+      "github_url": "https://github.com/preethamk2000",
+      "additional_url": "https://preethamk2000.github.io",
+      "linkedin_url": "https://www.linkedin.com/in/preetham-k-4a471216a/"
+    },
+    {
+      "profile": "app-dev",
+      "img": "images/members/Karaen.jpg",
+      "name": "Karaen",
+      "github_url": "https://github.com/skaraen",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/karaen-senthil-b24a9580/"
+    },
+    {
+      "profile": "app-dev",
+      "img": "images/members/Aditya.jpg",
+      "name": "Aditya",
+      "github_url": "https://github.com/adityaa30",
+      "additional_url": "",
+      "linkedin_url": ""
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/Abishake.jpg",
+      "name": "Abishake",
+      "github_url": "https://github.com/shakeabi",
+      "linkedin_url": "https://www.linkedin.com/in/abi-shake",
+      "additional_url": "http://abishake.me"
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/AdwaithD.jpg",
+      "name": "Adwaith D",
+      "github_url": "https://github.com/adwaith007",
+      "additional_url": "http://www.adwaithd.me",
+      "linkedin_url": "https://www.linkedin.com/in/adwaithd"
+    },
+    {
+      "profile": "app-dev",
+      "img": "images/members/RahulVS.jpg",
+      "name": "Rahul V S",
+      "github_url": "https://github.com/Rahulvs10",
+      "additional_url": "",
+      "linkedin_url": ""
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/IshaniSrivastava.jpg",
+      "name": "Ishani Srivastava",
+      "github_url": "https://www.github.com/ishanisri",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/ishani-srivastava-a38056164"
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/VedhantAgarwal.jpg",
+      "name": "Vedhant Agarwal",
+      "github_url": "https://www.github.com/vedhant",
+      "additional_url": "",
+      "linkedin_url": ""
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/SubashAravindan.jpg",
+      "name": "Subash",
+      "github_url": "http://github.com/SubashAravindan",
+      "additional_url": "http://subasharavindan.github.io",
+      "linkedin_url": "http://linkedin.com/in/SubashAravindan"
+    },
+    {
+      "profile": "web-dev",
+      "img": "images/members/HrishikeshShekhar.jpg",
+      "name": "Hrishikesh",
+      "github_url": "https://github.com/hrishikeshshekhar",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/hrishikesh-s-2614488b/"
+    }
+  ] 
 }
