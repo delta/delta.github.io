@@ -3,35 +3,35 @@
 		"title":"Dalal Street",
 		"desc":"A virtual stock exchange game where your aim is to maximise your profit. The game is active every year for 7 days leading up to Pragyan. The project uses a Golang backend, protobufs for communication and a React frontend.",
 		"link":"https://www.pragyan.org/18/home/events/manigma/dalal_street",
-		"img":"images/dalal.jpg",
+		"img":"/images/dalal.jpg",
 		"developers": [
 			{
 				"name": "Deep",
-				"img": "images/members/Deep.jpg"
+				"img": "/images/members/Deep.jpg"
 			},
 			{
 				"name": "Parth",
-				"img": "images/members/parth.jpg"
+				"img": "/images/members/parth.jpg"
 			},
 			{
 				"name": "Gautham",
-				"img": "images/members/gautham.jpg"
+				"img": "/images/members/gautham.jpg"
 			},
 			{
 				"name": "Akshay Pai",
-				"img": "images/members/Pai.jpg"
+				"img": "/images/members/Pai.jpg"
 			},
 			{
 				"name": "Sibi",
-				"img": "images/members/Sibi.jpg"
+				"img": "/images/members/Sibi.jpg"
 			},
 			{
 				"name": "Santhosh",
-				"img": "images/members/santhosh_kumar_m.jpg"
+				"img": "/images/members/santhosh_kumar_m.jpg"
 			},
 			{
 				"name": "Harsh",
-				"img": "images/members/harsh.jpg"
+				"img": "/images/members/harsh.jpg"
 			}
 		],
 		"active":true
@@ -41,39 +41,39 @@
 		"title":"Code Character",
 		"desc":"Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
 		"link":"http://beerfactory.pragyan.org",
-		"img":"images/codeCharacter.png",
+		"img":"/images/codeCharacter.png",
 		"developers": [
 			{
 				"name": "Venkat",
-				"img": "images/members/venkat.jpg"
+				"img": "/images/members/venkat.jpg"
 			},
 			{
 				"name": "Sundar",
-				"img": "images/members/anirudhsundar.jpg"
+				"img": "/images/members/anirudhsundar.jpg"
 			},
 			{
 				"name": "Arun",
-				"img": "images/members/arunramachandran.jpg"
+				"img": "/images/members/arunramachandran.jpg"
 			},
 			{
 				"name": "Soorya",
-				"img": "images/members/Soorya_Narayan.jpg"
+				"img": "/images/members/Soorya_Narayan.jpg"
 			},
 			{
 				"name": "Sachin",
-				"img": "images/members/sachin.jpg"
+				"img": "/images/members/sachin.jpg"
 			},
 			{
 				"name": "Tanvi",
-				"img": "images/members/Tanvi.jpg"
+				"img": "/images/members/Tanvi.jpg"
 			},
 			{
 				"name": "Shivashis",
-				"img": "images/members/ShivashisP.jpg"
+				"img": "/images/members/ShivashisP.jpg"
 			},
 			{
 				"name": "Sai",
-				"img": "images/members/Sai_Hemanth_B.jpeg"
+				"img": "/images/members/Sai_Hemanth_B.jpeg"
 			}
 		],
 		"active":true
@@ -82,31 +82,31 @@
 		"title":"Pragyan Premier League",
 		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament.",
 		"link":"http://ppl.pragyan.org",
-		"img":"images/ppl.jpeg",
+		"img":"/images/ppl.jpeg",
 		"developers": [
 			{
 				"name": "Ajay",
-				"img": "images/members/AjayNataraj.jpg"
+				"img": "/images/members/AjayNataraj.jpg"
 			},
 			{
 				"name": "Arut",
-				"img": "images/members/Arut.jpg"
+				"img": "/images/members/Arut.jpg"
 			},
 			{
 				"name": "K Anirudh",
-				"img": "images/members/Anirudh.jpeg"
+				"img": "/images/members/Anirudh.jpeg"
 			},
 			{
 				"name": "Ajish",
-				"img": "images/members/Ajish.jpeg"
+				"img": "/images/members/Ajish.jpeg"
 			},
 			{
 				"name": "Vikram",
-				"img": "images/members/Vikram.jpg"
+				"img": "/images/members/Vikram.jpg"
 			},
 			{
 				"name": "Hariprasanth",
-				"img": "images/members/Hari.jpg"
+				"img": "/images/members/Hari.jpg"
 			}
 		],
 		"active":true
@@ -115,35 +115,35 @@
 		"title":"Beer Factory",
 		"desc":"Beer Factory is a strategy based resource management online game where each participant is in charge of a beer factory. The participant's factory will compete against a computer-simulated opponent factory. The money made and the popularity among the retailers decide the winner.",
 		"link":"http://beerfactory.pragyan.org",
-		"img":"images/beerf.jpg",
+		"img":"/images/beerf.jpg",
 		"developers": [
 			{
 				"name": "Santa",
-				"img": "images/members/santa.jpg"
+				"img": "/images/members/santa.jpg"
 			},
 			{
 				"name": "Kunaal",
-				"img": "images/members/kunaal.jpeg"
+				"img": "/images/members/kunaal.jpeg"
 			},
 			{
 				"name": "Shubham",
-				"img": "images/members/Shubham.jpeg"
+				"img": "/images/members/Shubham.jpeg"
 			},
 			{
 				"name": "Ranga",
-				"img": "images/members/Sriranganathan.jpg"
+				"img": "/images/members/Sriranganathan.jpg"
 			},
 			{
 				"name": "Shravan",
-				"img": "images/members/shravan.jpg"
+				"img": "/images/members/shravan.jpg"
 			},
 			{
 				"name": "Ezhil",
-				"img": "images/members/Ezhil.jpg"
+				"img": "/images/members/Ezhil.jpg"
 			},
 			{
 				"name": "Naven",
-				"img": "images/members/Naven.jpg"
+				"img": "/images/members/Naven.jpg"
 			}
 		],
 		"active":true
@@ -153,15 +153,15 @@
 		"title":"ACedIt",
 		"desc":"A CLI utility to run your code against sample test cases for Codeforces, Codechef, Hackerrank and Spoj. Without leaving the terminal. For competitive programming enthusiasts.",
 		"link":"http://github.com/coderick14/ACedIt",
-		"img":"images/acedit.png",
+		"img":"/images/acedit.png",
 		"developers": [
 			{
 				"name": "Deep",
-				"img": "images/members/Deep.jpg"
+				"img": "/images/members/Deep.jpg"
 			},
 			{
 				"name": "Lakshmanaram",
-				"img": "images/members/lakshmanaram.jpg"
+				"img": "/images/members/lakshmanaram.jpg"
 			}
 		],
 		"active":true
