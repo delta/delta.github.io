@@ -147,5 +147,23 @@
 			}
 		],
 		"active":true
+	},
+
+	{
+		"title":"ACedIt",
+		"desc":"A CLI utility to run your code against sample test cases for Codeforces, Codechef, Hackerrank and Spoj. Without leaving the terminal. For competitive programming enthusiasts.",
+		"link":"http://github.com/coderick14/ACedIt",
+		"img":"images/acedit.png",
+		"developers": [
+			{
+				"name": "Deep",
+				"img": "images/members/Deep.jpg"
+			},
+			{
+				"name": "Lakshmanaram",
+				"img": "images/members/lakshmanaram.jpg"
+			}
+		],
+		"active":true
 	}
 ]
