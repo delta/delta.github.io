@@ -638,14 +638,6 @@
 
   "2021" : [
     {
-      "profile": "app-dev",
-      "img": "/images/members/AmanKumarKashyap.jpg",
-      "name": "Aman",
-      "github_url": "https://github.com/kanishk779",
-      "additional_url": "",
-      "linkedin_url": "https://www.linkedin.com/in/aman-kumar-kashyap-b7a22414b/"
-    },
-    {
       "profile": "sys-ad",
       "img": "/images/members/SandhyaS.jpg",
       "name": "Sandhya S",
@@ -671,14 +663,6 @@
     },
     {
       "profile": "web-dev",
-      "img": "/images/members/LHariNarayanan.jpg",
-      "name": "Hari Narayanan",
-      "github_url": "https://github.com/lharinarayanan",
-      "additional_url": "",
-      "linkedin_url": ""
-    },
-    {
-      "profile": "web-dev",
       "img": "/images/members/BharathKumarR.jpg",
       "name": "Bharath Kumar R",
       "github_url": "https://github.com/BharathKumarRavichandran",
@@ -691,14 +675,6 @@
       "name": "Deeraj Esvar R",
       "github_url": "https://github.com/DeerajTheepshi",
       "linkedin_url": "",
-      "additional_url": ""
-    },
-    {
-      "profile": "app-dev",
-      "img": "/images/members/RoshiniK.jpg",
-      "name": "Roshini K",
-      "github_url": "https://github.com/sleephackers",
-      "linkedin_url": "https://www.linkedin.com/in/roshinikarnan/",
       "additional_url": ""
     },
     {
@@ -724,14 +700,6 @@
       "github_url": "https://github.com/JMJV",
       "additional_url": "",
       "linkedin_url": "https://www.linkedin.com/in/mario-jones-vimal-stephen-351562159"
-    },
-    {
-      "profile": "app-dev",
-      "img": "/images/members/Vicky.jpg",
-      "name": "Vicky",
-      "github_url": "https://github.com/vicky16898",
-      "additional_url": "",
-      "linkedin_url": ""
     },
     {
       "profile": "sys-ad",
