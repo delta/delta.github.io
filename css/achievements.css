@@ -1,0 +1,176 @@
+/* General Stuff */
+.subtopic {
+    color: white;
+}
+
+section > .subtopic {
+    color: white;
+    padding-bottom: 20px;
+} 
+
+p {
+    color: white;
+}
+
+section {
+    border-bottom: 1px solid rgb(70,70,70);
+}
+
+#Achievements .btn-group {
+    margin-bottom: 15px;
+}
+
+#Achievements .active-batch {
+    background-color: white;
+    color: #414141;
+}
+
+/* Main Container for all member images */
+#allAchievementsContainer {
+    text-align: center;
+    max-width: 1100px;
+    min-width: 200px;
+    margin: 10px auto;
+}
+
+.hackathon-details {
+    display: inline-block;
+    width: 350px;
+}
+
+/* Hackathons containers */
+.hackathon-grid {
+    background-color: rgb(53, 53, 53);
+    padding: 1px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.hackathon-grid:hover .flip-card {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    transform: rotateY(0deg);
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    backface-visibility: hidden;
+}
+  
+  
+.content {
+    margin-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.hackathon-image {
+    margin: 15px 0px;
+    width: 85%;
+    height: 200px;
+    vertical-align: bottom;
+}
+
+.hackathon-desc {
+    min-width: initial;
+}
+
+.left-align {
+    text-align: center;
+}
+
+.hackathon-prize {
+    color: white;
+    margin: 30px;
+    margin-bottom: 15px;
+}
+
+/* Participants style */
+.participants {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dev {
+    width: 100px;
+    margin: 10px;
+}
+
+.dev-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.dev-name {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+/* Initally alumniButton bar hidden */
+#alumniButtons {
+    display: none;
+}
+
+@media only screen and (max-width: 550px) {
+    p {
+        font-size: 16px;
+    }
+
+    /*Effectively removes btn-lg class from batch buttons*/
+    #achievementButtons {
+        width: 50%;
+    }
+
+    #alumniButtons {
+        width: 55%;
+    }
+
+    #achievementButtons .large-mobile {
+        width: 50%;
+    }
+    
+    #alumniButtons .large-mobile {
+        width: 50%;
+    }
+
+    #achievementButtons button, #alumniButtons button {
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+
+    .small-mobile {
+        width: 10%;
+    }
+
+    .large-mobile {
+        width: 30%;
+    }
+}
