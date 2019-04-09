@@ -1,0 +1,155 @@
+{
+    "hackathons": [
+        {
+            "name": "Singapore-India Hackathon",
+            "desc": "NTUitive organized a joint hackathon between India and Singapore on November 14 - 15, 2018 to harness and showcase the “innovation potential” of the youth of the two countries",
+            "img": "/images/achievements/hackathons/singapore.jpeg",
+            "position": "2",
+            "developers": [
+                {
+                    "name": "Deep",
+                    "img": "/images/members/Deep.jpg"
+                },
+                {
+                    "name": "Arut",
+                    "img": "/images/members/Arut.jpg"
+                }
+            ]
+        },
+
+        {
+            "name": "In-Out 2016",
+            "desc": "InOut is India’s biggest community hackathon. Its goal is to provide a platform where technology leaders and the brightest minds can come together to collaborate on building tools that solve real problems.",
+            "img": "/images/achievements/hackathons/inout.jpeg",
+            "position": "2",
+            "developers": [
+                {
+                    "name": "Parth",
+                    "img": "/images/members/parth.jpg"
+                },
+                {
+                    "name": "Suhith",
+                    "img": "/images/members/Suhith.jpg"
+                },
+                {
+                    "name": "Venkkatesh",
+                    "img": "/images/members/Venkkatesh.jpg"
+                }
+            ]
+        },
+
+        {
+            "name": "InGenius 2016",
+            "desc": "Ingenius is the flagship event of PESITSouth IEEE Computer Society. It is an annual 24-hour hackathon. Gokul, RB Krishna and Shravan won it in 2016 with a QR-based password sharing utility.",
+            "img": "/images/achievements/hackathons/ingenious.jpeg",
+            "position": "1",
+            "developers": [
+                {
+                    "name": "Gokul",
+                    "img": "/images/members/member.png"
+                },
+                {
+                    "name": "RB Krishna",
+                    "img": "/images/members/rbkrishna.jpg"
+                },
+                {
+                    "name": "Shravan",
+                    "img": "/images/members/shravan.jpg"
+                }
+            ]
+        },
+
+        {
+            "name": "Code-O-Soccer January 2017",
+            "desc": "Code-O-Soccer is an event conducted by IIT Kharagpur’s RoboSoccer Students’ Group. The aim of the event is to program a bot that can play virtual football matches and win against other bots.",
+            "img": "/images/achievements/hackathons/codeosoccer.jpeg",
+            "position": "1",
+            "developers": [
+                {
+                    "name": "Deep",
+                    "img": "/images/members/Deep.jpg"
+                },
+                {
+                    "name": "Venkatraman",
+                    "img": "/images/members/venkat.jpg"
+                }
+            ]
+        },
+
+        {
+            "name": "Pragyan Hackathon 2019",
+            "desc": "The Pragyan Hackathon is Pragyan’s very own hackathon that aims to support developers and aspiring entrepreneurs looking to architect their ideas and transform them into innovative solutions.",
+            "img": "/images/achievements/hackathons/pragyan.jpeg",
+            "position": "1",
+            "developers": [
+                {
+                    "name": "Hrishikesh",
+                    "img": "/images/members/HrishikeshShekhar.jpg"
+                },
+                {
+                    "name": "Ram",
+                    "img": "/images/members/RamSreevaths.jpg"
+                },
+                {
+                    "name": "Subash",
+                    "img": "/images/members/SubashAravindan.jpg"
+                }
+            ]
+        },
+
+        {
+            "name": "Pragyan Hackathon 2017",
+            "desc": "The Pragyan Hackathon is Pragyan’s very own hackathon that aims to support developers and aspiring entrepreneurs looking to architect their ideas and transform them into innovative solutions.",
+            "img": "/images/achievements/hackathons/pragyan.jpeg",
+            "position": "1",
+            "developers": [
+                {
+                    "name": "Sai",
+                    "img": "/images/members/Sai_Hemanth_B.jpeg"
+                },
+                {
+                    "name": "Shivashis",
+                    "img": "/images/members/ShivashisP.jpg"
+                },
+                {
+                    "name": "Tanvi",
+                    "img": "/images/members/Tanvi.jpg"
+                }
+            ]
+        },
+
+        {
+            "name": "Pragyan Hackathon 2016",
+            "desc": "The Pragyan Hackathon is Pragyan’s very own hackathon that aims to support developers and aspiring entrepreneurs looking to architect their ideas and transform them into innovative solutions.",
+            "img": "/images/achievements/hackathons/pragyan.jpeg",
+            "position": "1",
+            "developers": [
+                {
+                    "name": "Deep",
+                    "img": "/images/members/Deep.jpg"
+                },
+                {
+                    "name": "Venkatraman",
+                    "img": "/images/members/venkat.jpg"
+                }
+            ]
+        },
+        
+        {
+            "name": "Pragyan Hackathon 2015",
+            "desc": "The Pragyan Hackathon is Pragyan’s very own hackathon that aims to support developers and aspiring entrepreneurs looking to architect their ideas and transform them into innovative solutions.",
+            "img": "/images/achievements/hackathons/pragyan.jpeg",
+            "position": "1",
+            "developers": [
+                {
+                    "name": "Malavika",
+                    "img": "/images/members/malavika.jpg"
+                },
+                {
+                    "name": "Chandana",
+                    "img": "/images/members/chandana.jpg"
+                }
+            ]
+        }
+    ]
+}
