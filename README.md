@@ -20,4 +20,4 @@ Welcome to the code for delta's website.
 1. Clone the repo
 2. Serve
 
-Copyleft Delta Force 2018
+Copyleft Delta Force 2019
