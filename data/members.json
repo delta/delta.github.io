@@ -145,7 +145,8 @@
       "additional_url": ""
     }
   ],
-  
+
+
 
 
   "2017": [
@@ -564,7 +565,7 @@
       "img": "/images/members/sudharsan_k_a.jpg",
       "name": "K.A.Sudharsan",
       "github_url": "https://github.com/surajk16",
-      "additional_url": "https://surajk16.github.io",
+      "additional_url": "http://sudharsanka.me/",
       "linkedin_url": "https://in.linkedin.com/in/sudocode16"
     },
     {
@@ -639,10 +640,10 @@
   "2021" : [
     {
       "profile": "sys-ad",
-      "img": "/images/members/SandhyaS.jpg",
+      "img": "/images/members/SandhyaS.jpeg",
       "name": "Sandhya S",
       "github_url": "https://github.com/sandy9999",
-      "linkedin_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/sandhyasaravanan/",
       "additional_url": ""
     },
     {
@@ -780,10 +781,37 @@
       "github_url": "https://github.com/hrishikeshshekhar",
       "additional_url": "",
       "linkedin_url": "https://www.linkedin.com/in/hrishikesh-s-2614488b/"
+    },
+    {
+      "profile": "app-dev",
+      "img": "/images/members/Vivek Raveendran.jpg",
+      "name": "Vivek Raveendran",
+      "github_url": "https://github.com/VivekUchiha",
+      "additional_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/vivek-raveendran-271692169/"
+    },
+    {
+      "profile": "web-dev",
+      "img": "/images/members/Jithendaraa.jpg",
+      "name": "Jithendaraa",
+      "github_url": "https://github.com/jithendaraa",
+      "additional_url": "https://jithendaraa.github.io",
+      "linkedin_url": "https://www.linkedin.com/in/jithendaraa-subramanian-85a22b176/"
+    },
+    {
+      "profile": "web-dev",
+      "img": "/images/members/Ragland Asir.jpg",
+      "name": "Ragland Asir",
+      "github_url": "http://github.com/raglandCodes",
+      "additional_url": "",
+      "linkedin_url": ""
     }
   ],
 
-  "2022": [
+
+
+
+  "2022" : [
     {
       "profile": "web-dev",
       "img": "/images/members/batch-2022/shohan.jpg",
