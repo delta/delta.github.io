@@ -513,14 +513,6 @@
       "linkedin_url": "https://www.linkedin.com/in/paiakshay998"
     },
     {
-      "profile": "web-dev",
-      "img": "/images/members/Sharabesh_J.jpg",
-      "name": "Sharabesh J",
-      "github_url": "https://github.com/sharabeshj",
-      "additional_url": "",
-      "linkedin_url": ""
-    },
-    {
       "profile": "app-dev",
       "img": "/images/members/Sibi.jpg",
       "name": "Sibi",
@@ -683,8 +675,8 @@
       "img": "/images/members/AdarshPatel.jpg",
       "name": "Adarsh Patel",
       "github_url": "https://github.com/adarshPatel509",
-      "additional_url": "https://pateladarsh2099.github.io/",
-      "linkedin_url": "https://www.linkedin.com/in/adarsh-patel-22a110156/"
+      "additional_url": "https://adarshpatel509.github.io/",
+      "linkedin_url": "https://www.linkedin.com/in/adarshpatel509/"
     },
     {
       "profile": "web-dev",
@@ -703,14 +695,6 @@
       "linkedin_url": "https://www.linkedin.com/in/mario-jones-vimal-stephen-351562159"
     },
     {
-      "profile": "sys-ad",
-      "img": "/images/members/PreethamK.jpg",
-      "name": "Preetham K",
-      "github_url": "https://github.com/preethamk2000",
-      "additional_url": "https://preethamk2000.github.io",
-      "linkedin_url": "https://www.linkedin.com/in/preetham-k-4a471216a/"
-    },
-    {
       "profile": "app-dev",
       "img": "/images/members/Karaen.jpg",
       "name": "Karaen",
@@ -723,8 +707,8 @@
       "img": "/images/members/Aditya.jpg",
       "name": "Aditya",
       "github_url": "https://github.com/adityaa30",
-      "additional_url": "",
-      "linkedin_url": ""
+      "additional_url": "https://adityaa30.github.io/",
+      "linkedin_url": "https://www.linkedin.com/mwlite/in/adityaa30"
     },
     {
       "profile": "web-dev",
@@ -733,14 +717,6 @@
       "github_url": "https://github.com/shakeabi",
       "linkedin_url": "https://www.linkedin.com/in/abi-shake",
       "additional_url": "http://abishake.me"
-    },
-    {
-      "profile": "web-dev",
-      "img": "/images/members/AdwaithD.jpg",
-      "name": "Adwaith D",
-      "github_url": "https://github.com/adwaith007",
-      "additional_url": "http://www.adwaithd.me",
-      "linkedin_url": "https://www.linkedin.com/in/adwaithd"
     },
     {
       "profile": "app-dev",
@@ -757,14 +733,6 @@
       "github_url": "https://www.github.com/ishanisri",
       "additional_url": "",
       "linkedin_url": "https://www.linkedin.com/in/ishani-srivastava-a38056164"
-    },
-    {
-      "profile": "web-dev",
-      "img": "/images/members/VedhantAgarwal.jpg",
-      "name": "Vedhant Agarwal",
-      "github_url": "https://www.github.com/vedhant",
-      "additional_url": "",
-      "linkedin_url": ""
     },
     {
       "profile": "web-dev",
@@ -797,14 +765,6 @@
       "github_url": "https://github.com/jithendaraa",
       "additional_url": "https://jithendaraa.github.io",
       "linkedin_url": "https://www.linkedin.com/in/jithendaraa-subramanian-85a22b176/"
-    },
-    {
-      "profile": "web-dev",
-      "img": "/images/members/Ragland Asir.jpg",
-      "name": "Ragland Asir",
-      "github_url": "http://github.com/raglandCodes",
-      "additional_url": "",
-      "linkedin_url": ""
     }
   ],
 
@@ -851,14 +811,6 @@
       "github_url": "https://github.com/bestinbthomas",
       "linkedin_url": "https://www.linkedin.com/in/bestin-b-thomas-170401",
       "additional_url": ""
-    },
-    {
-      "profile": "app-dev",
-      "img": "/images/members/batch-2022/EswaraPrasad.png",
-      "name": "Eswara Prasad",
-      "github_url": "https://github.com/Eswaraprasadp",
-      "linkedin_url": "",
-      "additional_url": "https://eswaraprasadp.github.io/"
     },
     {
       "profile": "web-dev",
@@ -955,14 +907,6 @@
       "github_url": "https://github.com/Meivenkatkumar",
       "linkedin_url": "https://www.linkedin.com/in/ln-meivenkatkumar-lakshminarayanan-93a32a171",
       "additional_url": "https://www.facebook.com/profile.php?id=100013334168565"
-    },
-    {
-      "profile": "app-dev",
-      "img": "/images/members/batch-2022/Shashank.jpg",
-      "name": "Shashank",
-      "github_url": "https://github.com/shashank-07",
-      "linkedin_url": "https://www.linkedin.com/in/shashank-kakarlapudi-7211a3108",
-      "additional_url": ""
     },
     {
       "profile": "web-dev",

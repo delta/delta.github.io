@@ -15,9 +15,10 @@ Welcome to the code for delta's website.
 * Venkatraman Srikanth
 * Deep Bhattacharyya
 * Anirudh Sundar
+* Adarsh Patel
 
 ### Setup Instructions
 1. Clone the repo
 2. Serve
 
-Copyleft Delta Force 2018
+Copyleft Delta Force 2020
