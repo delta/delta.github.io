@@ -1,0 +1,121 @@
+{
+  "2018": {
+    "carouselImages": [
+      "/images/hackertalks/2018/HT1.jpg",
+      "/images/hackertalks/2018/HT2.jpg",
+      "/images/hackertalks/2018/HT3.jpg",
+      "/images/hackertalks/2018/HT4.jpg",
+      "/images/hackertalks/2018/HT5.jpg"
+    ],
+    "htPoster": "/images/hackertalks/2018/hackerTalksPoster.jpeg",
+    "feedbackUrl": "https://goo.gl/forms/Sp7hMXL8UKBxHLaY2",
+    "talks": [
+      {
+        "title": "What happens when you hit google.com?",
+        "resources": {
+          "Presentation": "/resources/HackerTalks_Google.pptx",
+          "Alex Gaynor's Github Explanation": "https://github.com/alex/what-happens-when"
+        }
+      },
+      {
+        "title": "Writing your own programming language",
+        "resources": {
+          "Presentation": "/resources/Making_an_interpreter.pdf",
+          "Crafting Interpreters": "http://www.craftinginterpreters.com/",
+          "RegexOne : Regular Expressions": "https://www.regexone.com/",
+          "Parsing and Grammars": "http://matt.might.net/articles/grammars-bnf-ebnf/"
+        }
+      },
+      {
+        "title": "Procedural Game Generation",
+        "resources": {
+          "Presentation": "/resources/Procedural Terrain Generation.pptx",
+          "The Demo Code": "https://github.com/venkat24/proc-map-gen"
+        }
+      },
+      {
+        "title": "Understanding Peer-to-Peer systems",
+        "resources": {
+          "Presentation": "/resources/p2p_small.pptx",
+          "WebRTC Basics": "https://www.html5rocks.com/en/tutorials/webrtc/basics/"
+        }
+      },
+      {
+        "title": "Tackling Range Operations",
+        "resources": {
+          "Presentation": "/resources/Tackling Range Operations.pptx",
+          "CodeForces Blog on Segment Trees": "http://codeforces.com/blog/entry/15890"
+        }
+      },
+      {
+        "title": "Impossible Escape - An Algorithmic Puzzle",
+        "resources": {
+          "Presentation": "/resources/An Impossible Escape.pptx",
+          "The Puzzle": "http://datagenetics.com/blog/december12014/index.html",
+          "Bit Hacks": "https://graphics.stanford.edu/~seander/bithacks.html"
+        }
+      }
+    ]
+  },
+
+
+
+  "2019": {
+    "carouselImages": [
+      "/images/hackertalks/2019/HT1.png",
+      "/images/hackertalks/2019/HT2.png",
+      "/images/hackertalks/2019/HT3.png",
+      "/images/hackertalks/2019/HT4.png",
+      "/images/hackertalks/2019/HT5.png"
+    ],
+    "htPoster": "/images/hackertalks/2019/htPoster.jpeg",
+    "feedbackUrl": "",
+    "talks": [
+      {
+        "title": "Persistent Data Structures",
+        "resources": {
+          "Presentation": "",
+          "Video Part 1": "https://delta.nitt.edu/~naven/Hackertalks/Uncompressed/Sai/MVI_9939.MP4",
+          "Video Part 2": "https://delta.nitt.edu/~naven/Hackertalks/Uncompressed/Sai/MVI_9939.MP4"
+        }
+      },
+      {
+        "title": "Let's build a Gameboy!",
+        "resources": {
+          "Presentation": "",
+          "Video Part 1": "https://delta.nitt.edu/~naven/Hackertalks/Uncompressed/Venkat/MVI_7570.MP4",
+          "Video Part 2": "https://delta.nitt.edu/~naven/Hackertalks/Uncompressed/Venkat/MVI_7571.MP4"
+        }
+      },
+      {
+        "title": " Procedural Generation",
+        "resources": {
+          "Presentation": "https://docs.google.com/presentation/d/1DFpeo2bYhvcHd0HenE5dZnY4ZAXrB-DXKi0YW1tt_ts/edit?ts=5c9e0c25",
+          "Terrain Generation with Diamond Square": "https://stevelosh.com/blog/2016/06/diamond-square/",
+          "Video Part 1": "https://delta.nitt.edu/~naven/Hackertalks/Hravi/MVI_9913.MP4", 
+          "Video Part 2": "https://delta.nitt.edu/~naven/Hackertalks/Hravi/MVI_9915.MP4"
+        }
+      },
+      {
+        "title": "APK Modding",
+        "resources": {
+          "Presentation": "/resources/APK Modding.pptx"
+        }
+      },
+      {
+        "title": "Tiny Raycaster",
+        "resources": {
+          "Presentation": ""
+        }
+      },
+      {
+        "title": "Onion Routing",
+        "resources": {
+          "Presentation": "",
+          "Video Part 1": "https://delta.nitt.edu/~naven/Hackertalks/Uncompressed/AniShub/MVI_9932.MP4",
+          "Video Part 2": "https://delta.nitt.edu/~naven/Hackertalks/Uncompressed/AniShub/MVI_9933.MP4"
+        }
+      }
+    ]
+  }
+}

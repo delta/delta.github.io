@@ -79,7 +79,7 @@ $("#batchButtons button").on("click", function() {
     $(this).addClass("active-batch");
 });
 
-// funtion to highlight selected tab on "allMembersButtons" Bar
+// function to highlight selected tab on "allMembersButtons" Bar
 $("#allMembersButtons button").on("click", function() {
     var buttons = $('#allMembersButtons').children();
     for (button of buttons) {

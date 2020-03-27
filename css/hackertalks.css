@@ -56,3 +56,14 @@ section {
 .separator {
     width: 30% !important;
 }
+
+#yearsButton .active-button {
+    background-color: white;
+    color: #414141;
+}
+
+.years-button-box {
+    width:  100%;
+    display: flex;
+    justify-content: center;
+}
