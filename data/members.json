@@ -929,6 +929,7 @@
     {
       "name": "Rinish Sam",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/RinishSam.jpg",
       "github_url": "https://github.com/CaptainIRS",
       "linkedin_url": "https://linkedin.com/in/rinish-sam",
       "additional_url": "https://captainirs.github.io"
@@ -936,6 +937,7 @@
     {
       "name": "Sriram",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/SriramSrinivasan.jpg",
       "github_url": "https://github.com/BLNDLYBLV",
       "linkedin_url": "",
       "additional_url": ""
@@ -943,6 +945,7 @@
     {
       "name": "Satyamurti Doddini",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/SatyamurtiDoddini.jpg",
       "github_url": "https://github.com/satyamurti",
       "linkedin_url": "https://www.linkedin.com/in/satyamurti-d/",
       "additional_url": "https://satyamurti.github.io/"
@@ -950,13 +953,15 @@
     {
       "name": "Priyanshu Dangi",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/PriyanshuDangi.jpg",
       "github_url": "https://github.com/PriyanshuDangi",
       "linkedin_url": "https://www.linkedin.com/in/priyanshu-dangi-36424318b/",
       "additional_url": "https://priyanshudangi.github.io"
     },
     {
-      "name": "Pradeep periyasamy",
+      "name": "Pradeep Periyasamy",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/PradeepPA.jpg",
       "github_url": "https://github.com/PRADEEPERIYASAMY/",
       "linkedin_url": "",
       "additional_url": ""
@@ -964,6 +969,7 @@
     {
       "name": "Shashwat",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/Shashwat.jpg",
       "github_url": "https://github.com/geforce6t",
       "linkedin_url": "",
       "additional_url": ""
@@ -971,6 +977,7 @@
     {
       "name": "Tharun A",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/TharunA.jpg",
       "github_url": "https://github.com/tharun571",
       "linkedin_url": "https://www.linkedin.com/in/tharun-anandh-8b624b199/",
       "additional_url": ""
@@ -978,6 +985,7 @@
     {
       "name": "Akarsh Malik",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/AkarshMalik.jpg",
       "github_url": "https://github.com/malikakarsh",
       "linkedin_url": "https://www.linkedin.com/in/akarsh-malik-911221193",
       "additional_url": ""
@@ -985,6 +993,7 @@
     {
       "name": "Saloni Rakholiya",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/SaloniRakholiya.jpg",
       "github_url": "https://github.com/saloni-rakholiya",
       "linkedin_url": "https://www.linkedin.com/in/saloni-rakholiya-86b1b51a5/",
       "additional_url": ""
@@ -992,6 +1001,7 @@
     {
       "name": "Varunalingam V",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/VarunalingamV.jpg",
       "github_url": "https://github.com/Varunalingam/",
       "linkedin_url": "https://www.linkedin.com/in/varunalingam-v-a752331b6",
       "additional_url": ""
@@ -999,6 +1009,7 @@
     {
       "name": "Dhruv Kachhadia",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/DhruvKachhadia.jpg",
       "github_url": "https://github.com/dhruv1294",
       "linkedin_url": "https://www.linkedin.com/in/dhruv-kachhadia-24aa42192",
       "additional_url": ""
@@ -1006,6 +1017,7 @@
     {
       "name": "Sakthi Prasath",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/SakthiPrasath.jpg",
       "github_url": "https://www.github.com/sakthi-prasath",
       "linkedin_url": "",
       "additional_url": ""
@@ -1013,6 +1025,7 @@
     {
       "name": "Marmik Upadhyay",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/MarmikUpadhyay.jpg",
       "github_url": "https://github.com/marmikupadhyay",
       "linkedin_url": "https://www.linkedin.com/in/marmik-upadhyay-8657bb1b5/",
       "additional_url": "https://marmikupadhyay.github.io/"
@@ -1020,6 +1033,7 @@
     {
       "name": "Anurag Goyal",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/AnuragGoyal.jpg",
       "github_url": "https://github.com/anuragnitt",
       "linkedin_url": "https://www.linkedin.com/in/anurag-goyal-b5884a1ab/",
       "additional_url": ""
@@ -1027,6 +1041,7 @@
     {
       "name": "Sailesh S",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/SaileshS.jpg",
       "github_url": "https://github.com/0149Sailesh",
       "linkedin_url": "",
       "additional_url": ""
@@ -1034,6 +1049,7 @@
     {
       "name": "Ajitha Prasad Y",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/AjithaPrasadY.jpg",
       "github_url": "https://github.com/kelpikz",
       "linkedin_url": "",
       "additional_url": ""
@@ -1041,6 +1057,7 @@
     {
       "name": "Sree Charan M",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/sreecharan.jpg",
       "github_url": "https://github.com/sreecharan-m",
       "linkedin_url": "https://www.linkedin.com/in/sree-charan-m-16070a1a3/",
       "additional_url": ""
@@ -1048,6 +1065,7 @@
     {
       "name": "S Sujith Kumar",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/Sujithkumar.jpg",
       "github_url": "https://github.com/sujithkumar216802",
       "linkedin_url": "https://www.linkedin.com/in/sujith-kumar-954847197/",
       "additional_url": ""
@@ -1055,6 +1073,7 @@
     {
       "name": "Dipesh Kafle",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/DipeshKafle.jpg",
       "github_url": "https://github.com/dipeshkaphle",
       "linkedin_url": "https://www.linkedin.com/in/dipesh-k-07491b137",
       "additional_url": ""
@@ -1062,6 +1081,7 @@
     {
       "name": "Sneha R",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/SnehaR.jpg",
       "github_url": "https://github.com/snehh",
       "linkedin_url": "https://www.linkedin.com/in/sneha-r-10a6541b5",
       "additional_url": ""
@@ -1069,6 +1089,7 @@
     {
       "name": "Sudhindra D",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/SudhindraDondapati.jpg",
       "github_url": "https://github.com/Sudhindra3000",
       "linkedin_url": "https://www.linkedin.com/in/sudhindra-dondapati-a894a51a0/",
       "additional_url": ""
@@ -1076,6 +1097,7 @@
     {
       "name": "T S Ajeet",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/AjeetTS.jpg",
       "github_url": "https://github.com/Ts-A",
       "linkedin_url": "http://linkedin.com/in/ajeet-t-s-974457199",
       "additional_url": ""
@@ -1083,6 +1105,7 @@
     {
       "name": "Shreyas K",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/ShreyasK.jpg",
       "github_url": "https://github.com/Shreyas-21",
       "linkedin_url": "https://www.linkedin.com/in/shreyas-k-029b35110/",
       "additional_url": ""
@@ -1090,6 +1113,7 @@
     {
       "name": "Roshan B",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/RoshanB.jpg",
       "github_url": "https://github.com/DdarkLord69",
       "linkedin_url": "",
       "additional_url": ""
@@ -1097,6 +1121,7 @@
     {
       "name": "Pradeep S",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/Pradeep.jpg",
       "github_url": "https://github.com/pradeep-707",
       "linkedin_url": "https://www.linkedin.com/in/pradeep-s-769a4b123/",
       "additional_url": ""
@@ -1104,6 +1129,7 @@
     {
       "name": "Raghul Nanth",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/RAGHULNANTH.jpg",
       "github_url": "https://www.github.com/NanthR",
       "linkedin_url": "",
       "additional_url": ""
@@ -1111,6 +1137,7 @@
     {
       "name": "Sivaraman",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/SivaRaman.jpg",
       "github_url": "https://github.com/siva2204",
       "linkedin_url": "https://www.linkedin.com/in/siva-raman-b063161b6/",
       "additional_url": ""
@@ -1118,6 +1145,7 @@
     {
       "name": "Anirudh V S",
       "profile": "sys-ad",
+      "img": "/images/members/batch-2023/AnirudhVS.jpg",
       "github_url": "https://www.github.com/anirudhvs",
       "linkedin_url": "https://www.linkedin.com/in/anirudh-vs",
       "additional_url": ""
@@ -1125,6 +1153,7 @@
     {
       "name": "Indresh P",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/Indresh.jpg",
       "github_url": "https://github.com/indreshp135",
       "linkedin_url": "https://www.linkedin.com/in/indresh-p-21b2581b6/",
       "additional_url": ""
@@ -1132,6 +1161,7 @@
     {
       "name": "Yella Sindhu",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/SindhuYella.jpg",
       "github_url": "https://github.com/yellasd",
       "linkedin_url": "https://www.linkedin.com/in/sindhu-yella-609443191",
       "additional_url": ""
@@ -1139,6 +1169,7 @@
     {
       "name": "Muhesh",
       "profile": "app-dev",
+      "img": "/images/members/batch-2023/Muhesh.jpg",
       "github_url": "https://github.com/Muhesh7",
       "linkedin_url": "https://www.linkedin.com/mwlite/in/muhesh-k-5006b91a7",
       "additional_url": "https://www.deviantart.com/doctorstrange7"
@@ -1146,6 +1177,7 @@
     {
       "name": "Nikkil",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/Nikkil.jpg",
       "github_url": "https://github.com/VNikkil",
       "linkedin_url": "",
       "additional_url": ""
@@ -1153,6 +1185,7 @@
     {
       "name": "Subramaniyam Ganesh",
       "profile": "web-dev",
+      "img": "/images/members/batch-2023/SubramaniyamGanesh.jpg",
       "github_url": "https://github.com/subramaniyam73",
       "linkedin_url": "https://www.linkedin.com/in/subramaniyam-ganesh-187ba61b5/",
       "additional_url": ""
