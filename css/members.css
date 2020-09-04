@@ -118,7 +118,7 @@ section {
     }
 
     #alumniButtons {
-        width: 92%;
+        width: 95%;
     }
 
     #allMembersButtons .small-mobile {
@@ -127,14 +127,6 @@ section {
 
     #allMembersButtons .large-mobile {
         width: 65%;
-    }
-    
-    #alumniButtons .small-mobile {
-        width: 12%;
-    }
-
-    #alumniButtons .large-mobile {
-        width: 29%;
     }
 
     #alumniButtons button {
@@ -148,11 +140,11 @@ section {
     }
 
     .small-mobile {
-        width: 10%;
+        width: 12%;
     }
 
     .large-mobile {
-        width: 30%;
+        width: 29%;
     }
 }
 
