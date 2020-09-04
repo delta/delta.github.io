@@ -7,14 +7,15 @@ $(document).ready(function() {
             success: function(result) {
                 load2018Alumni(result[2018]);
                 load2019Alumni(result[2019]);
-                loadFourthYears(result[2020]);
-                loadThirdYears(result[2021]);
-                loadSecondYears(result[2022]);
+                load2020Alumni(result[2020]);
+                loadFourthYears(result[2021]);
+                loadThirdYears(result[2022]);
+                loadSecondYears(result[2023]);
                 $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
             }
         }
     );
-})
+});
 
 function getHTMLString(person) {
 
@@ -40,7 +41,7 @@ function getHTMLString(person) {
         returnString+=`<span><a href="${person.additional_url}"><i id="globeLogo" class="fas fa-globe"></i></a></span>`;
     }
 
-    returnString+=`</div></div></div>`
+    returnString+=`</div></div></div>`;
     
     return returnString;
 }
@@ -68,6 +69,11 @@ function load2018Alumni(alumnis2018) {
 function load2019Alumni(alumnis2019) {
     //  Populate 2019 alumnis
     members['alumnis2019'] = alumnis2019.map(alumni2019 => getHTMLString(alumni2019)).join();
+}
+
+function load2020Alumni(alumnis2020) {
+    //  Populate 2020 alumnis
+    members['alumnis2020'] = alumnis2020.map(alumni2020 => getHTMLString(alumni2020)).join();
 }
 
 // function to highlight selected tab on batchButton
@@ -140,7 +146,7 @@ function clickSecondYears() {
 }
 
 function clickAllAlumni() {
-    $('#allMembersContainer').html(members['alumnis2019']+members['alumnis2018']);
+    $('#allMembersContainer').html(members['alumnis2020']+members['alumnis2019']+members['alumnis2018']);
 
     //hide present members batchButton
     $("#batchButtons").css("display", "none");
@@ -154,4 +160,7 @@ function click2018Alumni() {
 
 function click2019Alumni() {
     $('#allMembersContainer').html(members['alumnis2019']);
+}
+function click2020Alumni() {
+    $('#allMembersContainer').html(members['alumnis2020']);
 }
