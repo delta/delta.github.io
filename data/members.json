@@ -690,9 +690,9 @@
       "profile": "app-dev",
       "img": "/images/members/MarioJones.jpg",
       "name": "Mario Vimal",
-      "github_url": "https://github.com/JMJV",
-      "additional_url": "",
-      "linkedin_url": "https://www.linkedin.com/in/mario-jones-vimal-stephen-351562159"
+      "github_url": "https://github.com/mario-vimal",
+      "additional_url": "https://mario-vimal.me/",
+      "linkedin_url": "https://www.linkedin.com/in/mario-jones-vimal-stephen/"
     },
     {
       "profile": "app-dev",
@@ -786,7 +786,7 @@
       "name": "Bhavesh Mandhan",
       "github_url": "https://github.com/Bhavesh0327",
       "linkedin_url": "https://www.linkedin.com/in/bhavesh-mandhan-833612b1",
-      "additional_url": ""
+      "additional_url": "https://profile.codersrank.io/user/bhavesh0327/"
     },
     {
       "profile": "web-dev",
@@ -830,11 +830,11 @@
     },
     {
       "profile": "app-dev",
-      "img": "/images/members/batch-2022/AdityaRana.jpg",
+      "img": "/images/members/batch-2022/AdityaRana.jpeg",
       "name": "Aditya Rana",
       "github_url": "https://github.com/ranaaditya",
-      "linkedin_url": "www.linkedin.com/in/aditya-rana-68128516b",
-      "additional_url": ""
+      "linkedin_url": "https://www.linkedin.com/in/adityarananitt/",
+      "additional_url": "https://profile.codersrank.io/user/ranaaditya"
     },
     {
       "profile": "sys-ad",
@@ -917,9 +917,6 @@
       "additional_url": "https://shambu2k.github.io/shambu/"
     }
   ],
-
-
-
 
   "2023" : [
     {

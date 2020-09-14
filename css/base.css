@@ -30,6 +30,18 @@ html, body {
   margin-top: 50px;
 }
 
+#gitHubNav {
+  /* display: flex; */
+  padding-right: 60px;
+}
+
+#gitHubNav i {
+  padding-left: 10px;
+  position: absolute;
+  top: 13px;
+  font-size: 20px;
+}
+
 .outer-container {
   position: relative;
 }
@@ -114,4 +126,13 @@ button {
   margin: 10px 0px;
   font-weight: 100 !important;
   transition: background-color 0.5s, color 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+
+#gitHubNav i {
+  top: 9px;
+  font-size: 18px;
+}
+
 }
