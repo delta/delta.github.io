@@ -21,4 +21,4 @@ Welcome to the code for delta's website.
 1. Clone the repo
 2. Serve
 
-Copyleft Delta Force 2020
+Copyright 2020-21 @Delta Force
