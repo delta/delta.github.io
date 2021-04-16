@@ -48,32 +48,32 @@ function getHTMLString(person) {
 
 function loadFourthYears(fourthYears) {
     // Populate Fourth Years
-    members['fourthYears'] = fourthYears.map(fourthYear => getHTMLString(fourthYear)).join();
+    members['fourthYears'] = fourthYears.map(fourthYear => getHTMLString(fourthYear)).join('');
 }
 
 function loadThirdYears(thirdYears) {
     // Populate Third Years
-    members['thirdYears'] = thirdYears.map(thirdYear => getHTMLString(thirdYear)).join();
+    members['thirdYears'] = thirdYears.map(thirdYear => getHTMLString(thirdYear)).join('');
 }
 
 function loadSecondYears(secondYears) {
     // Populate Second Years
-    members['secondYears'] = secondYears.map(secondYear => getHTMLString(secondYear)).join();
+    members['secondYears'] = secondYears.map(secondYear => getHTMLString(secondYear)).join('');
 }
 
 function load2018Alumni(alumnis2018) {
     //  Populate 2018 alumnis
-    members['alumnis2018'] = alumnis2018.map(alumni2018 => getHTMLString(alumni2018)).join();
+    members['alumnis2018'] = alumnis2018.map(alumni2018 => getHTMLString(alumni2018)).join('');
 }
 
 function load2019Alumni(alumnis2019) {
     //  Populate 2019 alumnis
-    members['alumnis2019'] = alumnis2019.map(alumni2019 => getHTMLString(alumni2019)).join();
+    members['alumnis2019'] = alumnis2019.map(alumni2019 => getHTMLString(alumni2019)).join('');
 }
 
 function load2020Alumni(alumnis2020) {
     //  Populate 2020 alumnis
-    members['alumnis2020'] = alumnis2020.map(alumni2020 => getHTMLString(alumni2020)).join();
+    members['alumnis2020'] = alumnis2020.map(alumni2020 => getHTMLString(alumni2020)).join('');
 }
 
 // function to highlight selected tab on batchButton
