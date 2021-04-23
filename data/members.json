@@ -1048,14 +1048,6 @@
       "additional_url": ""
     },
     {
-      "name": "Sree Charan M",
-      "profile": "web-dev",
-      "img": "/images/members/batch-2023/sreecharan.jpg",
-      "github_url": "https://github.com/sreecharan-m",
-      "linkedin_url": "https://www.linkedin.com/in/sree-charan-m-16070a1a3/",
-      "additional_url": ""
-    },
-    {
       "name": "S Sujith Kumar",
       "profile": "app-dev",
       "img": "/images/members/batch-2023/Sujithkumar.jpg",
@@ -1085,14 +1077,6 @@
       "img": "/images/members/batch-2023/SudhindraDondapati.jpg",
       "github_url": "https://github.com/Sudhindra3000",
       "linkedin_url": "https://www.linkedin.com/in/sudhindra-dondapati-a894a51a0/",
-      "additional_url": ""
-    },
-    {
-      "name": "T S Ajeet",
-      "profile": "web-dev",
-      "img": "/images/members/batch-2023/AjeetTS.jpg",
-      "github_url": "https://github.com/Ts-A",
-      "linkedin_url": "http://linkedin.com/in/ajeet-t-s-974457199",
       "additional_url": ""
     },
     {
@@ -1190,6 +1174,14 @@
       "github_url": "https://github.com/senthil2000-dev",
       "linkedin_url": "https://www.linkedin.com/in/senthil-nathan-s-84205b1a7/",
       "additional_url": ""
+    },
+    {
+      "name": "Nishi",
+      "profile": "web-dev",
+      "img": "/images/members/batch-2023/Nishi.jpeg",
+      "github_url": "https://github.com/nishihere19",
+      "linkedin_url": "https://www.linkedin.com/in/nishi-agrawal-94194514a/",
+      "additional_url": "https://nishihere19.netlify.app/"
     }
   ]
 }
