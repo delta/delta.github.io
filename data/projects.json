@@ -63,11 +63,43 @@
 			},
 			{
 				"name": "Aditya Rana",
-				"img": "/images/members/batch-2022/AdityaRana.jpg"
+				"img": "/images/members/batch-2022/AdityaRana.jpeg"
 			},
 			{
 				"name": "Avi",
 				"img": "/images/members/batch-2022/Avi.jpg"
+			},
+			{
+				"name": "Sivaraman",
+				"img": "/images/members/batch-2023/SivaRaman.jpg"
+			},
+			{
+				"name": "Sailesh",
+				"img": "/images/members/batch-2023/SaileshS.jpg"
+			},
+			{
+				"name": "Ajitha",
+				"img": "/images/members/batch-2023/AjithaPrasadY.jpg"
+			},
+			{
+				"name": "Dhruv",
+				"img": "/images/members/batch-2023/DhruvKachhadia.jpg"
+			},
+			{
+				"name": "Sudhindra",
+				"img": "/images/members/batch-2023/SudhindraDondapati.jpg"
+			},
+			{
+				"name": "Satyamurti",
+				"img": "/images/members/batch-2023/SatyamurtiDoddini.jpg"
+			},
+			{
+				"name": "Anirudh V S",
+				"img": "/images/members/batch-2023/AnirudhVS.jpg"
+			},
+			{
+				"name": "Sakthi",
+				"img": "/images/members/batch-2023/SakthiPrasath.jpg"
 			}
 		],
 		"active":true
@@ -142,6 +174,30 @@
 			{
 				"name": "Anu",
 				"img": "/images/members/batch-2022/AnuEJohn.jpg"
+			},
+			{
+				"name": "Dipesh",
+				"img": "/images/members/batch-2023/DipeshKafle.jpg"
+			},
+			{
+				"name": "Rinish",
+				"img": "/images/members/batch-2023/RinishSam.jpg"
+			},
+			{
+				"name": "Sriram",
+				"img": "/images/members/batch-2023/SriramSrinivasan.jpg"
+			},
+			{
+				"name": "Priyanshu",
+				"img": "/images/members/batch-2023/PriyanshuDangi.jpg"
+			},
+			{
+				"name": "Pradeep P",
+				"img": "/images/members/batch-2023/PradeepPA.jpg"
+			},
+			{
+				"name": "Tharun",
+				"img": "/images/members/batch-2023/TharunA.jpg"
 			}
 		],
 		"active":true
@@ -203,6 +259,46 @@
 			{
 				"name": "Bhavesh",
 				"img": "/images/members/batch-2022/BhaveshMandhan.jpg"
+			},
+			{
+				"name": "Shambu",
+				"img": "/images/members/batch-2022/SidharthShambu.jpg"
+			},
+			{
+				"name": "Akarsh",
+				"img": "/images/members/batch-2023/AkarshMalik.jpg"
+			},
+			{
+				"name": "Anurag",
+				"img": "/images/members/batch-2023/AnuragGoyal.jpg"
+			},
+			{
+				"name": "Saloni",
+				"img": "/images/members/batch-2023/SaloniRakholiya.jpg"
+			},
+			{
+				"name": "Sneha",
+				"img": "/images/members/batch-2023/SnehaR.jpg"
+			},
+			{
+				"name": "Nikkil",
+				"img": "/images/members/batch-2023/Nikkil.jpg"
+			},
+			{
+				"name": "Pradeep S",
+				"img": "/images/members/batch-2023/Pradeep.jpg"
+			},
+			{
+				"name": "Muhesh",
+				"img": "/images/members/batch-2023/Muhesh.jpg"
+			},
+			{
+				"name": "Roshan",
+				"img": "/images/members/batch-2023/RoshanB.jpg"
+			},
+			{
+				"name": "Shashwat",
+				"img": "/images/members/batch-2023/Shashwat.jpg"
 			}
 		],
 		"active":true
@@ -284,6 +380,42 @@
 			{
 				"name": "Tejus",
 				"img": "/images/members/batch-2022/Tejus.JPG"
+			},
+			{
+				"name": "Senthilnathan",
+				"img": "/images/members/batch-2023/Senthil_Nathan.jpg"
+			},
+			{
+				"name": "Marmik",
+				"img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
+			},
+			{
+				"name": "Subramaniyam",
+				"img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
+			},
+			{
+				"name": "Varunalingam",
+				"img": "/images/members/batch-2023/VarunalingamV.jpg"
+			},		
+			{
+				"name": "Indresh",
+				"img": "/images/members/batch-2023/Indresh.jpg"
+			},
+			{
+				"name": "Shreyas",
+				"img": "/images/members/batch-2023/ShreyasK.jpg"
+			},
+			{
+				"name": "Raghul",
+				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+			},
+			{
+				"name": "Sujith",
+				"img": "/images/members/batch-2023/Sujithkumar.jpg"
+			},
+			{
+				"name": "Sindhu",
+				"img": "/images/members/batch-2023/SindhuYella.jpg"
 			}
 		],
 		"active":true
