@@ -5,12 +5,12 @@ $(document).ready(function() {
         {
             url: "/data/members.json",
             success: function(result) {
-                load2018Alumni(result[2018]);
                 load2019Alumni(result[2019]);
                 load2020Alumni(result[2020]);
-                loadFourthYears(result[2021]);
-                loadThirdYears(result[2022]);
-                loadSecondYears(result[2023]);
+                load2021Alumni(result[2021]);
+                loadFourthYears(result[2022]);
+                loadThirdYears(result[2023]);
+                loadSecondYears(result[2024]);
                 $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
             }
         }
@@ -61,11 +61,6 @@ function loadSecondYears(secondYears) {
     members['secondYears'] = secondYears.map(secondYear => getHTMLString(secondYear)).join('');
 }
 
-function load2018Alumni(alumnis2018) {
-    //  Populate 2018 alumnis
-    members['alumnis2018'] = alumnis2018.map(alumni2018 => getHTMLString(alumni2018)).join('');
-}
-
 function load2019Alumni(alumnis2019) {
     //  Populate 2019 alumnis
     members['alumnis2019'] = alumnis2019.map(alumni2019 => getHTMLString(alumni2019)).join('');
@@ -74,6 +69,11 @@ function load2019Alumni(alumnis2019) {
 function load2020Alumni(alumnis2020) {
     //  Populate 2020 alumnis
     members['alumnis2020'] = alumnis2020.map(alumni2020 => getHTMLString(alumni2020)).join('');
+}
+
+function load2021Alumni(alumnis2021) {
+    //  Populate 2021 alumnis
+    members['alumnis2021'] = alumnis2021.map(alumni2021 => getHTMLString(alumni2021)).join('');
 }
 
 // function to highlight selected tab on batchButton
@@ -146,7 +146,7 @@ function clickSecondYears() {
 }
 
 function clickAllAlumni() {
-    $('#allMembersContainer').html(members['alumnis2020']+members['alumnis2019']+members['alumnis2018']);
+    $('#allMembersContainer').html(members['alumnis2019']+members['alumnis2020']+members['alumnis2021']);
 
     //hide present members batchButton
     $("#batchButtons").css("display", "none");
@@ -154,13 +154,13 @@ function clickAllAlumni() {
     $("#alumniButtons").css("display", "inline-block");
 }
 
-function click2018Alumni() {
-    $('#allMembersContainer').html(members['alumnis2018']);
-}
-
 function click2019Alumni() {
     $('#allMembersContainer').html(members['alumnis2019']);
 }
+
 function click2020Alumni() {
     $('#allMembersContainer').html(members['alumnis2020']);
+}
+function click2021Alumni() {
+    $('#allMembersContainer').html(members['alumnis2021']);
 }
