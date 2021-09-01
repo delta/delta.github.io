@@ -500,8 +500,8 @@
       "profile": "web-dev",
       "img": "/images/members/Tanvi.jpg",
       "name": "Tanvi Kumar",
-      "github_url": "",
-      "linkedin_url": "",
+      "github_url": "https://github.com/TanviKumar/",
+      "linkedin_url": "https://linkedin.com/in/tanvikumar",
       "additional_url": ""
     },
     {
@@ -509,7 +509,7 @@
       "img": "/images/members/Pai.jpg",
       "name": "Akshay Pai",
       "github_url": "https://github.com/paiakshay998/",
-      "additional_url": "http://paiakshay998.tech/",
+      "additional_url": "https://paiakshay.me/",
       "linkedin_url": "https://www.linkedin.com/in/paiakshay998"
     },
     {
@@ -555,9 +555,9 @@
     {
       "profile": "app-dev",
       "img": "/images/members/sudharsan_k_a.jpg",
-      "name": "K.A.Sudharsan",
+      "name": "Sudharsan K A",
       "github_url": "https://github.com/surajk16",
-      "additional_url": "http://sudharsanka.me/",
+      "additional_url": "http://sudharsan.dev/",
       "linkedin_url": "https://in.linkedin.com/in/sudocode16"
     },
     {
@@ -712,11 +712,11 @@
     },
     {
       "profile": "web-dev",
-      "img": "/images/members/Abishake.jpg",
+      "img": "/images/members/shake.jpg",
       "name": "Abishake",
       "github_url": "https://github.com/shakeabi",
       "linkedin_url": "https://www.linkedin.com/in/abi-shake",
-      "additional_url": "http://abishake.me"
+      "additional_url": "https://shakeabi.github.io/resume"
     },
     {
       "profile": "app-dev",
@@ -785,8 +785,8 @@
       "img": "/images/members/batch-2022/BhaveshMandhan.jpg",
       "name": "Bhavesh Mandhan",
       "github_url": "https://github.com/Bhavesh0327",
-      "linkedin_url": "https://www.linkedin.com/in/bhavesh2703/",
-      "additional_url": "https://mandhan.medium.com"
+      "linkedin_url": "https://www.linkedin.com/in/bhavesh-mandhan-833612b1",
+      "additional_url": "https://profile.codersrank.io/user/bhavesh0327/"
     },
     {
       "profile": "app-dev",
@@ -805,11 +805,11 @@
       "additional_url": "https://bestinbthomas.me"
     },
     {
-      "name": "Anu John",
       "profile": "web-dev",
       "img": "/images/members/batch-2022/AnuEJohn.jpg",
+      "name": "Anu John",
       "github_url": "https://github.com/ElzaCS",
-      "linkedin_url": "https://www.linkedin.com/in/anu-john-3ab37517a/",
+      "linkedin_url": "https://www.linkedin.com/in/anu-john-3ab37517a",
       "additional_url": ""
     },
     {
@@ -1130,9 +1130,9 @@
     {
       "name": "Nishi",
       "profile": "web-dev",
-      "img": "/images/members/batch-2023/Nishi.jpg",
+      "img": "/images/members/batch-2023/Nishi.jpeg",
       "github_url": "https://github.com/nishihere19",
-      "linkedin_url": "https://www.linkedin.com/in/nishihere19",
+      "linkedin_url": "https://www.linkedin.com/in/nishi-agrawal-94194514a/",
       "additional_url": "https://nishihere19.netlify.app/"
     }
   ],

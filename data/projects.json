@@ -54,18 +54,6 @@
 				"img": "/images/members/batch-2022/ Abeshek R.jpg"
 			},
 			{
-				"name": "Pranav",
-				"img": "/images/members/batch-2022/PranavShriram.jpeg"
-			},
-			{
-				"name": "Mei",
-				"img": "/images/members/batch-2022/meivenkatkumar.jpg"
-			},
-			{
-				"name": "Aditya Rana",
-				"img": "/images/members/batch-2022/AdityaRana.jpeg"
-			},
-			{
 				"name": "Avi",
 				"img": "/images/members/batch-2022/Avi.jpg"
 			},
@@ -166,10 +154,6 @@
 			{
 				"name": "Bestin",
 				"img": "/images/members/batch-2022/Bestin.jpg"
-			},
-			{
-				"name": "Ram",
-				"img": "/images/members/batch-2022/RamTN.jpeg"
 			},
 			{
 				"name": "Anu",
@@ -322,6 +306,10 @@
 				"img": "/images/members/NandhaKishore.jpg"
 			},
 			{
+				"name": "Sudharsan",
+				"img": "/images/members/sudharsan_k_a.jpg"
+			},
+			{
 				"name": "Shubham",
 				"img": "/images/members/Shubham.jpeg"
 			},
@@ -340,6 +328,10 @@
 			{
 				"name": "Naven",
 				"img": "/images/members/Naven.jpg"
+			},
+			{
+				"name": "Sriram V",
+				"img": "/images/members/sriram.jpg"
 			},
 			{
 				"name": "Bharath",
@@ -364,10 +356,6 @@
 			{
 				"name": "Aananth",
 				"img": "/images/members/batch-2022/AananthV.jpeg"
-			},
-			{
-				"name": "Ahmed",
-				"img": "/images/members/batch-2022/ahmed.jpg"
 			},
 			{
 				"name": "Pavithra",
