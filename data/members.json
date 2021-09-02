@@ -712,7 +712,7 @@
     },
     {
       "profile": "web-dev",
-      "img": "/images/members/shake.jpg",
+      "img": "/images/members/shake.jpeg",
       "name": "Abishake",
       "github_url": "https://github.com/shakeabi",
       "linkedin_url": "https://www.linkedin.com/in/abi-shake",
@@ -1130,7 +1130,7 @@
     {
       "name": "Nishi",
       "profile": "web-dev",
-      "img": "/images/members/batch-2023/Nishi.jpeg",
+      "img": "/images/members/batch-2023/Nishi.jpg",
       "github_url": "https://github.com/nishihere19",
       "linkedin_url": "https://www.linkedin.com/in/nishi-agrawal-94194514a/",
       "additional_url": "https://nishihere19.netlify.app/"
@@ -1184,14 +1184,6 @@
       "img": "/images/members/batch-2024/SubasriSundararajan.jpg",
       "github_url": "https://github.com/suba1210",
       "linkedin_url": "https://www.linkedin.com/in/subasri-s-187077201/",
-      "additional_url": ""
-    },
-    {
-      "name": "Amarjit Madhumalararungeethayan",
-      "profile": "app-dev",
-      "img": "/images/members/batch-2024/AmarjitMadhumalararungeethayan.jpg",
-      "github_url": "https://github.com/Amarjit-Madhumalararungeethayan",
-      "linkedin_url": "https://www.linkedin.com/in/amarjit-madhumalararungeethayan-7305941bb",
       "additional_url": ""
     },
     {
@@ -1368,6 +1360,14 @@
       "img": "/images/members/batch-2024/NagalakshmiAttili.jpg",
       "github_url": "https://github.com/avvsrohith",
       "linkedin_url": "https://www.linkedin.com/in/rohith-attili-5b4092215/",
+      "additional_url": ""
+    },
+    {
+      "name": "Amarjit Madhumalararungeethayan",
+      "profile": "app-dev",
+      "img": "/images/members/batch-2024/AmarjitMadhumalararungeethayan.jpg",
+      "github_url": "https://github.com/Amarjit-Madhumalararungeethayan",
+      "linkedin_url": "https://www.linkedin.com/in/amarjit-madhumalararungeethayan-7305941bb",
       "additional_url": ""
     }
   ]
