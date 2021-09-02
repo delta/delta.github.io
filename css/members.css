@@ -41,6 +41,8 @@ section {
 /* Initally alumniButton bar hidden */
 #alumniButtons {
     display: none;
+    align-items: center;
+    justify-content: center;
 }
 
 /**
@@ -83,6 +85,32 @@ section {
     z-index: 15;
     opacity: 0;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    #alumniButtons {
+       flex-direction: column; 
+    }
+    .alumnibtn {
+        margin-top: 0;
+    }
+
+    #alumniButtons .alumnibtn {
+        width: 40%;
+    }
+
+    #alumniButtons>.alumnibtn:first-child {
+        border-radius: 0;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        margin-left: -1px;
+    }
+
+    #alumniButtons>.alumnibtn:last-child {
+        border-radius: 0;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
