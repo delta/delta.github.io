@@ -61,6 +61,8 @@ section {
 .basic-details {
     position: relative;
     z-index: 20; /* Has to be more than the z-index of inner-details on hover */
+    display: flex;
+    flex-direction: column;
 }
 
 .basic-details .member-image {
