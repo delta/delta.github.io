@@ -9,9 +9,10 @@ $(document).ready(function() {
                 load2019Alumni(result[2019]);
                 load2020Alumni(result[2020]);
                 load2021Alumni(result[2021]);
-                loadFourthYears(result[2022]);
-                loadThirdYears(result[2023]);
-                loadSecondYears(result[2024]);
+                load2022Alumni(result[2022])
+                loadFourthYears(result[2023]);
+                loadThirdYears(result[2024]);
+                loadSecondYears(result[2025]);
                 $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
             }
         }
@@ -81,6 +82,12 @@ function load2021Alumni(alumnis2021) {
     //  Populate 2021 alumnis
     members['alumnis2021'] = alumnis2021.map(alumni2021 => getHTMLString(alumni2021)).join('');
 }
+
+function load2022Alumni(alumnis2022) {
+    //  Populate 2021 alumnis
+    members['alumnis2022'] = alumnis2022.map(alumni2022 => getHTMLString(alumni2022)).join('');
+}
+
 
 // function to highlight selected tab on batchButton
 $("#batchButtons button").on("click", function() {
@@ -152,7 +159,7 @@ function clickSecondYears() {
 }
 
 function clickAllAlumni() {
-    $('#allMembersContainer').html(members['alumnis2018']+members['alumnis2019']+members['alumnis2020']+members['alumnis2021']);
+    $('#allMembersContainer').html(members['alumnis2018']+members['alumnis2019']+members['alumnis2020']+members['alumnis2021']+members['alumnis2022']);
 
     //hide present members batchButton
     $("#batchButtons").css("display", "none");
@@ -173,4 +180,7 @@ function click2020Alumni() {
 }
 function click2021Alumni() {
     $('#allMembersContainer').html(members['alumnis2021']);
+}
+function click2022Alumni() {
+    $('#allMembersContainer').html(members['alumnis2022']);
 }
