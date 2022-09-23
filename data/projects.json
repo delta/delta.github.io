@@ -88,6 +88,10 @@
 			{
 				"name": "Hedhav",
 				"img": "/images/members/batch-2024/Hedhav.jpg"
+			},
+			{
+				"name":"Simmi Aggarwal",
+				"img": "/images/members/batch-2024/SimmiAggarwal.jpg"
 			}
 		],
 		"active":true
@@ -97,7 +101,7 @@
 		"title":"Code Character",
 		"desc":"Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
 		"link":"http://code.pragyan.org",
-		"img":"/images/codeCharacter.png",
+		"img":"/images/codeCharacter.jpg",
 		"developers": [
 			{
 				"name": "Venkat",
@@ -199,7 +203,7 @@
 		"title":"Pragyan Premier League",
 		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament.",
 		"link":"http://ppl.pragyan.org",
-		"img":"/images/ppl.jpeg",
+		"img":"/images/ppl.jpg",
 		"developers": [
 			{
 				"name": "Ajay",
@@ -417,24 +421,6 @@
 		],
 		"active":true
 	},
-
-	{
-		"title":"ACedIt",
-		"desc":"A CLI utility to run your code against sample test cases for Codeforces, Codechef, Hackerrank and Spoj. Without leaving the terminal. For competitive programming enthusiasts.",
-		"link":"http://github.com/coderick14/ACedIt",
-		"img":"/images/acedit.png",
-		"developers": [
-			{
-				"name": "Deep",
-				"img": "/images/members/Deep.jpg"
-			},
-			{
-				"name": "Lakshmanaram",
-				"img": "/images/members/lakshmanaram.jpg"
-			}
-		],
-		"active":true
-	},
 	{
 		"title":"Utopia",
 		"desc":"Utopia is an online, real-time, 2D arcade-style game made as an orientation event for the freshers of the 2025 batch. Here players can travel around a dream NITT campus along with their friends.",
@@ -502,8 +488,12 @@
 		"title":"Rembook",
 		"desc":"Rembook is a digital slambook where people can record the memories from their college life.",
 		"link":"https://rembook.nitt.edu/",
-		"img":"/images/Rembook.jpg",
+		"img":"/images/Rembook.jpeg",
 		"developers":[
+			{
+				"name": "Pavithra",
+				"img": "/images/members/batch-2022/pavithra.jpg"
+			},
 			{
 				"name": "Sriram",
 				"img": "/images/members/batch-2023/SriramSrinivasan.jpg"
@@ -599,6 +589,10 @@
 				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
 			},
 			{
+				"name": "Shreyas",
+				"img": "/images/members/batch-2023/ShreyasK.jpg"
+			},
+			{
 				"name": "Lokanush",
 				"img": "/images/members/batch-2024/ALokanush.jpg"
 			},
@@ -624,6 +618,34 @@
 		"img":"/images/ctf.png",
 		"developers":[
 			{
+				"name": "Raghul Nanth",
+				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+			},
+			{
+				"name": "Dipesh Kafle",
+				"img": "/images/members/batch-2023/DipeshKafle.jpg"
+			},
+			{
+				"name": "Shreyas K",
+				"img": "/images/members/batch-2023/ShreyasK.jpg"
+			},
+			{
+				"name": "Anurag Goyal",
+				"img": "/images/members/batch-2023/AnuragGoyal.jpg"
+			},
+			{
+				"name": "Akarsh Malik",
+				"img": "/images/members/batch-2023/AkarshMalik.jpg"
+			},
+			{
+				"name": "Rinish Sam",
+				"img": "/images/members/batch-2023/RinishSam.jpg"
+			},
+			{
+				"name": "Sakthi",
+				"img": "/images/members/batch-2023/SakthiPrasath.jpg"
+			},
+			{
 				"name": "Ashwani Vishwakarma",
 				"img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
 			},
@@ -642,6 +664,23 @@
 			{
 				"name": "Viswanath",
 				"img": "/images/members/batch-2024/Viswanath.jpg"
+			}
+		],
+		"active":true
+	},
+	{
+		"title":"ACedIt",
+		"desc":"A CLI utility to run your code against sample test cases for Codeforces, Codechef, Hackerrank and Spoj. Without leaving the terminal. For competitive programming enthusiasts.",
+		"link":"http://github.com/coderick14/ACedIt",
+		"img":"/images/acedit.png",
+		"developers": [
+			{
+				"name": "Deep",
+				"img": "/images/members/Deep.jpg"
+			},
+			{
+				"name": "Lakshmanaram",
+				"img": "/images/members/lakshmanaram.jpg"
 			}
 		],
 		"active":true
