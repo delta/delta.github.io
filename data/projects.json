@@ -182,7 +182,16 @@
 			{
 				"name":"Vignesh",
 				"img":"/images/members/batch-2024/VigneshD.jpg"
+			},
+			{
+				"name":"Ram",
+				"img":"/images/members/batch-2024/RamGaneshKR.jpg"
+			},
+			{
+				"name":"Dhanush T",
+				"img":"/images/members/batch-2024/DhanushT.jpg"
 			}
+
 		],
 		"active":true
 	},
@@ -273,8 +282,8 @@
 				"img": "/images/members/batch-2023/Shashwat.jpg"
 			},
 			{
-				"name": "Ram",
-				"img": "/images/members/batch-2024/RamGaneshKR.jpg"
+				"name": "Rohit",
+				"img": "/images/members/batch-2024/NagalakshmiAttili.jpg"
 			},
 			{
 				"name": "Suhail",
