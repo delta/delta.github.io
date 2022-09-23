@@ -82,12 +82,12 @@
 				"img": "/images/members/batch-2023/SatyamurtiDoddini.jpg"
 			},
 			{
-				"name": "Anirudh V S",
-				"img": "/images/members/batch-2023/AnirudhVS.jpg"
-			},
-			{
 				"name": "Sakthi",
 				"img": "/images/members/batch-2023/SakthiPrasath.jpg"
+			},
+			{
+				"name": "Hedhav",
+				"img": "/images/members/batch-2024/Hedhav.jpg"
 			}
 		],
 		"active":true
@@ -176,13 +176,22 @@
 				"img": "/images/members/batch-2023/PriyanshuDangi.jpg"
 			},
 			{
-				"name": "Pradeep P",
-				"img": "/images/members/batch-2023/PradeepPA.jpg"
+				"name": "Nishi",
+				"img": "/images/members/batch-2023/Nishi.jpg"
 			},
 			{
-				"name": "Tharun",
-				"img": "/images/members/batch-2023/TharunA.jpg"
+				"name":"Vignesh",
+				"img":"/images/members/batch-2024/VigneshD.jpg"
+			},
+			{
+				"name":"Ram",
+				"img":"/images/members/batch-2024/RamGaneshKR.jpg"
+			},
+			{
+				"name":"Dhanush T",
+				"img":"/images/members/batch-2024/DhanushT.jpg"
 			}
+
 		],
 		"active":true
 	},
@@ -257,24 +266,12 @@
 				"img": "/images/members/batch-2023/AnuragGoyal.jpg"
 			},
 			{
-				"name": "Saloni",
-				"img": "/images/members/batch-2023/SaloniRakholiya.jpg"
-			},
-			{
 				"name": "Sneha",
 				"img": "/images/members/batch-2023/SnehaR.jpg"
 			},
 			{
-				"name": "Nikkil",
-				"img": "/images/members/batch-2023/Nikkil.jpg"
-			},
-			{
 				"name": "Pradeep S",
 				"img": "/images/members/batch-2023/Pradeep.jpg"
-			},
-			{
-				"name": "Muhesh",
-				"img": "/images/members/batch-2023/Muhesh.jpg"
 			},
 			{
 				"name": "Roshan",
@@ -283,6 +280,18 @@
 			{
 				"name": "Shashwat",
 				"img": "/images/members/batch-2023/Shashwat.jpg"
+			},
+			{
+				"name": "Rohit",
+				"img": "/images/members/batch-2024/NagalakshmiAttili.jpg"
+			},
+			{
+				"name": "Suhail",
+				"img": "/images/members/batch-2024/SuhailAhmed.jpg"
+			},
+			{
+				"name": "Chirag",
+				"img": "/images/members/batch-2024/ChiragBhatia.jpg"
 			}
 		],
 		"active":true
@@ -382,14 +391,6 @@
 				"img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
 			},
 			{
-				"name": "Varunalingam",
-				"img": "/images/members/batch-2023/VarunalingamV.jpg"
-			},		
-			{
-				"name": "Indresh",
-				"img": "/images/members/batch-2023/Indresh.jpg"
-			},
-			{
 				"name": "Shreyas",
 				"img": "/images/members/batch-2023/ShreyasK.jpg"
 			},
@@ -398,12 +399,20 @@
 				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
 			},
 			{
-				"name": "Sujith",
-				"img": "/images/members/batch-2023/Sujithkumar.jpg"
+				"name": "Subasri S",
+				"img": "/images/members/batch-2024/SubasriSundararajan.jpg"
 			},
 			{
-				"name": "Sindhu",
-				"img": "/images/members/batch-2023/SindhuYella.jpg"
+				"name": "Ashwani Vishwakarma",
+				"img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
+			},
+			{
+				"name": "Arvinthan K J",
+				"img": "/images/members/batch-2024/ArvinthanKJ.jpg"
+			},
+			{
+				"name": "Deveshwar K R",
+				"img": "/images/members/batch-2024/DeveshwarRajaram.jpg"
 			}
 		],
 		"active":true
@@ -422,6 +431,217 @@
 			{
 				"name": "Lakshmanaram",
 				"img": "/images/members/lakshmanaram.jpg"
+			}
+		],
+		"active":true
+	},
+	{
+		"title":"Utopia",
+		"desc":"Utopia is an online, real-time, 2D arcade-style game made as an orientation event for the freshers of the 2025 batch. Here players can travel around a dream NITT campus along with their friends.",
+		"link":"https://utopia.nitt.edu/",
+		"img":"/images/utopia.png",
+		"developers":[
+			{
+				"name": "Ajitha",
+				"img": "/images/members/batch-2023/AjithaPrasadY.jpg"
+			},
+			{
+				"name": "Marmik",
+				"img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
+			},
+			{
+				"name": "Raghul",
+				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+			},
+			{
+				"name": "Sivaraman",
+				"img": "/images/members/batch-2023/SivaRaman.jpg"
+			},
+			{
+				"name": "Sailesh",
+				"img": "/images/members/batch-2023/SaileshS.jpg"
+			},
+			{
+				"name": "Sneha",
+				"img": "/images/members/batch-2023/SnehaR.jpg"
+			}
+		],
+		"active":true
+	},
+
+	{
+		"title":"DAuth",
+		"desc":"DAuth is an OAuth2.0 based SSO (Single Sign On) for NITT students. It serves to replace existing webmail based login and redundant registration.",
+		"link":"https://auth.delta.nitt.edu/",
+		"img":"/images/DAuth.png",
+		"developers":[
+			{
+				"name": "Sivaraman",
+				"img": "/images/members/batch-2023/SivaRaman.jpg"
+			},
+			{
+				"name": "Nishi",
+				"img": "/images/members/batch-2023/Nishi.jpg"
+			},
+			{
+				"name": "Aananth",
+				"img": "/images/members/batch-2022/AananthV.jpeg"
+			},
+			{
+				"name": "Bhavesh",
+				"img": "/images/members/batch-2022/BhaveshMandhan.jpg"
+			},
+			{
+				"name": "Bestin",
+				"img": "/images/members/batch-2022/Bestin.jpg"
+			}
+		],
+		"active":true
+	},
+	{
+		"title":"Rembook",
+		"desc":"Rembook is a digital slambook where people can record the memories from their college life.",
+		"link":"https://rembook.nitt.edu/",
+		"img":"/images/Rembook.jpg",
+		"developers":[
+			{
+				"name": "Sriram",
+				"img": "/images/members/batch-2023/SriramSrinivasan.jpg"
+			},
+			{
+				"name": "Sanjay R Krishna",
+				"img": "/images/members/batch-2024/SanjayRKrishna.jpg"
+			},
+			{
+				"name": "Subramaniyam Ganesh",
+				"img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
+			},
+			{
+				"name": "Raghav Khullar",
+				"img": "/images/members/batch-2024/RaghavKhullar.jpg"
+			},
+			{
+				"name": "Deveshwar K R",
+				"img": "/images/members/batch-2024/DeveshwarRajaram.jpg"
+			}
+		],
+		"active":true
+	},
+	{
+		"title":"Attack on Robots",
+		"desc":"Attack on Robots is a multiplayer resource management game based on strategic city planning. Participants attempt to design safe and secure cities with the available resources and as well as attempt to find weaknesses in other cities.",
+		"link":"",
+		"img":"/images/attackOnRobots.png",
+		"developers":[
+			{
+				"name": "Abeshek Narayan R" ,
+				"img": "/images/members/batch-2022/ Abeshek R.jpg"
+			},
+			{
+				"name": "Jayashrri Balaji",
+				"img": "/images/members/batch-2022/JayashrriBalaji.jpg"
+			},
+			{
+				"name": "Tejus Ramesh",
+				"img": "/images/members/batch-2022/Tejus.JPG"
+			},
+			{
+				"name": "Vikram V",
+				"img": "/images/members/batch-2022/vikramvijai.jpg"
+			},
+			{
+				"name": "Subramaniyam Ganesh",
+				"img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
+			},
+			{
+				"name": "Pradeep S",
+				"img": "/images/members/batch-2023/Pradeep.jpg"
+			},
+			{
+				"name": "Sakthi Prasath",
+				"img": "/images/members/batch-2023/SakthiPrasath.jpg"
+			},
+			{
+				"name": "Guruprasanna Vasudevan",
+				"img": "/images/members/batch-2024/GuruprasannaVasudevan.jpg"
+			},
+			{
+				"name": "Raghav Khullar",
+				"img": "/images/members/batch-2024/RaghavKhullar.jpg"
+			},
+			{
+				"name": "Sarvesh R",
+				"img": "/images/members/batch-2024/SarveshRathinavel.jpg"
+			},
+			{
+				"name": "Sanjay R Krishna",
+				"img": "/images/members/batch-2024/SanjayRKrishna.jpg"
+			}
+		],
+		"active":true
+	},
+	{
+		"title":"Outbreak Origins",
+		"desc":"Outbreak Origins is a single-player, real-time, multi-level game based on pandemic management. Players are expected to manage their resources by implementing control measures in different sections of a geographic location to curb the outbreak. ",
+		"link":"",
+		"img":"/images/outbreakOrigins.png",
+		"developers":[
+			{
+				"name": "Shashwat",
+				"img": "/images/members/batch-2023/Shashwat.jpg"
+			},
+			{
+				"name": "Marmik",
+				"img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
+			},
+			{
+				"name": "Raghul",
+				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+			},
+			{
+				"name": "Lokanush",
+				"img": "/images/members/batch-2024/ALokanush.jpg"
+			},
+			{
+				"name": "Karthik Sundar",
+				"img": "/images/members/batch-2024/KarthikSundar.jpg"
+			},
+			{
+				"name": "Mukundh",
+				"img": "/images/members/batch-2024/MukundhSrivathsan.jpg"
+			},
+			{
+				"name": "Viswanath",
+				"img": "/images/members/batch-2024/Viswanath.jpg"
+			}
+		],
+		"active":true
+	},
+	{
+		"title":"Pragyan Capture the Flag",
+		"desc":"Capture The Flag (CTF) is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It is an ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges.",
+		"link":"",
+		"img":"/images/ctf.png",
+		"developers":[
+			{
+				"name": "Ashwani Vishwakarma",
+				"img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
+			},
+			{
+				"name": "Dhanush T",
+				"img": "/images/members/batch-2024/DhanushT.jpg"
+			},
+			{
+				"name": "Guruprasanna Vasudevan",
+				"img": "/images/members/batch-2024/GuruprasannaVasudevan.jpg"
+			},
+			{
+				"name": "Hedhav",
+				"img": "/images/members/batch-2024/Hedhav.jpg"
+			},
+			{
+				"name": "Viswanath",
+				"img": "/images/members/batch-2024/Viswanath.jpg"
 			}
 		],
 		"active":true
