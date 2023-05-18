@@ -1,688 +1,756 @@
 [
-	{
-		"title":"Dalal Street",
-		"desc":"A virtual stock exchange game where your aim is to maximise your profit. The game is active every year for 7 days leading up to Pragyan. The project uses a Golang backend, protobufs for communication and a React frontend.",
-		"link":"https://www.pragyan.org/18/home/events/manigma/dalal_street",
-		"img":"/images/dalal.jpg",
-		"developers": [
-			{
-				"name": "Deep",
-				"img": "/images/members/Deep.jpg"
-			},
-			{
-				"name": "Parth",
-				"img": "/images/members/parth.jpg"
-			},
-			{
-				"name": "Gautham",
-				"img": "/images/members/gautham.jpg"
-			},
-			{
-				"name": "Akshay Pai",
-				"img": "/images/members/Pai.jpg"
-			},
-			{
-				"name": "Sibi",
-				"img": "/images/members/Sibi.jpg"
-			},
-			{
-				"name": "Santhosh",
-				"img": "/images/members/santhosh_kumar_m.jpg"
-			},
-			{
-				"name": "Harsh",
-				"img": "/images/members/harsh.jpg"
-			},
-			{
-				"name": "Nimish",
-				"img": "/images/members/NimishAgrawal.jpg"
-			},
-			{
-				"name": "Ishani",
-				"img": "/images/members/IshaniSrivastava.jpg"
-			},
-			{
-				"name": "Sandhya",
-				"img": "/images/members/SandhyaS.jpeg"
-			},
-			{
-				"name": "Vivek",
-				"img": "/images/members/Vivek Raveendran.jpg"
-			},
-			{
-				"name": "Abeshek",
-				"img": "/images/members/batch-2022/ Abeshek R.jpg"
-			},
-			{
-				"name": "Avi",
-				"img": "/images/members/batch-2022/Avi.jpg"
-			},
-			{
-				"name": "Sivaraman",
-				"img": "/images/members/batch-2023/SivaRaman.jpg"
-			},
-			{
-				"name": "Sailesh",
-				"img": "/images/members/batch-2023/SaileshS.jpg"
-			},
-			{
-				"name": "Ajitha",
-				"img": "/images/members/batch-2023/AjithaPrasadY.jpg"
-			},
-			{
-				"name": "Dhruv",
-				"img": "/images/members/batch-2023/DhruvKachhadia.jpg"
-			},
-			{
-				"name": "Sudhindra",
-				"img": "/images/members/batch-2023/SudhindraDondapati.jpg"
-			},
-			{
-				"name": "Satyamurti",
-				"img": "/images/members/batch-2023/SatyamurtiDoddini.jpg"
-			},
-			{
-				"name": "Sakthi",
-				"img": "/images/members/batch-2023/SakthiPrasath.jpg"
-			},
-			{
-				"name": "Hedhav",
-				"img": "/images/members/batch-2024/Hedhav.jpg"
-			},
-			{
-				"name":"Simmi Aggarwal",
-				"img": "/images/members/batch-2024/SimmiAggarwal.jpg"
-			}
-		],
-		"active":true
-	},
+  {
+    "title": "Dalal Street",
+    "desc": "A virtual stock exchange game where your aim is to maximise your profit. The game is active every year for 7 days leading up to Pragyan. The project uses a Golang backend, protobufs for communication and a React frontend.",
+    "link": "https://www.pragyan.org/18/home/events/manigma/dalal_street",
+    "img": "/images/dalal.jpg",
+    "developers": [
+      {
+        "name": "Deep",
+        "img": "/images/members/Deep.jpg"
+      },
+      {
+        "name": "Parth",
+        "img": "/images/members/parth.jpg"
+      },
+      {
+        "name": "Gautham",
+        "img": "/images/members/gautham.jpg"
+      },
+      {
+        "name": "Akshay Pai",
+        "img": "/images/members/Pai.jpg"
+      },
+      {
+        "name": "Sibi",
+        "img": "/images/members/Sibi.jpg"
+      },
+      {
+        "name": "Santhosh",
+        "img": "/images/members/santhosh_kumar_m.jpg"
+      },
+      {
+        "name": "Harsh",
+        "img": "/images/members/harsh.jpg"
+      },
+      {
+        "name": "Nimish",
+        "img": "/images/members/NimishAgrawal.jpg"
+      },
+      {
+        "name": "Ishani",
+        "img": "/images/members/IshaniSrivastava.jpg"
+      },
+      {
+        "name": "Sandhya",
+        "img": "/images/members/SandhyaS.jpeg"
+      },
+      {
+        "name": "Vivek",
+        "img": "/images/members/Vivek Raveendran.jpg"
+      },
+      {
+        "name": "Abeshek",
+        "img": "/images/members/batch-2022/ Abeshek R.jpg"
+      },
+      {
+        "name": "Avi",
+        "img": "/images/members/batch-2022/Avi.jpg"
+      },
+      {
+        "name": "Sivaraman",
+        "img": "/images/members/batch-2023/SivaRaman.jpg"
+      },
+      {
+        "name": "Sailesh",
+        "img": "/images/members/batch-2023/SaileshS.jpg"
+      },
+      {
+        "name": "Ajitha",
+        "img": "/images/members/batch-2023/AjithaPrasadY.jpg"
+      },
+      {
+        "name": "Dhruv",
+        "img": "/images/members/batch-2023/DhruvKachhadia.jpg"
+      },
+      {
+        "name": "Sudhindra",
+        "img": "/images/members/batch-2023/SudhindraDondapati.jpg"
+      },
+      {
+        "name": "Satyamurti",
+        "img": "/images/members/batch-2023/SatyamurtiDoddini.jpg"
+      },
+      {
+        "name": "Sakthi",
+        "img": "/images/members/batch-2023/SakthiPrasath.jpg"
+      }
+    ],
+    "active": true
+  },
 
-	{
-		"title":"Code Character",
-		"desc":"Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
-		"link":"http://code.pragyan.org",
-		"img":"/images/codeCharacter.jpg",
-		"developers": [
-			{
-				"name": "Venkat",
-				"img": "/images/members/venkat.jpg"
-			},
-			{
-				"name": "Sundar",
-				"img": "/images/members/anirudhsundar.jpg"
-			},
-			{
-				"name": "Arun",
-				"img": "/images/members/arunramachandran.jpg"
-			},
-			{
-				"name": "Soorya",
-				"img": "/images/members/Soorya_Narayan.jpg"
-			},
-			{
-				"name": "Sachin",
-				"img": "/images/members/sachin.jpg"
-			},
-			{
-				"name": "Tanvi",
-				"img": "/images/members/Tanvi.jpg"
-			},
-			{
-				"name": "Shivashis",
-				"img": "/images/members/ShivashisP.jpg"
-			},
-			{
-				"name": "Sai",
-				"img": "/images/members/Sai_Hemanth_B.jpeg"
-			},
-			{
-				"name": "Kumaran", 
+  {
+    "title": "Code Character",
+    "desc": "Code Character is an AI simulation game modeled off of the highly successful Age of Empires. The only quirk is that your players are controlled using (hopefully) highly efficient and strong C++ code! Code your way to victory!",
+    "link": "http://code.pragyan.org",
+    "img": "/images/codeCharacter.jpg",
+    "developers": [
+      {
+        "name": "Venkat",
+        "img": "/images/members/venkat.jpg"
+      },
+      {
+        "name": "Sundar",
+        "img": "/images/members/anirudhsundar.jpg"
+      },
+      {
+        "name": "Arun",
+        "img": "/images/members/arunramachandran.jpg"
+      },
+      {
+        "name": "Soorya",
+        "img": "/images/members/Soorya_Narayan.jpg"
+      },
+      {
+        "name": "Sachin",
+        "img": "/images/members/sachin.jpg"
+      },
+      {
+        "name": "Tanvi",
+        "img": "/images/members/Tanvi.jpg"
+      },
+      {
+        "name": "Shivashis",
+        "img": "/images/members/ShivashisP.jpg"
+      },
+      {
+        "name": "Sai",
+        "img": "/images/members/Sai_Hemanth_B.jpeg"
+      },
+      {
+        "name": "Kumaran",
         "img": "/images/members/Kumaran.jpg"
-			},
-			{
-				"name": "Mario", 
+      },
+      {
+        "name": "Mario",
         "img": "/images/members/MarioJones.jpg"
-			},
-			{
-				"name": "Subash", 
+      },
+      {
+        "name": "Subash",
         "img": "/images/members/SubashAravindan.jpg"
-			},
-			{
-				"name": "Hrishikesh", 
+      },
+      {
+        "name": "Hrishikesh",
         "img": "/images/members/HrishikeshShekhar.jpg"
-			},
-			{
-				"name": "Jithendaraa", 
+      },
+      {
+        "name": "Jithendaraa",
         "img": "/images/members/Jithendaraa.jpg"
-			},
-			{
-				"name": "Bestin",
-				"img": "/images/members/batch-2022/Bestin.jpg"
-			},
-			{
-				"name": "Anu",
-				"img": "/images/members/batch-2022/AnuEJohn.jpg"
-			},
-			{
-				"name": "Dipesh",
-				"img": "/images/members/batch-2023/DipeshKafle.jpg"
-			},
-			{
-				"name": "Rinish",
-				"img": "/images/members/batch-2023/RinishSam.jpg"
-			},
-			{
-				"name": "Sriram",
-				"img": "/images/members/batch-2023/SriramSrinivasan.jpg"
-			},
-			{
-				"name": "Priyanshu",
-				"img": "/images/members/batch-2023/PriyanshuDangi.jpg"
-			},
-			{
-				"name": "Nishi",
-				"img": "/images/members/batch-2023/Nishi.jpg"
-			},
-			{
-				"name":"Vignesh",
-				"img":"/images/members/batch-2024/VigneshD.jpg"
-			},
-			{
-				"name":"Ram",
-				"img":"/images/members/batch-2024/RamGaneshKR.jpg"
-			},
-			{
-				"name":"Dhanush T",
-				"img":"/images/members/batch-2024/DhanushT.jpg"
-			}
+      },
+      {
+        "name": "Bestin",
+        "img": "/images/members/batch-2022/Bestin.jpg"
+      },
+      {
+        "name": "Anu",
+        "img": "/images/members/batch-2022/AnuEJohn.jpg"
+      },
+      {
+        "name": "Dipesh",
+        "img": "/images/members/batch-2023/DipeshKafle.jpg"
+      },
+      {
+        "name": "Rinish",
+        "img": "/images/members/batch-2023/RinishSam.jpg"
+      },
+      {
+        "name": "Sriram",
+        "img": "/images/members/batch-2023/SriramSrinivasan.jpg"
+      },
+      {
+        "name": "Priyanshu",
+        "img": "/images/members/batch-2023/PriyanshuDangi.jpg"
+      },
+      {
+        "name": "Nishi",
+        "img": "/images/members/batch-2023/Nishi.jpg"
+      },
+      {
+        "name": "Vignesh",
+        "img": "/images/members/batch-2024/VigneshD.jpg"
+      },
+      {
+        "name": "Ashwani",
+        "img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
+      },
+      {
+        "name": "Ram",
+        "img": "/images/members/batch-2024/RamGaneshKR.jpg"
+      },
+      {
+        "name": "Shubham",
+        "img": "/images/members/batch-2025/ShubhamAgarwal.jpg"
+      },
+      {
+        "name": "Kevin Christ",
+        "img": "/images/members/batch-2025/Kevin.png"
+      },
+      {
+        "name": "Bhoopesh M",
+        "img": "/images/members/batch-2025/BhoopeshM.jpg"
+      },
+      {
+        "name": "Valliammai.S.M",
+        "img": "/images/members/batch-2025/ValliammaiSM.jpg"
+      },
+      {
+        "name": "Vivek",
+        "img": "/images/members/batch-2025/Vivek.jpeg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Pragyan Premier League",
+    "desc": "Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament.",
+    "link": "http://ppl.pragyan.org",
+    "img": "/images/ppl.jpg",
+    "developers": [
+      {
+        "name": "Ajay",
+        "img": "/images/members/AjayNataraj.jpg"
+      },
+      {
+        "name": "Arut",
+        "img": "/images/members/Arut.jpg"
+      },
+      {
+        "name": "K Anirudh",
+        "img": "/images/members/Anirudh.jpeg"
+      },
+      {
+        "name": "Ajish",
+        "img": "/images/members/Ajish.jpeg"
+      },
+      {
+        "name": "Vikram",
+        "img": "/images/members/Vikram.jpg"
+      },
+      {
+        "name": "Hariprasanth",
+        "img": "/images/members/Hari.jpg"
+      },
+      {
+        "name": "Rahul",
+        "img": "/images/members/RahulVS.jpg"
+      },
+      {
+        "name": "Adarsh",
+        "img": "/images/members/AdarshPatel.jpg"
+      },
+      {
+        "name": "Deeraj",
+        "img": "/images/members/DeerajEsvarR.jpg"
+      },
+      {
+        "name": "Vikram",
+        "img": "/images/members/batch-2022/vikramvijai.jpg"
+      },
+      {
+        "name": "Shrey",
+        "img": "/images/members/batch-2022/ShreyGarg.jpg"
+      },
+      {
+        "name": "Shohan",
+        "img": "/images/members/batch-2022/shohan.jpg"
+      },
+      {
+        "name": "Bhavesh",
+        "img": "/images/members/batch-2022/BhaveshMandhan.jpg"
+      },
+      {
+        "name": "Shambu",
+        "img": "/images/members/batch-2022/SidharthShambu.jpg"
+      },
+      {
+        "name": "Akarsh",
+        "img": "/images/members/batch-2023/AkarshMalik.jpg"
+      },
+      {
+        "name": "Anurag",
+        "img": "/images/members/batch-2023/AnuragGoyal.jpg"
+      },
+      {
+        "name": "Sneha",
+        "img": "/images/members/batch-2023/SnehaR.jpg"
+      },
+      {
+        "name": "Pradeep S",
+        "img": "/images/members/batch-2023/Pradeep.jpg"
+      },
+      {
+        "name": "Roshan",
+        "img": "/images/members/batch-2023/RoshanB.jpg"
+      },
+      {
+        "name": "Shashwat",
+        "img": "/images/members/batch-2023/Shashwat.jpg"
+      },
+      {
+        "name": "Suhail",
+        "img": "/images/members/batch-2024/SuhailAhmed.jpg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Beer Factory",
+    "desc": "Beer Factory is a strategy based resource management online game where each participant is in charge of a beer factory. The participant's factory will compete against a computer-simulated opponent factory. The money made and the popularity among the retailers decide the winner.",
+    "link": "http://beerfactory.pragyan.org",
+    "img": "/images/beerf.jpg",
+    "developers": [
+      {
+        "name": "Santa",
+        "img": "/images/members/santa.jpg"
+      },
+      {
+        "name": "Kunaal",
+        "img": "/images/members/kunaal.jpeg"
+      },
+      {
+        "name": "Nandha",
+        "img": "/images/members/NandhaKishore.jpg"
+      },
+      {
+        "name": "Sudharsan",
+        "img": "/images/members/sudharsan_k_a.jpg"
+      },
+      {
+        "name": "Shubham",
+        "img": "/images/members/Shubham.jpeg"
+      },
+      {
+        "name": "Ranga",
+        "img": "/images/members/Sriranganathan.jpg"
+      },
+      {
+        "name": "Shravan",
+        "img": "/images/members/shravan.jpg"
+      },
+      {
+        "name": "Ezhil",
+        "img": "/images/members/Ezhil.jpg"
+      },
+      {
+        "name": "Naven",
+        "img": "/images/members/Naven.jpg"
+      },
+      {
+        "name": "Sriram V",
+        "img": "/images/members/sriram.jpg"
+      },
+      {
+        "name": "Bharath",
+        "img": "/images/members/BharathKumarR.jpg"
+      },
+      {
+        "name": "Ram",
+        "img": "/images/members/RamSreevaths.jpg"
+      },
+      {
+        "name": "Abishake",
+        "img": "/images/members/Abishake.jpg"
+      },
+      {
+        "name": "Kareen",
+        "img": "/images/members/Karaen.jpg"
+      },
+      {
+        "name": "Aditya",
+        "img": "/images/members/Aditya.jpg"
+      },
+      {
+        "name": "Aananth",
+        "img": "/images/members/batch-2022/AananthV.jpeg"
+      },
+      {
+        "name": "Pavithra",
+        "img": "/images/members/batch-2022/pavithra.jpg"
+      },
+      {
+        "name": "Jayashrri",
+        "img": "/images/members/batch-2022/JayashrriBalaji.jpg"
+      },
+      {
+        "name": "Tejus",
+        "img": "/images/members/batch-2022/Tejus.JPG"
+      },
+      {
+        "name": "Senthilnathan",
+        "img": "/images/members/batch-2023/Senthil_Nathan.jpg"
+      },
+      {
+        "name": "Marmik",
+        "img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
+      },
+      {
+        "name": "Subramaniyam",
+        "img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
+      },
+      {
+        "name": "Shreyas",
+        "img": "/images/members/batch-2023/ShreyasK.jpg"
+      },
+      {
+        "name": "Raghul",
+        "img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+      },
+      {
+        "name": "Subasri S",
+        "img": "/images/members/batch-2024/SubasriSundararajan.jpg"
+      },
+      {
+        "name": "Ashwani",
+        "img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
+      },
+      {
+        "name": "Deveshwar",
+        "img": "/images/members/batch-2024/DeveshwarRajaram.jpg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Utopia",
+    "desc": "Utopia is an online, real-time, 2D arcade-style game made as an orientation event for the freshers of the 2025 batch. Here players can travel around a dream NITT campus along with their friends.",
+    "link": "https://utopia.nitt.edu/",
+    "img": "/images/utopia.png",
+    "developers": [
+      {
+        "name": "Ajitha",
+        "img": "/images/members/batch-2023/AjithaPrasadY.jpg"
+      },
+      {
+        "name": "Marmik",
+        "img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
+      },
+      {
+        "name": "Raghul",
+        "img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+      },
+      {
+        "name": "Sivaraman",
+        "img": "/images/members/batch-2023/SivaRaman.jpg"
+      },
+      {
+        "name": "Sailesh",
+        "img": "/images/members/batch-2023/SaileshS.jpg"
+      },
+      {
+        "name": "Sneha",
+        "img": "/images/members/batch-2023/SnehaR.jpg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Arcadia: Rivals",
+    "desc": "Arcadia: Rivals is a strategy game where you explore the maps, collect minicons with unique abilities, place them strategically on your lineup and engage in epic one-on-one battles to gain as many trophies as possible to conquer the world of Arcadia.",
+    "link": "https://arcadia.pragyan.org/",
+    "img": "/images/arcadia.png",
+    "developers": [
+      {
+        "name": "Suhail",
+        "img": "/images/members/batch-2024/SuhailAhmed.jpg"
+      },
+      {
+        "name": "Sanjai",
+        "img": "/images/members/batch-2025/SanjaiKM.jpg"
+      },
+      {
+        "name": "Mritul S",
+        "img": "/images/members/batch-2025/MritulSenthilkumar.jpg"
+      },
+      {
+        "name": "Selvanayagam",
+        "img": "/images/members/batch-2025/SSelvanayagam.jpeg"
+      },
+      {
+        "name": "Aashika G",
+        "img": "/images/members/batch-2025/AashikaG.jpg"
+      },
+      {
+        "name": "Sesha",
+        "img": "/images/members/batch-2025/SeshaRaghavanKG.jpg"
+      }
+    ],
+    "active": true
+  },
 
-		],
-		"active":true
-	},
-	{
-		"title":"Pragyan Premier League",
-		"desc":"Pragyan Premier League is a Cricket Management Event, in which participants have to participate in an auction of players, and decide their playing strategy in a virtual Cricket tournament.",
-		"link":"http://ppl.pragyan.org",
-		"img":"/images/ppl.jpg",
-		"developers": [
-			{
-				"name": "Ajay",
-				"img": "/images/members/AjayNataraj.jpg"
-			},
-			{
-				"name": "Arut",
-				"img": "/images/members/Arut.jpg"
-			},
-			{
-				"name": "K Anirudh",
-				"img": "/images/members/Anirudh.jpeg"
-			},
-			{
-				"name": "Ajish",
-				"img": "/images/members/Ajish.jpeg"
-			},
-			{
-				"name": "Vikram",
-				"img": "/images/members/Vikram.jpg"
-			},
-			{
-				"name": "Hariprasanth",
-				"img": "/images/members/Hari.jpg"
-			},
-			{
-				"name": "Rahul",
-				"img": "/images/members/RahulVS.jpg"
-			},
-			{
-				"name": "Adarsh",
-				"img": "/images/members/AdarshPatel.jpg"
-			},
-			{
-				"name": "Deeraj",
-				"img": "/images/members/DeerajEsvarR.jpg"
-			},
-			{
-				"name": "Vikram",
-				"img": "/images/members/batch-2022/vikramvijai.jpg"
-			},
-			{
-				"name": "Shrey",
-				"img": "/images/members/batch-2022/ShreyGarg.jpg"
-			},
-			{
-				"name": "Shohan",
-				"img": "/images/members/batch-2022/shohan.jpg"
-			},
-			{
-				"name": "Bhavesh",
-				"img": "/images/members/batch-2022/BhaveshMandhan.jpg"
-			},
-			{
-				"name": "Shambu",
-				"img": "/images/members/batch-2022/SidharthShambu.jpg"
-			},
-			{
-				"name": "Akarsh",
-				"img": "/images/members/batch-2023/AkarshMalik.jpg"
-			},
-			{
-				"name": "Anurag",
-				"img": "/images/members/batch-2023/AnuragGoyal.jpg"
-			},
-			{
-				"name": "Sneha",
-				"img": "/images/members/batch-2023/SnehaR.jpg"
-			},
-			{
-				"name": "Pradeep S",
-				"img": "/images/members/batch-2023/Pradeep.jpg"
-			},
-			{
-				"name": "Roshan",
-				"img": "/images/members/batch-2023/RoshanB.jpg"
-			},
-			{
-				"name": "Shashwat",
-				"img": "/images/members/batch-2023/Shashwat.jpg"
-			},
-			{
-				"name": "Rohit",
-				"img": "/images/members/batch-2024/NagalakshmiAttili.jpg"
-			},
-			{
-				"name": "Suhail",
-				"img": "/images/members/batch-2024/SuhailAhmed.jpg"
-			},
-			{
-				"name": "Chirag",
-				"img": "/images/members/batch-2024/ChiragBhatia.jpg"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"Beer Factory",
-		"desc":"Beer Factory is a strategy based resource management online game where each participant is in charge of a beer factory. The participant's factory will compete against a computer-simulated opponent factory. The money made and the popularity among the retailers decide the winner.",
-		"link":"http://beerfactory.pragyan.org",
-		"img":"/images/beerf.jpg",
-		"developers": [
-			{
-				"name": "Santa",
-				"img": "/images/members/santa.jpg"
-			},
-			{
-				"name": "Kunaal",
-				"img": "/images/members/kunaal.jpeg"
-			},
-			{
-				"name": "Nandha",
-				"img": "/images/members/NandhaKishore.jpg"
-			},
-			{
-				"name": "Sudharsan",
-				"img": "/images/members/sudharsan_k_a.jpg"
-			},
-			{
-				"name": "Shubham",
-				"img": "/images/members/Shubham.jpeg"
-			},
-			{
-				"name": "Ranga",
-				"img": "/images/members/Sriranganathan.jpg"
-			},
-			{
-				"name": "Shravan",
-				"img": "/images/members/shravan.jpg"
-			},
-			{
-				"name": "Ezhil",
-				"img": "/images/members/Ezhil.jpg"
-			},
-			{
-				"name": "Naven",
-				"img": "/images/members/Naven.jpg"
-			},
-			{
-				"name": "Sriram V",
-				"img": "/images/members/sriram.jpg"
-			},
-			{
-				"name": "Bharath",
-				"img": "/images/members/BharathKumarR.jpg"
-			},
-			{
-				"name": "Ram",
-				"img": "/images/members/RamSreevaths.jpg"
-			},
-			{
-				"name": "Abishake",
-				"img": "/images/members/Abishake.jpg"
-			},
-			{
-				"name": "Kareen",
-				"img": "/images/members/Karaen.jpg"
-			},
-			{
-				"name": "Aditya",
-				"img": "/images/members/Aditya.jpg"
-			},
-			{
-				"name": "Aananth",
-				"img": "/images/members/batch-2022/AananthV.jpeg"
-			},
-			{
-				"name": "Pavithra",
-				"img": "/images/members/batch-2022/pavithra.jpg"
-			},
-			{
-				"name": "Jayashrri",
-				"img": "/images/members/batch-2022/JayashrriBalaji.jpg"
-			},
-			{
-				"name": "Tejus",
-				"img": "/images/members/batch-2022/Tejus.JPG"
-			},
-			{
-				"name": "Senthilnathan",
-				"img": "/images/members/batch-2023/Senthil_Nathan.jpg"
-			},
-			{
-				"name": "Marmik",
-				"img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
-			},
-			{
-				"name": "Subramaniyam",
-				"img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
-			},
-			{
-				"name": "Shreyas",
-				"img": "/images/members/batch-2023/ShreyasK.jpg"
-			},
-			{
-				"name": "Raghul",
-				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
-			},
-			{
-				"name": "Subasri S",
-				"img": "/images/members/batch-2024/SubasriSundararajan.jpg"
-			},
-			{
-				"name": "Ashwani Vishwakarma",
-				"img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
-			},
-			{
-				"name": "Arvinthan K J",
-				"img": "/images/members/batch-2024/ArvinthanKJ.jpg"
-			},
-			{
-				"name": "Deveshwar K R",
-				"img": "/images/members/batch-2024/DeveshwarRajaram.jpg"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"Utopia",
-		"desc":"Utopia is an online, real-time, 2D arcade-style game made as an orientation event for the freshers of the 2025 batch. Here players can travel around a dream NITT campus along with their friends.",
-		"link":"https://utopia.nitt.edu/",
-		"img":"/images/utopia.png",
-		"developers":[
-			{
-				"name": "Ajitha",
-				"img": "/images/members/batch-2023/AjithaPrasadY.jpg"
-			},
-			{
-				"name": "Marmik",
-				"img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
-			},
-			{
-				"name": "Raghul",
-				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
-			},
-			{
-				"name": "Sivaraman",
-				"img": "/images/members/batch-2023/SivaRaman.jpg"
-			},
-			{
-				"name": "Sailesh",
-				"img": "/images/members/batch-2023/SaileshS.jpg"
-			},
-			{
-				"name": "Sneha",
-				"img": "/images/members/batch-2023/SnehaR.jpg"
-			}
-		],
-		"active":true
-	},
-
-	{
-		"title":"DAuth",
-		"desc":"DAuth is an OAuth2.0 based SSO (Single Sign On) for NITT students. It serves to replace existing webmail based login and redundant registration.",
-		"link":"https://auth.delta.nitt.edu/",
-		"img":"/images/DAuth.png",
-		"developers":[
-			{
-				"name": "Sivaraman",
-				"img": "/images/members/batch-2023/SivaRaman.jpg"
-			},
-			{
-				"name": "Nishi",
-				"img": "/images/members/batch-2023/Nishi.jpg"
-			},
-			{
-				"name": "Aananth",
-				"img": "/images/members/batch-2022/AananthV.jpeg"
-			},
-			{
-				"name": "Bhavesh",
-				"img": "/images/members/batch-2022/BhaveshMandhan.jpg"
-			},
-			{
-				"name": "Bestin",
-				"img": "/images/members/batch-2022/Bestin.jpg"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"Rembook",
-		"desc":"Rembook is a digital slambook where people can record the memories from their college life.",
-		"link":"https://rembook.nitt.edu/",
-		"img":"/images/Rembook.jpeg",
-		"developers":[
-			{
-				"name": "Pavithra",
-				"img": "/images/members/batch-2022/pavithra.jpg"
-			},
-			{
-				"name": "Sriram",
-				"img": "/images/members/batch-2023/SriramSrinivasan.jpg"
-			},
-			{
-				"name": "Sanjay R Krishna",
-				"img": "/images/members/batch-2024/SanjayRKrishna.jpg"
-			},
-			{
-				"name": "Subramaniyam Ganesh",
-				"img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
-			},
-			{
-				"name": "Raghav Khullar",
-				"img": "/images/members/batch-2024/RaghavKhullar.jpg"
-			},
-			{
-				"name": "Deveshwar K R",
-				"img": "/images/members/batch-2024/DeveshwarRajaram.jpg"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"Attack on Robots",
-		"desc":"Attack on Robots is a multiplayer resource management game based on strategic city planning. Participants attempt to design safe and secure cities with the available resources and as well as attempt to find weaknesses in other cities.",
-		"link":"",
-		"img":"/images/attackOnRobots.png",
-		"developers":[
-			{
-				"name": "Abeshek Narayan R" ,
-				"img": "/images/members/batch-2022/ Abeshek R.jpg"
-			},
-			{
-				"name": "Jayashrri Balaji",
-				"img": "/images/members/batch-2022/JayashrriBalaji.jpg"
-			},
-			{
-				"name": "Tejus Ramesh",
-				"img": "/images/members/batch-2022/Tejus.JPG"
-			},
-			{
-				"name": "Vikram V",
-				"img": "/images/members/batch-2022/vikramvijai.jpg"
-			},
-			{
-				"name": "Subramaniyam Ganesh",
-				"img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
-			},
-			{
-				"name": "Pradeep S",
-				"img": "/images/members/batch-2023/Pradeep.jpg"
-			},
-			{
-				"name": "Sakthi Prasath",
-				"img": "/images/members/batch-2023/SakthiPrasath.jpg"
-			},
-			{
-				"name": "Guruprasanna Vasudevan",
-				"img": "/images/members/batch-2024/GuruprasannaVasudevan.jpg"
-			},
-			{
-				"name": "Raghav Khullar",
-				"img": "/images/members/batch-2024/RaghavKhullar.jpg"
-			},
-			{
-				"name": "Sarvesh R",
-				"img": "/images/members/batch-2024/SarveshRathinavel.jpg"
-			},
-			{
-				"name": "Sanjay R Krishna",
-				"img": "/images/members/batch-2024/SanjayRKrishna.jpg"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"Outbreak Origins",
-		"desc":"Outbreak Origins is a single-player, real-time, multi-level game based on pandemic management. Players are expected to manage their resources by implementing control measures in different sections of a geographic location to curb the outbreak. ",
-		"link":"",
-		"img":"/images/outbreakOrigins.png",
-		"developers":[
-			{
-				"name": "Shashwat",
-				"img": "/images/members/batch-2023/Shashwat.jpg"
-			},
-			{
-				"name": "Marmik",
-				"img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
-			},
-			{
-				"name": "Raghul",
-				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
-			},
-			{
-				"name": "Shreyas",
-				"img": "/images/members/batch-2023/ShreyasK.jpg"
-			},
-			{
-				"name": "Lokanush",
-				"img": "/images/members/batch-2024/ALokanush.jpg"
-			},
-			{
-				"name": "Karthik Sundar",
-				"img": "/images/members/batch-2024/KarthikSundar.jpg"
-			},
-			{
-				"name": "Mukundh",
-				"img": "/images/members/batch-2024/MukundhSrivathsan.jpg"
-			},
-			{
-				"name": "Viswanath",
-				"img": "/images/members/batch-2024/Viswanath.jpg"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"Pragyan Capture the Flag",
-		"desc":"Capture The Flag (CTF) is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It is an ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges.",
-		"link":"",
-		"img":"/images/ctf.png",
-		"developers":[
-			{
-				"name": "Raghul Nanth",
-				"img": "/images/members/batch-2023/RAGHULNANTH.jpg"
-			},
-			{
-				"name": "Dipesh Kafle",
-				"img": "/images/members/batch-2023/DipeshKafle.jpg"
-			},
-			{
-				"name": "Shreyas K",
-				"img": "/images/members/batch-2023/ShreyasK.jpg"
-			},
-			{
-				"name": "Anurag Goyal",
-				"img": "/images/members/batch-2023/AnuragGoyal.jpg"
-			},
-			{
-				"name": "Akarsh Malik",
-				"img": "/images/members/batch-2023/AkarshMalik.jpg"
-			},
-			{
-				"name": "Rinish Sam",
-				"img": "/images/members/batch-2023/RinishSam.jpg"
-			},
-			{
-				"name": "Sakthi",
-				"img": "/images/members/batch-2023/SakthiPrasath.jpg"
-			},
-			{
-				"name": "Ashwani Vishwakarma",
-				"img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
-			},
-			{
-				"name": "Dhanush T",
-				"img": "/images/members/batch-2024/DhanushT.jpg"
-			},
-			{
-				"name": "Guruprasanna Vasudevan",
-				"img": "/images/members/batch-2024/GuruprasannaVasudevan.jpg"
-			},
-			{
-				"name": "Hedhav",
-				"img": "/images/members/batch-2024/Hedhav.jpg"
-			},
-			{
-				"name": "Viswanath",
-				"img": "/images/members/batch-2024/Viswanath.jpg"
-			}
-		],
-		"active":true
-	},
-	{
-		"title":"ACedIt",
-		"desc":"A CLI utility to run your code against sample test cases for Codeforces, Codechef, Hackerrank and Spoj. Without leaving the terminal. For competitive programming enthusiasts.",
-		"link":"http://github.com/coderick14/ACedIt",
-		"img":"/images/acedit.png",
-		"developers": [
-			{
-				"name": "Deep",
-				"img": "/images/members/Deep.jpg"
-			},
-			{
-				"name": "Lakshmanaram",
-				"img": "/images/members/lakshmanaram.jpg"
-			}
-		],
-		"active":true
-	}
+  {
+    "title": "DAuth",
+    "desc": "DAuth is an OAuth2.0 based SSO (Single Sign On) for NITT students. It serves to replace existing webmail based login and redundant registration.",
+    "link": "https://auth.delta.nitt.edu/",
+    "img": "/images/DAuth.png",
+    "developers": [
+      {
+        "name": "Sivaraman",
+        "img": "/images/members/batch-2023/SivaRaman.jpg"
+      },
+      {
+        "name": "Nishi",
+        "img": "/images/members/batch-2023/Nishi.jpg"
+      },
+      {
+        "name": "Aananth",
+        "img": "/images/members/batch-2022/AananthV.jpeg"
+      },
+      {
+        "name": "Bhavesh",
+        "img": "/images/members/batch-2022/BhaveshMandhan.jpg"
+      },
+      {
+        "name": "Bestin",
+        "img": "/images/members/batch-2022/Bestin.jpg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Rembook",
+    "desc": "Rembook is a digital slambook where people can record the memories from their college life.",
+    "link": "https://rembook.nitt.edu/",
+    "img": "/images/Rembook.png",
+    "developers": [
+      {
+        "name": "Pavithra",
+        "img": "/images/members/batch-2022/pavithra.jpg"
+      },
+      {
+        "name": "Sriram",
+        "img": "/images/members/batch-2023/SriramSrinivasan.jpg"
+      },
+      {
+        "name": "Subramaniyam",
+        "img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
+      },
+      {
+        "name": "Raghav",
+        "img": "/images/members/batch-2024/RaghavKhullar.jpg"
+      },
+      {
+        "name": "Deveshwar",
+        "img": "/images/members/batch-2024/DeveshwarRajaram.jpg"
+      },
+      {
+        "name": "Abhinav",
+        "img": "/images/members/batch-2025/AbhinavReddyPottigari.jpeg"
+      },
+      {
+        "name": "Vivek",
+        "img": "/images/members/batch-2025/Vivek.jpeg"
+      },
+      {
+        "name": "Mritul S",
+        "img": "/images/members/batch-2025/MritulSenthilkumar.jpg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Attack on Robots",
+    "desc": "Attack on Robots is a multiplayer resource management game based on strategic city planning. Participants attempt to design safe and secure cities with the available resources and as well as attempt to find weaknesses in other cities.",
+    "link": "",
+    "img": "/images/attackOnRobots.png",
+    "developers": [
+      {
+        "name": "Abeshek",
+        "img": "/images/members/batch-2022/ Abeshek R.jpg"
+      },
+      {
+        "name": "Jayashrri",
+        "img": "/images/members/batch-2022/JayashrriBalaji.jpg"
+      },
+      {
+        "name": "Tejus",
+        "img": "/images/members/batch-2022/Tejus.JPG"
+      },
+      {
+        "name": "Vikram V",
+        "img": "/images/members/batch-2022/vikramvijai.jpg"
+      },
+      {
+        "name": "Subramaniyam",
+        "img": "/images/members/batch-2023/SubramaniyamGanesh.jpg"
+      },
+      {
+        "name": "Pradeep S",
+        "img": "/images/members/batch-2023/Pradeep.jpg"
+      },
+      {
+        "name": "Sakthi",
+        "img": "/images/members/batch-2023/SakthiPrasath.jpg"
+      },
+      {
+        "name": "Guruprasanna",
+        "img": "/images/members/batch-2024/GuruprasannaVasudevan.jpg"
+      },
+      {
+        "name": "Raghav",
+        "img": "/images/members/batch-2024/RaghavKhullar.jpg"
+      },
+      {
+        "name": "Sarvesh R",
+        "img": "/images/members/batch-2024/SarveshRathinavel.jpg"
+      },
+      {
+        "name": "Nitish N",
+        "img": "/images/members/batch-2025/NitishN.jpeg"
+      },
+      {
+        "name": "Purav Shah",
+        "img": "/images/members/batch-2025/Purav.jpg"
+      },
+      {
+        "name": "Srisowrirajan",
+        "img": "/images/members/batch-2025/Srisowrirajan.jpg"
+      },
+      {
+        "name": "Venkatesh A",
+        "img": "/images/members/batch-2025/Venkatesh.jpg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Outbreak Origins",
+    "desc": "Outbreak Origins is a single-player, real-time, multi-level game based on pandemic management. Players are expected to manage their resources by implementing control measures in different sections of a geographic location to curb the outbreak. ",
+    "link": "",
+    "img": "/images/outbreakOrigins.png",
+    "developers": [
+      {
+        "name": "Shashwat",
+        "img": "/images/members/batch-2023/Shashwat.jpg"
+      },
+      {
+        "name": "Marmik",
+        "img": "/images/members/batch-2023/MarmikUpadhyay.jpg"
+      },
+      {
+        "name": "Raghul",
+        "img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+      },
+      {
+        "name": "Shreyas",
+        "img": "/images/members/batch-2023/ShreyasK.jpg"
+      },
+      {
+        "name": "Subasri S",
+        "img": "/images/members/batch-2024/SubasriSundararajan.jpg"
+      },
+      {
+        "name": "Karthik",
+        "img": "/images/members/batch-2024/KarthikSundar.jpg"
+      },
+      {
+        "name": "Deveshwar",
+        "img": "/images/members/batch-2024/DeveshwarRajaram.jpg"
+      },
+      {
+        "name": "Kavimalar",
+        "img": "/images/members/batch-2025/KavimalarS.jpg"
+      },
+      {
+        "name": "Manikandan",
+        "img": "/images/members/batch-2025/ManiKandanS.jpg"
+      },
+      {
+        "name": "Kavinmaaran",
+        "img": "/images/members/batch-2025/KavinmaaranRK.jpg"
+      },
+      {
+        "name": "Harrish M",
+        "img": "/images/members/batch-2025/HarrishM.jpg"
+      },
+      {
+        "name": "Abhinav",
+        "img": "/images/members/batch-2025/AbhinavReddyPottigari.jpeg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "Pragyan Capture the Flag",
+    "desc": "Capture The Flag (CTF) is a cybersecurity competition that is all about finding weaknesses and exploiting loopholes in various computer programs. It is an ethical hacking contest in which contestants will have to find pieces of information, called ‘flags’, hidden in each of the challenges.",
+    "link": "",
+    "img": "/images/ctf.png",
+    "developers": [
+      {
+        "name": "Raghul",
+        "img": "/images/members/batch-2023/RAGHULNANTH.jpg"
+      },
+      {
+        "name": "Dipesh Kafle",
+        "img": "/images/members/batch-2023/DipeshKafle.jpg"
+      },
+      {
+        "name": "Shreyas K",
+        "img": "/images/members/batch-2023/ShreyasK.jpg"
+      },
+      {
+        "name": "Anurag",
+        "img": "/images/members/batch-2023/AnuragGoyal.jpg"
+      },
+      {
+        "name": "Akarsh",
+        "img": "/images/members/batch-2023/AkarshMalik.jpg"
+      },
+      {
+        "name": "Rinish Sam",
+        "img": "/images/members/batch-2023/RinishSam.jpg"
+      },
+      {
+        "name": "Sakthi",
+        "img": "/images/members/batch-2023/SakthiPrasath.jpg"
+      },
+      {
+        "name": "Ashwani",
+        "img": "/images/members/batch-2024/AshwaniVishwakarma.jpg"
+      },
+      {
+        "name": "Guruprasanna",
+        "img": "/images/members/batch-2024/GuruprasannaVasudevan.jpg"
+      },
+      {
+        "name": "Purav Shah",
+        "img": "/images/members/batch-2025/Purav.jpg"
+      },
+      {
+        "name": "Kevin Christ",
+        "img": "/images/members/batch-2025/Kevin.png"
+      },
+      {
+        "name": "Kavinmaaran",
+        "img": "/images/members/batch-2025/KavinmaaranRK.jpg"
+      }
+    ],
+    "active": true
+  },
+  {
+    "title": "ACedIt",
+    "desc": "A CLI utility to run your code against sample test cases for Codeforces, Codechef, Hackerrank and Spoj. Without leaving the terminal. For competitive programming enthusiasts.",
+    "link": "http://github.com/coderick14/ACedIt",
+    "img": "/images/acedit.png",
+    "developers": [
+      {
+        "name": "Deep",
+        "img": "/images/members/Deep.jpg"
+      },
+      {
+        "name": "Lakshmanaram",
+        "img": "/images/members/lakshmanaram.jpg"
+      }
+    ],
+    "active": true
+  }
 ]
