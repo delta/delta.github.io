@@ -13,7 +13,7 @@ $(document).ready(function () {
                 load2023Alumni(result[2023])
                 loadFourthYears(result[2024]);
                 loadThirdYears(result[2025]);
-                // TODO: add secondYears Data to data json file
+                // TODO: add secondYears Data to json file
                 $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears']);
             }
         }
@@ -142,7 +142,7 @@ $("#alumniButtons button").on("click", function () {
 
 // Event Listeners
 function clickAllPresentMembers() {
-    // TODO: add secondYears Data to data json file
+    // TODO: add secondYears Data to json file
     $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears'] /*+ members['secondYears']*/)
     //hide alumniButton Bar
     $("#alumniButtons").css("display", "none");
