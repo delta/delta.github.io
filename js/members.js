@@ -1,10 +1,10 @@
 var members = {};
 
-$(document).ready(function() {
+$(document).ready(function () {
     $.ajax(
         {
             url: "/data/members.json",
-            success: function(result) {
+            success: function (result) {
                 load2018Alumni(result[2018]);
                 load2019Alumni(result[2019]);
                 load2020Alumni(result[2020]);
@@ -13,7 +13,8 @@ $(document).ready(function() {
                 load2023Alumni(result[2023])
                 loadFourthYears(result[2024]);
                 loadThirdYears(result[2025]);
-                $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']);
+                // TODO: add secondYears Data to data json file
+                $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears']);
             }
         }
     );
@@ -21,8 +22,8 @@ $(document).ready(function() {
 
 function getHTMLString(person) {
 
-    var classID = Math.floor(Math.random()*3);
-    var className = ['green','red','blue'];
+    var classID = Math.floor(Math.random() * 3);
+    var className = ['green', 'red', 'blue'];
     var returnString = `<div class="member-container">
                             <div class="basic-details">
                                 <img src="${person.img}" class="member-image">
@@ -31,20 +32,20 @@ function getHTMLString(person) {
                             <div class="inner-details ${className[classID]}">
                                 <div class="social-info">`;
 
-    if (person.github_url!="") {
-        returnString+=`<span><a href="${person.github_url}"><i id="githubLogo" class="fab fa-github textLogo"></i></a></span>`;
+    if (person.github_url != "") {
+        returnString += `<span><a href="${person.github_url}"><i id="githubLogo" class="fab fa-github textLogo"></i></a></span>`;
     }
 
-    if (person.linkedin_url!="") {
-        returnString+=`<span><a href="${person.linkedin_url}"><i id="linkedinLogo" class="fab fa-linkedin-in textLogo"></i></a></span>`;
+    if (person.linkedin_url != "") {
+        returnString += `<span><a href="${person.linkedin_url}"><i id="linkedinLogo" class="fab fa-linkedin-in textLogo"></i></a></span>`;
     }
 
-    if (person.additional_url!="") {
-        returnString+=`<span><a href="${person.additional_url}"><i id="globeLogo" class="fas fa-globe"></i></a></span>`;
+    if (person.additional_url != "") {
+        returnString += `<span><a href="${person.additional_url}"><i id="globeLogo" class="fas fa-globe"></i></a></span>`;
     }
 
-    returnString+=`</div></div></div>`;
-    
+    returnString += `</div></div></div>`;
+
     return returnString;
 }
 
@@ -94,7 +95,7 @@ function load2023Alumni(alumni2023) {
 
 
 // function to highlight selected tab on batchButton
-$("#batchButtons button").on("click", function() {
+$("#batchButtons button").on("click", function () {
     var buttons = $('#batchButtons').children();
     for (button of buttons) {
         $(button).removeClass("active-batch");
@@ -103,16 +104,15 @@ $("#batchButtons button").on("click", function() {
 });
 
 // function to highlight selected tab on "allMembersButtons" Bar
-$("#allMembersButtons button").on("click", function() {
+$("#allMembersButtons button").on("click", function () {
     var buttons = $('#allMembersButtons').children();
     for (button of buttons) {
         $(button).removeClass("active-batch");
     }
     $(this).addClass("active-batch");
-   
+
     // if "presentMembers" tab selected, make "all" as selected Tab on "batchButtons"
-    if (this == buttons[0])
-    {
+    if (this == buttons[0]) {
         let allbuttons = $('#batchButtons').children();
         for (allbutton of allbuttons) {
             $(allbutton).removeClass("active-batch");
@@ -121,8 +121,7 @@ $("#allMembersButtons button").on("click", function() {
     }
 
     //if "Alumni" tab selected, make "all" as selected Tab on "alumniButtons"
-    else if (this == buttons[1])
-    {
+    else if (this == buttons[1]) {
         let allbuttons = $('#alumniButtons').children();
         for (allbutton of allbuttons) {
             $(allbutton).removeClass("active-batch");
@@ -132,18 +131,19 @@ $("#allMembersButtons button").on("click", function() {
 });
 
 // function to highlight selected tab on alumniButtons Bar
-$("#alumniButtons button").on("click", function() {
-   var buttons = $("#alumniButtons").children();
-   for (button of buttons) {
-       $(button).removeClass("active-batch");
-   }
-   $(this).addClass("active-batch");
+$("#alumniButtons button").on("click", function () {
+    var buttons = $("#alumniButtons").children();
+    for (button of buttons) {
+        $(button).removeClass("active-batch");
+    }
+    $(this).addClass("active-batch");
 });
 
 
 // Event Listeners
 function clickAllPresentMembers() {
-    $('#allMembersContainer').html(members['fourthYears']+members['thirdYears']+members['secondYears']);
+    // TODO: add secondYears Data to data json file
+    $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears'] /*+ members['secondYears']*/)
     //hide alumniButton Bar
     $("#alumniButtons").css("display", "none");
     //display present members batchButton
@@ -163,7 +163,7 @@ function clickSecondYears() {
 }
 
 function clickAllAlumni() {
-    $('#allMembersContainer').html(members['alumnis2018']+members['alumnis2019']+members['alumnis2020']+members['alumnis2021']+members['alumnis2022']+members['alumnis2023']);
+    $('#allMembersContainer').html(members['alumnis2018'] + members['alumnis2019'] + members['alumnis2020'] + members['alumnis2021'] + members['alumnis2022'] + members['alumnis2023']);
 
     //hide present members batchButton
     $("#batchButtons").css("display", "none");
