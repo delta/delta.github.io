@@ -13,8 +13,8 @@ $(document).ready(function () {
                 load2023Alumni(result[2023])
                 loadFourthYears(result[2024]);
                 loadThirdYears(result[2025]);
-                // TODO: add secondYears Data to json file
-                $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears']);
+                loadSecondYears(result[2026]);
+                $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears'] + members['secondYears'])
             }
         }
     );
@@ -60,7 +60,6 @@ function loadThirdYears(thirdYears) {
 }
 
 function loadSecondYears(secondYears) {
-    // Populate Second Years
     members['secondYears'] = secondYears.map(secondYear => getHTMLString(secondYear)).join('');
 }
 
@@ -142,8 +141,7 @@ $("#alumniButtons button").on("click", function () {
 
 // Event Listeners
 function clickAllPresentMembers() {
-    // TODO: add secondYears Data to json file
-    $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears'] /*+ members['secondYears']*/)
+    $('#allMembersContainer').html(members['fourthYears'] + members['thirdYears'] + members['secondYears'])
     //hide alumniButton Bar
     $("#alumniButtons").css("display", "none");
     //display present members batchButton
